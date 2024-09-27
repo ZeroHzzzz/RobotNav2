@@ -1,0 +1,264 @@
+[0.308s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.310s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fdfcd00d330>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fdfcd182980>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fdfcd182980>>, mixin_verb=('build',))
+[0.586s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.586s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.587s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/mnt/c/Users/ZeroHzzzz/Desktop/robot'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/csm) by extensions ['ignore', 'ignore_ament_install']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/csm) by extension 'ignore'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/csm) by extension 'ignore_ament_install'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/csm) by extensions ['colcon_pkg']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/csm) by extension 'colcon_pkg'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/csm) by extensions ['colcon_meta']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/csm) by extension 'colcon_meta'
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/csm) by extensions ['ros']
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/csm) by extension 'ros'
+[0.711s] DEBUG:colcon.colcon_core.package_identification:Package 'src/csm' with type 'ros.ament_cmake' and name 'csm'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav) by extensions ['ignore', 'ignore_ament_install']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav) by extension 'ignore'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav) by extension 'ignore_ament_install'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav) by extensions ['colcon_pkg']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav) by extension 'colcon_pkg'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav) by extensions ['colcon_meta']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav) by extension 'colcon_meta'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav) by extensions ['ros']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav) by extension 'ros'
+[0.756s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav' with type 'ros.ament_python' and name 'nav'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_matcher) by extensions ['ignore', 'ignore_ament_install']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_matcher) by extension 'ignore'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_matcher) by extension 'ignore_ament_install'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_matcher) by extensions ['colcon_pkg']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_matcher) by extension 'colcon_pkg'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_matcher) by extensions ['colcon_meta']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_matcher) by extension 'colcon_meta'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_matcher) by extensions ['ros']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_laser_scan_matcher) by extension 'ros'
+[0.805s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_laser_scan_matcher' with type 'ros.ament_cmake' and name 'ros2_laser_scan_matcher'
+[0.806s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.806s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.806s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.807s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.807s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.917s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.918s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.923s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 323 installed packages in /opt/ros/humble
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_args' from command line to 'None'
+[0.966s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_target' from command line to 'None'
+[0.966s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.966s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_clean_cache' from command line to 'False'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_clean_first' from command line to 'False'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_force_configure' from command line to 'False'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'ament_cmake_args' from command line to 'None'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'catkin_cmake_args' from command line to 'None'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.967s] DEBUG:colcon.colcon_core.verb:Building package 'csm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm', 'merge_install': False, 'path': '/mnt/c/Users/ZeroHzzzz/Desktop/robot/src/csm', 'symlink_install': False, 'test_result_base': None}
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_args' from command line to 'None'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_target' from command line to 'None'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_clean_first' from command line to 'False'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_force_configure' from command line to 'False'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'ament_cmake_args' from command line to 'None'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.970s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_laser_scan_matcher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/ros2_laser_scan_matcher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher', 'merge_install': False, 'path': '/mnt/c/Users/ZeroHzzzz/Desktop/robot/src/ros2_laser_scan_matcher', 'symlink_install': False, 'test_result_base': None}
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'nav' build argument 'cmake_args' from command line to 'None'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'nav' build argument 'cmake_target' from command line to 'None'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'nav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'nav' build argument 'cmake_clean_first' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'nav' build argument 'cmake_force_configure' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'nav' build argument 'ament_cmake_args' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'nav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.972s] DEBUG:colcon.colcon_core.verb:Building package 'nav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav', 'merge_install': False, 'path': '/mnt/c/Users/ZeroHzzzz/Desktop/robot/src/nav', 'symlink_install': False, 'test_result_base': None}
+[0.972s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.973s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.974s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/src/csm' with build type 'ament_cmake'
+[0.974s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/src/csm'
+[0.978s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.978s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.979s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.113s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm -- -j32 -l32
+[2.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm -- -j32 -l32
+[2.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm
+[3.643s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(csm)
+[3.646s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm
+[3.649s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm' for CMake module files
+[3.790s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm' for CMake config files
+[3.867s] Level 1:colcon.colcon_core.shell:create_environment_hook('csm', 'cmake_prefix_path')
+[3.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/hook/cmake_prefix_path.ps1'
+[3.881s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/hook/cmake_prefix_path.dsv'
+[3.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/hook/cmake_prefix_path.sh'
+[3.948s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/lib'
+[3.957s] Level 1:colcon.colcon_core.shell:create_environment_hook('csm', 'ld_library_path_lib')
+[3.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/hook/ld_library_path_lib.ps1'
+[3.983s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/hook/ld_library_path_lib.dsv'
+[4.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/hook/ld_library_path_lib.sh'
+[4.059s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/bin'
+[4.061s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/lib/pkgconfig/csm.pc'
+[4.073s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/lib/python3.10/site-packages'
+[4.084s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/bin'
+[4.088s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/package.ps1'
+[4.107s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/package.dsv'
+[4.168s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/package.sh'
+[4.221s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/package.bash'
+[4.283s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/package.zsh'
+[4.313s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/colcon-core/packages/csm)
+[4.454s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(csm)
+[4.455s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm' for CMake module files
+[4.539s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm' for CMake config files
+[4.606s] Level 1:colcon.colcon_core.shell:create_environment_hook('csm', 'cmake_prefix_path')
+[4.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/hook/cmake_prefix_path.ps1'
+[4.628s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/hook/cmake_prefix_path.dsv'
+[4.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/hook/cmake_prefix_path.sh'
+[4.665s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/lib'
+[4.673s] Level 1:colcon.colcon_core.shell:create_environment_hook('csm', 'ld_library_path_lib')
+[4.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/hook/ld_library_path_lib.ps1'
+[4.698s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/hook/ld_library_path_lib.dsv'
+[4.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/hook/ld_library_path_lib.sh'
+[4.743s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/bin'
+[4.744s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/lib/pkgconfig/csm.pc'
+[4.747s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/lib/python3.10/site-packages'
+[4.750s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/bin'
+[4.752s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/package.ps1'
+[4.769s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/package.dsv'
+[4.784s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/package.sh'
+[4.813s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/package.bash'
+[4.835s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/package.zsh'
+[4.846s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/colcon-core/packages/csm)
+[4.855s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/src/ros2_laser_scan_matcher' with build type 'ament_cmake'
+[4.856s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/src/ros2_laser_scan_matcher'
+[4.856s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.857s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/ros2_laser_scan_matcher': AMENT_PREFIX_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm:/opt/ros/humble LD_LIBRARY_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/ros2_laser_scan_matcher -- -j32 -l32
+[7.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/ros2_laser_scan_matcher' returned '0': AMENT_PREFIX_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm:/opt/ros/humble LD_LIBRARY_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/ros2_laser_scan_matcher -- -j32 -l32
+[7.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/ros2_laser_scan_matcher': AMENT_PREFIX_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm:/opt/ros/humble LD_LIBRARY_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/ros2_laser_scan_matcher
+[7.983s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_laser_scan_matcher)
+[7.984s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher' for CMake module files
+[7.986s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/ros2_laser_scan_matcher' returned '0': AMENT_PREFIX_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm:/opt/ros/humble LD_LIBRARY_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/ros2_laser_scan_matcher
+[8.123s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher' for CMake config files
+[8.184s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_laser_scan_matcher', 'cmake_prefix_path')
+[8.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/hook/cmake_prefix_path.ps1'
+[8.197s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/hook/cmake_prefix_path.dsv'
+[8.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/hook/cmake_prefix_path.sh'
+[8.222s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/lib'
+[8.226s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/bin'
+[8.227s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/lib/pkgconfig/ros2_laser_scan_matcher.pc'
+[8.229s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/lib/python3.10/site-packages'
+[8.230s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/bin'
+[8.232s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.ps1'
+[8.242s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.dsv'
+[8.252s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.sh'
+[8.279s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.bash'
+[8.312s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.zsh'
+[8.330s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/colcon-core/packages/ros2_laser_scan_matcher)
+[8.426s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_laser_scan_matcher)
+[8.426s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher' for CMake module files
+[8.497s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher' for CMake config files
+[8.558s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_laser_scan_matcher', 'cmake_prefix_path')
+[8.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/hook/cmake_prefix_path.ps1'
+[8.569s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/hook/cmake_prefix_path.dsv'
+[8.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/hook/cmake_prefix_path.sh'
+[8.595s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/lib'
+[8.598s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/bin'
+[8.599s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/lib/pkgconfig/ros2_laser_scan_matcher.pc'
+[8.601s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/lib/python3.10/site-packages'
+[8.603s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/bin'
+[8.604s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.ps1'
+[8.613s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.dsv'
+[8.625s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.sh'
+[8.635s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.bash'
+[8.663s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.zsh'
+[8.710s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/colcon-core/packages/ros2_laser_scan_matcher)
+[8.738s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/src/nav' with build type 'ament_python'
+[8.738s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav', 'ament_prefix_path')
+[8.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/share/nav/hook/ament_prefix_path.ps1'
+[8.771s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/share/nav/hook/ament_prefix_path.dsv'
+[8.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/share/nav/hook/ament_prefix_path.sh'
+[8.827s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.828s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.801s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/src/nav'
+[9.801s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.801s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.709s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/src/nav': AMENT_PREFIX_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm LD_LIBRARY_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nav build --build-base /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/build install --record /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/install.log --single-version-externally-managed install_data
+[13.637s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav' for CMake module files
+[13.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/src/nav' returned '0': AMENT_PREFIX_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm LD_LIBRARY_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nav build --build-base /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/build install --record /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/install.log --single-version-externally-managed install_data
+[13.717s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav' for CMake config files
+[13.829s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/lib'
+[13.833s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/bin'
+[13.835s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/lib/pkgconfig/nav.pc'
+[13.837s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/lib/python3.10/site-packages'
+[13.839s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav', 'pythonpath')
+[13.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/share/nav/hook/pythonpath.ps1'
+[13.896s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/share/nav/hook/pythonpath.dsv'
+[13.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/share/nav/hook/pythonpath.sh'
+[13.985s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/bin'
+[13.994s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav)
+[13.994s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/share/nav/package.ps1'
+[14.015s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/share/nav/package.dsv'
+[14.055s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/share/nav/package.sh'
+[14.086s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/share/nav/package.bash'
+[14.150s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/share/nav/package.zsh'
+[14.186s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/share/colcon-core/packages/nav)
+[14.207s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.208s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.209s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[14.209s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.243s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.244s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.245s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[146.128s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally with the following error: Autolaunch error: X11 initialization failed.
+
+[146.130s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[146.131s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/local_setup.ps1'
+[146.139s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/_local_setup_util_ps1.py'
+[146.203s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/setup.ps1'
+[146.242s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/local_setup.sh'
+[146.286s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/_local_setup_util_sh.py'
+[146.315s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/setup.sh'
+[146.330s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/local_setup.bash'
+[146.343s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/setup.bash'
+[146.357s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/local_setup.zsh'
+[146.369s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/setup.zsh'

@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.000686] (-) JobUnselected: {'identifier': 'csm'}
+[0.001430] (-) JobUnselected: {'identifier': 'mapbuild'}
+[0.001779] (-) JobUnselected: {'identifier': 'nav'}
+[0.002226] (-) JobUnselected: {'identifier': 'ros2_laser_scan_matcher'}
+[0.002574] (map_build) JobQueued: {'identifier': 'map_build', 'dependencies': OrderedDict()}
+[0.003004] (map_build) JobStarted: {'identifier': 'map_build'}
+[0.097510] (-) TimerEvent: {}
+[0.199303] (-) TimerEvent: {}
+[0.300132] (-) TimerEvent: {}
+[0.401260] (-) TimerEvent: {}
+[0.508321] (-) TimerEvent: {}
+[0.608909] (-) TimerEvent: {}
+[0.709382] (-) TimerEvent: {}
+[0.809889] (-) TimerEvent: {}
+[0.910468] (-) TimerEvent: {}
+[1.011041] (-) TimerEvent: {}
+[1.122276] (-) TimerEvent: {}
+[1.232150] (-) TimerEvent: {}
+[1.332814] (-) TimerEvent: {}
+[1.433949] (-) TimerEvent: {}
+[1.534791] (-) TimerEvent: {}
+[1.583128] (map_build) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/map_build', 'build', '--build-base', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/map_build/build', 'install', '--record', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/map_build/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/c/Users/ZeroHzzzz/Desktop/robot/src/map_build', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'zerohzzzz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{0caa0dad-35be-5f56-a8ff-afceeeaa6101}', 'HOME': '/home/zerohzzzz', 'OLDPWD': '/mnt/c/Users/ZeroHzzzz/Desktop/robot/src', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'zerohzzzz', 'NAME': 'Mask', 'WSL_INTEROP': '/run/WSL/15487_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/libnvvp:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/MySQL/MySQL Server 5.7/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ZeroHzzzz/go/bin:/mnt/c/Users/ZeroHzzzz/AppData/Roaming/npm:/mnt/c/Pro:/mnt/c/Program Files/Tesseract-OCR:/mnt/c/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x86:/mnt/c/Program Files (x86)/NoteBook FanControl/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/opencv-4.10.0/x64/mingw/bin:/mnt/c/Program Files/mingw64/bin:/mnt/d/Qt/Qt5.13.2/Tools/mingw730_64/bin:/mnt/d/Qt/Qt5.13.2/5.13.2/mingw73_64/bin:/mnt/c/adb:/mnt/c/Users/ZeroHzzzz/miniconda3/condabin:/mnt/c/Users/ZeroHzzzz/miniconda3/Scripts:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.12.7-hotspot/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/libnvvp:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/mingw64/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/MySQL/MySQL Server 5.7/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ZeroHzzzz/go/bin:/mnt/c/Users/ZeroHzzzz/AppData/Roaming/npm:/mnt/c/Pro:/mnt/c/Users/ZeroHzzzz/AppData/Local/Pandoc/:/mnt/c/texlive/2024/bin/windows:/mnt/c/Users/ZeroHzzzz/miniconda3/condabin:/mnt/c/Users/ZeroHzzzz/miniconda3/Scripts:/mnt/c/Program Files/Tesseract-OCR:/mnt/c/Users/ZeroHzzzz/Infineon/LauncherService:/snap/bin:/mnt/c/adb/', 'WT_SESSION': 'daf95d9c-e8de-4704-84a8-b9a56780154d', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': '172.18.16.1:0.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROSDISTRO_INDEX_URL': 'https://mirrors.tuna.tsinghua.edu.cn/rosdistro/index-v4.yaml', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/map_build', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/map_build/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[1.634912] (-) TimerEvent: {}
+[1.735427] (-) TimerEvent: {}
+[1.835986] (-) TimerEvent: {}
+[1.936648] (-) TimerEvent: {}
+[2.053073] (-) TimerEvent: {}
+[2.154223] (-) TimerEvent: {}
+[2.255165] (-) TimerEvent: {}
+[2.356364] (-) TimerEvent: {}
+[2.435667] (map_build) StdoutLine: {'line': b'running egg_info\n'}
+[2.440269] (map_build) StdoutLine: {'line': b'creating ../../build/map_build/map_build.egg-info\n'}
+[2.450681] (map_build) StdoutLine: {'line': b'writing ../../build/map_build/map_build.egg-info/PKG-INFO\n'}
+[2.454333] (map_build) StdoutLine: {'line': b'writing dependency_links to ../../build/map_build/map_build.egg-info/dependency_links.txt\n'}
+[2.456476] (-) TimerEvent: {}
+[2.461865] (map_build) StdoutLine: {'line': b'writing entry points to ../../build/map_build/map_build.egg-info/entry_points.txt\n'}
+[2.467252] (map_build) StdoutLine: {'line': b'writing requirements to ../../build/map_build/map_build.egg-info/requires.txt\n'}
+[2.470089] (map_build) StdoutLine: {'line': b'writing top-level names to ../../build/map_build/map_build.egg-info/top_level.txt\n'}
+[2.488369] (map_build) StdoutLine: {'line': b"writing manifest file '../../build/map_build/map_build.egg-info/SOURCES.txt'\n"}
+[2.530755] (map_build) StdoutLine: {'line': b"reading manifest file '../../build/map_build/map_build.egg-info/SOURCES.txt'\n"}
+[2.556593] (-) TimerEvent: {}
+[2.590878] (map_build) StdoutLine: {'line': b"writing manifest file '../../build/map_build/map_build.egg-info/SOURCES.txt'\n"}
+[2.593930] (map_build) StdoutLine: {'line': b'running build\n'}
+[2.599279] (map_build) StdoutLine: {'line': b'running build_py\n'}
+[2.620257] (map_build) StdoutLine: {'line': b'creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/map_build/build\n'}
+[2.622576] (map_build) StdoutLine: {'line': b'creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/map_build/build/lib\n'}
+[2.625201] (map_build) StdoutLine: {'line': b'creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/map_build/build/lib/map_build\n'}
+[2.635329] (map_build) StdoutLine: {'line': b'copying map_build/__init__.py -> /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/map_build/build/lib/map_build\n'}
+[2.651686] (map_build) StdoutLine: {'line': b'running install\n'}
+[2.652762] (map_build) StdoutLine: {'line': b'running install_lib\n'}
+[2.656712] (-) TimerEvent: {}
+[2.678045] (map_build) StdoutLine: {'line': b'creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/lib/python3.10/site-packages/map_build\n'}
+[2.696392] (map_build) StdoutLine: {'line': b'copying /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/map_build/build/lib/map_build/__init__.py -> /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/lib/python3.10/site-packages/map_build\n'}
+[2.732241] (map_build) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/lib/python3.10/site-packages/map_build/__init__.py to __init__.cpython-310.pyc\n'}
+[2.756867] (-) TimerEvent: {}
+[2.788096] (map_build) StdoutLine: {'line': b'running install_data\n'}
+[2.796106] (map_build) StdoutLine: {'line': b'creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/share/ament_index\n'}
+[2.798669] (map_build) StdoutLine: {'line': b'creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/share/ament_index/resource_index\n'}
+[2.801981] (map_build) StdoutLine: {'line': b'creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/share/ament_index/resource_index/packages\n'}
+[2.813532] (map_build) StdoutLine: {'line': b'copying resource/map_build -> /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/share/ament_index/resource_index/packages\n'}
+[2.843686] (map_build) StdoutLine: {'line': b'copying package.xml -> /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/share/map_build\n'}
+[2.857014] (-) TimerEvent: {}
+[2.865446] (map_build) StdoutLine: {'line': b'creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/share/map_build/launch\n'}
+[2.876858] (map_build) StdoutLine: {'line': b'copying launch/map_building.launch.py -> /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/share/map_build/launch\n'}
+[2.899487] (map_build) StdoutLine: {'line': b'creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/share/map_build/config\n'}
+[2.921256] (map_build) StdoutLine: {'line': b'creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/share/map_build/map\n'}
+[2.929669] (map_build) StdoutLine: {'line': b'creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/share/map_build/urdf\n'}
+[2.957162] (-) TimerEvent: {}
+[2.967249] (map_build) StdoutLine: {'line': b'copying urdf/fishbot_base.urdf -> /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/share/map_build/urdf\n'}
+[3.050064] (map_build) StdoutLine: {'line': b'creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/share/map_build/worlds\n'}
+[3.057343] (-) TimerEvent: {}
+[3.063328] (map_build) StdoutLine: {'line': b'copying worlds/map1.world -> /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/share/map_build/worlds\n'}
+[3.112799] (map_build) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.138240] (map_build) StdoutLine: {'line': b'Copying ../../build/map_build/map_build.egg-info to /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/lib/python3.10/site-packages/map_build-0.0.0-py3.10.egg-info\n'}
+[3.157480] (-) TimerEvent: {}
+[3.258192] (-) TimerEvent: {}
+[3.358959] (-) TimerEvent: {}
+[3.460585] (-) TimerEvent: {}
+[3.545104] (map_build) StdoutLine: {'line': b'running install_scripts\n'}
+[3.560726] (-) TimerEvent: {}
+[3.623852] (map_build) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/map_build/install.log'\n"}
+[3.637546] (map_build) CommandEnded: {'returncode': 0}
+[3.660798] (-) TimerEvent: {}
+[3.761188] (-) TimerEvent: {}
+[3.861806] (-) TimerEvent: {}
+[3.962406] (-) TimerEvent: {}
+[3.987200] (map_build) JobEnded: {'identifier': 'map_build', 'rc': 0}
+[4.043740] (-) EventReactorShutdown: {}

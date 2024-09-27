@@ -1,0 +1,40 @@
+[0.224s] Invoking command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm -- -j32 -l32
+[1.681s] [100%] Built target csm
+[1.863s] Invoked command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm -- -j32 -l32
+[5.445s] Invoking command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav:/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm
+[5.596s] -- Install configuration: ""
+[5.624s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/lib/libcsm.so
+[5.635s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/include/..//include
+[5.650s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/include/..//include/csm
+[5.673s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/include/..//include/csm/algos.h
+[5.690s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/include/..//include/csm/csm.h
+[5.717s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/include/..//include/csm/laser_data.h
+[5.734s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/include/..//include/csm/laser_data_inline.h
+[5.760s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/include/..//include/csm/restrict.h
+[5.780s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/include/..//include/gsl_eigen
+[5.818s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/include/..//include/gsl_eigen/gsl_eigen.h
+[5.837s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/resource
+[5.864s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/resource/csm
+[5.877s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/include/../gsl_eigen
+[5.903s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/include/../gsl_eigen/gsl_eigen.h
+[5.941s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/environment/library_path.sh
+[5.963s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/environment/library_path.dsv
+[6.086s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/ament_index/resource_index/package_run_dependencies/csm
+[6.120s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/ament_index/resource_index/parent_prefix_path/csm
+[6.138s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/environment/ament_prefix_path.sh
+[6.158s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/environment/ament_prefix_path.dsv
+[6.175s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/environment/path.sh
+[6.200s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/environment/path.dsv
+[6.223s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/local_setup.bash
+[6.242s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/local_setup.sh
+[6.262s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/local_setup.zsh
+[6.283s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/local_setup.dsv
+[6.301s] -- Installing: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/package.dsv
+[6.377s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/ament_index/resource_index/packages/csm
+[6.399s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.423s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.445s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/cmake/ament_cmake_export_libraries-extras.cmake
+[6.487s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/cmake/csmConfig.cmake
+[6.503s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/cmake/csmConfig-version.cmake
+[6.530s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/package.xml
+[6.541s] Invoked command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav:/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm

@@ -1,0 +1,17 @@
+[2.383s] Invoking command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/src/nav': PYTHONPATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nav build --build-base /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/build install --record /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/install.log --single-version-externally-managed install_data
+[3.488s] running egg_info
+[3.495s] writing ../../build/nav/nav.egg-info/PKG-INFO
+[3.508s] writing dependency_links to ../../build/nav/nav.egg-info/dependency_links.txt
+[3.524s] writing requirements to ../../build/nav/nav.egg-info/requires.txt
+[3.528s] writing top-level names to ../../build/nav/nav.egg-info/top_level.txt
+[3.574s] reading manifest file '../../build/nav/nav.egg-info/SOURCES.txt'
+[3.668s] writing manifest file '../../build/nav/nav.egg-info/SOURCES.txt'
+[3.672s] running build
+[3.674s] running build_py
+[3.695s] running install
+[3.696s] running install_lib
+[3.767s] running install_data
+[3.868s] copying urdf/fishbot_base.urdf -> /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/share/nav/urdf
+[3.913s] creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/share/nav/world
+[3.917s] error: can't copy 'world/map1.world': doesn't exist or not a regular file
+[3.931s] Invoked command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/src/nav' returned '1': PYTHONPATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nav build --build-base /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/build install --record /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/install.log --single-version-externally-managed install_data

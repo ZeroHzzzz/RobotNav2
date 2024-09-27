@@ -1,0 +1,22 @@
+[0.455s] Invoking command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/ros2_laser_scan_matcher': CMAKE_PREFIX_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/ros2_laser_scan_matcher -- -j32 -l32
+[1.386s] [100%] Built target laser_scan_matcher
+[1.505s] Invoked command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/ros2_laser_scan_matcher' returned '0': CMAKE_PREFIX_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/ros2_laser_scan_matcher -- -j32 -l32
+[2.227s] Invoking command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/ros2_laser_scan_matcher': CMAKE_PREFIX_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav:/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/ros2_laser_scan_matcher
+[2.334s] -- Install configuration: ""
+[2.377s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/lib/ros2_laser_scan_matcher/laser_scan_matcher
+[2.448s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ament_index/resource_index/package_run_dependencies/ros2_laser_scan_matcher
+[2.509s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ament_index/resource_index/parent_prefix_path/ros2_laser_scan_matcher
+[2.541s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/environment/ament_prefix_path.sh
+[2.560s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/environment/ament_prefix_path.dsv
+[2.580s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/environment/path.sh
+[2.594s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/environment/path.dsv
+[2.606s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/local_setup.bash
+[2.617s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/local_setup.sh
+[2.634s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/local_setup.zsh
+[2.647s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/local_setup.dsv
+[2.659s] -- Installing: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.dsv
+[2.716s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ament_index/resource_index/packages/ros2_laser_scan_matcher
+[2.733s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/cmake/ros2_laser_scan_matcherConfig.cmake
+[2.746s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/cmake/ros2_laser_scan_matcherConfig-version.cmake
+[2.828s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.xml
+[2.840s] Invoked command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/ros2_laser_scan_matcher' returned '0': CMAKE_PREFIX_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav:/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/ros2_laser_scan_matcher

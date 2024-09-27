@@ -1,0 +1,349 @@
+[0.000000] (-) TimerEvent: {}
+[0.000377] (csm) JobQueued: {'identifier': 'csm', 'dependencies': OrderedDict()}
+[0.000633] (ros2_laser_scan_matcher) JobQueued: {'identifier': 'ros2_laser_scan_matcher', 'dependencies': OrderedDict([('csm', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm')])}
+[0.000772] (nav) JobQueued: {'identifier': 'nav', 'dependencies': OrderedDict([('csm', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm'), ('ros2_laser_scan_matcher', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher')])}
+[0.000876] (csm) JobStarted: {'identifier': 'csm'}
+[0.098556] (-) TimerEvent: {}
+[0.199390] (-) TimerEvent: {}
+[0.240995] (csm) JobProgress: {'identifier': 'csm', 'progress': 'cmake'}
+[0.266423] (csm) JobProgress: {'identifier': 'csm', 'progress': 'build'}
+[0.276257] (csm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm', '--', '-j32', '-l32'], 'cwd': '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zerohzzzz'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{0caa0dad-35be-5f56-a8ff-afceeeaa6101}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/zerohzzzz'), ('OLDPWD', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zerohzzzz'), ('NAME', 'Mask'), ('WSL_INTEROP', '/run/WSL/1280_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/libnvvp:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/MySQL/MySQL Server 5.7/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ZeroHzzzz/go/bin:/mnt/c/Users/ZeroHzzzz/AppData/Roaming/npm:/mnt/c/Pro:/mnt/c/Program Files/Tesseract-OCR:/mnt/c/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x86:/mnt/c/Program Files (x86)/NoteBook FanControl/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/opencv-4.10.0/x64/mingw/bin:/mnt/c/Program Files/mingw64/bin:/mnt/d/Qt/Qt5.13.2/Tools/mingw730_64/bin:/mnt/d/Qt/Qt5.13.2/5.13.2/mingw73_64/bin:/mnt/c/adb:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.12.7-hotspot/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/libnvvp:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/mingw64/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/MySQL/MySQL Server 5.7/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ZeroHzzzz/go/bin:/mnt/c/Users/ZeroHzzzz/AppData/Roaming/npm:/mnt/c/Pro:/mnt/c/Users/ZeroHzzzz/AppData/Local/Pandoc/:/mnt/c/texlive/2024/bin/windows:/mnt/c/Users/ZeroHzzzz/miniconda3/condabin:/mnt/c/Users/ZeroHzzzz/miniconda3/Scripts:/mnt/c/Program Files/Tesseract-OCR:/mnt/c/Users/ZeroHzzzz/Infineon/LauncherService:/snap/bin:/mnt/c/adb/'), ('WT_SESSION', '2becc3a8-2ede-4c0f-8b09-669967208173'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.18.16.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.tuna.tsinghua.edu.cn/rosdistro/index-v4.yaml'), ('AMENT_PREFIX_PATH', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.299530] (-) TimerEvent: {}
+[0.400038] (-) TimerEvent: {}
+[0.500871] (-) TimerEvent: {}
+[0.601852] (-) TimerEvent: {}
+[0.702643] (-) TimerEvent: {}
+[0.803596] (-) TimerEvent: {}
+[0.904200] (-) TimerEvent: {}
+[1.004779] (-) TimerEvent: {}
+[1.105559] (-) TimerEvent: {}
+[1.206479] (-) TimerEvent: {}
+[1.307506] (-) TimerEvent: {}
+[1.408219] (-) TimerEvent: {}
+[1.508827] (-) TimerEvent: {}
+[1.610184] (-) TimerEvent: {}
+[1.711099] (-) TimerEvent: {}
+[1.811835] (-) TimerEvent: {}
+[1.912578] (-) TimerEvent: {}
+[2.013917] (-) TimerEvent: {}
+[2.048373] (csm) StdoutLine: {'line': b'[100%] Built target csm\n'}
+[2.114099] (-) TimerEvent: {}
+[2.215838] (-) TimerEvent: {}
+[2.316786] (-) TimerEvent: {}
+[2.418092] (-) TimerEvent: {}
+[2.458556] (csm) CommandEnded: {'returncode': 0}
+[2.518366] (-) TimerEvent: {}
+[2.619420] (-) TimerEvent: {}
+[2.720021] (-) TimerEvent: {}
+[2.821098] (-) TimerEvent: {}
+[2.928550] (-) TimerEvent: {}
+[3.029297] (-) TimerEvent: {}
+[3.130022] (-) TimerEvent: {}
+[3.230537] (-) TimerEvent: {}
+[3.331262] (-) TimerEvent: {}
+[3.431901] (-) TimerEvent: {}
+[3.532557] (-) TimerEvent: {}
+[3.632976] (-) TimerEvent: {}
+[3.733581] (-) TimerEvent: {}
+[3.834093] (-) TimerEvent: {}
+[3.934723] (-) TimerEvent: {}
+[4.035590] (-) TimerEvent: {}
+[4.136168] (-) TimerEvent: {}
+[4.236870] (-) TimerEvent: {}
+[4.340105] (-) TimerEvent: {}
+[4.440541] (-) TimerEvent: {}
+[4.541051] (-) TimerEvent: {}
+[4.641492] (-) TimerEvent: {}
+[4.742118] (-) TimerEvent: {}
+[4.842862] (-) TimerEvent: {}
+[4.946895] (-) TimerEvent: {}
+[5.047704] (-) TimerEvent: {}
+[5.148408] (-) TimerEvent: {}
+[5.249006] (-) TimerEvent: {}
+[5.349582] (-) TimerEvent: {}
+[5.450632] (-) TimerEvent: {}
+[5.551702] (-) TimerEvent: {}
+[5.653036] (-) TimerEvent: {}
+[5.743315] (csm) JobProgress: {'identifier': 'csm', 'progress': 'install'}
+[5.753172] (-) TimerEvent: {}
+[5.819978] (csm) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm'], 'cwd': '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zerohzzzz'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{0caa0dad-35be-5f56-a8ff-afceeeaa6101}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/zerohzzzz'), ('OLDPWD', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zerohzzzz'), ('NAME', 'Mask'), ('WSL_INTEROP', '/run/WSL/1280_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/libnvvp:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/MySQL/MySQL Server 5.7/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ZeroHzzzz/go/bin:/mnt/c/Users/ZeroHzzzz/AppData/Roaming/npm:/mnt/c/Pro:/mnt/c/Program Files/Tesseract-OCR:/mnt/c/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x86:/mnt/c/Program Files (x86)/NoteBook FanControl/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/opencv-4.10.0/x64/mingw/bin:/mnt/c/Program Files/mingw64/bin:/mnt/d/Qt/Qt5.13.2/Tools/mingw730_64/bin:/mnt/d/Qt/Qt5.13.2/5.13.2/mingw73_64/bin:/mnt/c/adb:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.12.7-hotspot/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/libnvvp:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/mingw64/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/MySQL/MySQL Server 5.7/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ZeroHzzzz/go/bin:/mnt/c/Users/ZeroHzzzz/AppData/Roaming/npm:/mnt/c/Pro:/mnt/c/Users/ZeroHzzzz/AppData/Local/Pandoc/:/mnt/c/texlive/2024/bin/windows:/mnt/c/Users/ZeroHzzzz/miniconda3/condabin:/mnt/c/Users/ZeroHzzzz/miniconda3/Scripts:/mnt/c/Program Files/Tesseract-OCR:/mnt/c/Users/ZeroHzzzz/Infineon/LauncherService:/snap/bin:/mnt/c/adb/'), ('WT_SESSION', '2becc3a8-2ede-4c0f-8b09-669967208173'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.18.16.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.tuna.tsinghua.edu.cn/rosdistro/index-v4.yaml'), ('AMENT_PREFIX_PATH', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[5.853337] (-) TimerEvent: {}
+[5.896333] (csm) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.919096] (csm) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/lib/libcsm.so\n'}
+[5.930073] (csm) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/include/..//include\n'}
+[5.944835] (csm) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/include/..//include/csm\n'}
+[5.953434] (-) TimerEvent: {}
+[5.983598] (csm) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/include/..//include/csm/algos.h\n'}
+[6.012677] (csm) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/include/..//include/csm/csm.h\n'}
+[6.042685] (csm) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/include/..//include/csm/laser_data.h\n'}
+[6.054037] (-) TimerEvent: {}
+[6.072021] (csm) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/include/..//include/csm/laser_data_inline.h\n'}
+[6.100291] (csm) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/include/..//include/csm/restrict.h\n'}
+[6.118922] (csm) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/include/..//include/gsl_eigen\n'}
+[6.154166] (-) TimerEvent: {}
+[6.194345] (csm) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/include/..//include/gsl_eigen/gsl_eigen.h\n'}
+[6.213593] (csm) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/resource\n'}
+[6.254361] (-) TimerEvent: {}
+[6.267955] (csm) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/resource/csm\n'}
+[6.312309] (csm) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/include/../gsl_eigen\n'}
+[6.354488] (-) TimerEvent: {}
+[6.374829] (csm) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/include/../gsl_eigen/gsl_eigen.h\n'}
+[6.386385] (csm) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/environment/library_path.sh\n'}
+[6.405365] (csm) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/environment/library_path.dsv\n'}
+[6.431046] (csm) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/ament_index/resource_index/package_run_dependencies/csm\n'}
+[6.454638] (-) TimerEvent: {}
+[6.461096] (csm) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/ament_index/resource_index/parent_prefix_path/csm\n'}
+[6.472843] (csm) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/environment/ament_prefix_path.sh\n'}
+[6.487008] (csm) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/environment/ament_prefix_path.dsv\n'}
+[6.498627] (csm) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/environment/path.sh\n'}
+[6.512986] (csm) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/environment/path.dsv\n'}
+[6.525911] (csm) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/local_setup.bash\n'}
+[6.538112] (csm) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/local_setup.sh\n'}
+[6.551304] (csm) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/local_setup.zsh\n'}
+[6.554705] (-) TimerEvent: {}
+[6.563995] (csm) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/local_setup.dsv\n'}
+[6.576653] (csm) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/package.dsv\n'}
+[6.626535] (csm) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/ament_index/resource_index/packages/csm\n'}
+[6.641351] (csm) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.654802] (csm) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.655265] (-) TimerEvent: {}
+[6.668270] (csm) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.682650] (csm) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/cmake/csmConfig.cmake\n'}
+[6.693174] (csm) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/cmake/csmConfig-version.cmake\n'}
+[6.705784] (csm) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/package.xml\n'}
+[6.716325] (csm) CommandEnded: {'returncode': 0}
+[6.755403] (-) TimerEvent: {}
+[6.855986] (-) TimerEvent: {}
+[6.956471] (-) TimerEvent: {}
+[7.057217] (-) TimerEvent: {}
+[7.157968] (-) TimerEvent: {}
+[7.259783] (-) TimerEvent: {}
+[7.360661] (-) TimerEvent: {}
+[7.461782] (-) TimerEvent: {}
+[7.562616] (-) TimerEvent: {}
+[7.663249] (-) TimerEvent: {}
+[7.763898] (-) TimerEvent: {}
+[7.864514] (-) TimerEvent: {}
+[7.965184] (-) TimerEvent: {}
+[8.065953] (-) TimerEvent: {}
+[8.166589] (-) TimerEvent: {}
+[8.267393] (-) TimerEvent: {}
+[8.368009] (-) TimerEvent: {}
+[8.469146] (-) TimerEvent: {}
+[8.570021] (-) TimerEvent: {}
+[8.670692] (-) TimerEvent: {}
+[8.771354] (-) TimerEvent: {}
+[8.872770] (-) TimerEvent: {}
+[8.994760] (-) TimerEvent: {}
+[9.095566] (-) TimerEvent: {}
+[9.196183] (-) TimerEvent: {}
+[9.297088] (-) TimerEvent: {}
+[9.402292] (-) TimerEvent: {}
+[9.503412] (-) TimerEvent: {}
+[9.604383] (-) TimerEvent: {}
+[9.705444] (-) TimerEvent: {}
+[9.806217] (-) TimerEvent: {}
+[9.906831] (-) TimerEvent: {}
+[10.007305] (-) TimerEvent: {}
+[10.107779] (-) TimerEvent: {}
+[10.208466] (-) TimerEvent: {}
+[10.309052] (-) TimerEvent: {}
+[10.409582] (-) TimerEvent: {}
+[10.510642] (-) TimerEvent: {}
+[10.611423] (-) TimerEvent: {}
+[10.712333] (-) TimerEvent: {}
+[10.812724] (-) TimerEvent: {}
+[10.913397] (-) TimerEvent: {}
+[11.013920] (-) TimerEvent: {}
+[11.114500] (-) TimerEvent: {}
+[11.216192] (-) TimerEvent: {}
+[11.316830] (-) TimerEvent: {}
+[11.417388] (-) TimerEvent: {}
+[11.518633] (-) TimerEvent: {}
+[11.620042] (csm) JobEnded: {'identifier': 'csm', 'rc': 0}
+[11.648084] (-) TimerEvent: {}
+[11.648808] (ros2_laser_scan_matcher) JobStarted: {'identifier': 'ros2_laser_scan_matcher'}
+[11.748271] (-) TimerEvent: {}
+[11.848923] (-) TimerEvent: {}
+[11.951220] (-) TimerEvent: {}
+[12.051941] (-) TimerEvent: {}
+[12.152976] (-) TimerEvent: {}
+[12.186886] (ros2_laser_scan_matcher) JobProgress: {'identifier': 'ros2_laser_scan_matcher', 'progress': 'cmake'}
+[12.222643] (ros2_laser_scan_matcher) JobProgress: {'identifier': 'ros2_laser_scan_matcher', 'progress': 'build'}
+[12.227627] (ros2_laser_scan_matcher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/ros2_laser_scan_matcher', '--', '-j32', '-l32'], 'cwd': '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/ros2_laser_scan_matcher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zerohzzzz'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{0caa0dad-35be-5f56-a8ff-afceeeaa6101}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/zerohzzzz'), ('OLDPWD', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zerohzzzz'), ('NAME', 'Mask'), ('WSL_INTEROP', '/run/WSL/1280_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/libnvvp:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/MySQL/MySQL Server 5.7/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ZeroHzzzz/go/bin:/mnt/c/Users/ZeroHzzzz/AppData/Roaming/npm:/mnt/c/Pro:/mnt/c/Program Files/Tesseract-OCR:/mnt/c/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x86:/mnt/c/Program Files (x86)/NoteBook FanControl/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/opencv-4.10.0/x64/mingw/bin:/mnt/c/Program Files/mingw64/bin:/mnt/d/Qt/Qt5.13.2/Tools/mingw730_64/bin:/mnt/d/Qt/Qt5.13.2/5.13.2/mingw73_64/bin:/mnt/c/adb:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.12.7-hotspot/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/libnvvp:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/mingw64/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/MySQL/MySQL Server 5.7/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ZeroHzzzz/go/bin:/mnt/c/Users/ZeroHzzzz/AppData/Roaming/npm:/mnt/c/Pro:/mnt/c/Users/ZeroHzzzz/AppData/Local/Pandoc/:/mnt/c/texlive/2024/bin/windows:/mnt/c/Users/ZeroHzzzz/miniconda3/condabin:/mnt/c/Users/ZeroHzzzz/miniconda3/Scripts:/mnt/c/Program Files/Tesseract-OCR:/mnt/c/Users/ZeroHzzzz/Infineon/LauncherService:/snap/bin:/mnt/c/adb/'), ('WT_SESSION', '2becc3a8-2ede-4c0f-8b09-669967208173'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.18.16.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.tuna.tsinghua.edu.cn/rosdistro/index-v4.yaml'), ('AMENT_PREFIX_PATH', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/ros2_laser_scan_matcher'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[12.253042] (-) TimerEvent: {}
+[12.353552] (-) TimerEvent: {}
+[12.454101] (-) TimerEvent: {}
+[12.554882] (-) TimerEvent: {}
+[12.655812] (-) TimerEvent: {}
+[12.756452] (-) TimerEvent: {}
+[12.857260] (-) TimerEvent: {}
+[12.957948] (-) TimerEvent: {}
+[13.058576] (-) TimerEvent: {}
+[13.084272] (ros2_laser_scan_matcher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target laser_scan_matcher\x1b[0m\n'}
+[13.158722] (-) TimerEvent: {}
+[13.259494] (-) TimerEvent: {}
+[13.360116] (-) TimerEvent: {}
+[13.460809] (-) TimerEvent: {}
+[13.561688] (-) TimerEvent: {}
+[13.662347] (-) TimerEvent: {}
+[13.763011] (-) TimerEvent: {}
+[13.864064] (-) TimerEvent: {}
+[13.964821] (-) TimerEvent: {}
+[14.065602] (-) TimerEvent: {}
+[14.166292] (-) TimerEvent: {}
+[14.273890] (-) TimerEvent: {}
+[14.374683] (-) TimerEvent: {}
+[14.475707] (-) TimerEvent: {}
+[14.577161] (-) TimerEvent: {}
+[14.677909] (-) TimerEvent: {}
+[14.778372] (-) TimerEvent: {}
+[14.870241] (ros2_laser_scan_matcher) StdoutLine: {'line': b'[100%] Built target laser_scan_matcher\n'}
+[14.878517] (-) TimerEvent: {}
+[14.965166] (ros2_laser_scan_matcher) CommandEnded: {'returncode': 0}
+[14.978647] (-) TimerEvent: {}
+[15.079236] (-) TimerEvent: {}
+[15.179998] (-) TimerEvent: {}
+[15.280666] (-) TimerEvent: {}
+[15.382038] (-) TimerEvent: {}
+[15.482861] (-) TimerEvent: {}
+[15.585535] (-) TimerEvent: {}
+[15.686879] (-) TimerEvent: {}
+[15.787628] (-) TimerEvent: {}
+[15.892830] (-) TimerEvent: {}
+[15.926989] (ros2_laser_scan_matcher) JobProgress: {'identifier': 'ros2_laser_scan_matcher', 'progress': 'install'}
+[15.932319] (ros2_laser_scan_matcher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/ros2_laser_scan_matcher'], 'cwd': '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/ros2_laser_scan_matcher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zerohzzzz'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{0caa0dad-35be-5f56-a8ff-afceeeaa6101}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/zerohzzzz'), ('OLDPWD', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zerohzzzz'), ('NAME', 'Mask'), ('WSL_INTEROP', '/run/WSL/1280_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/libnvvp:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/MySQL/MySQL Server 5.7/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ZeroHzzzz/go/bin:/mnt/c/Users/ZeroHzzzz/AppData/Roaming/npm:/mnt/c/Pro:/mnt/c/Program Files/Tesseract-OCR:/mnt/c/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x86:/mnt/c/Program Files (x86)/NoteBook FanControl/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/opencv-4.10.0/x64/mingw/bin:/mnt/c/Program Files/mingw64/bin:/mnt/d/Qt/Qt5.13.2/Tools/mingw730_64/bin:/mnt/d/Qt/Qt5.13.2/5.13.2/mingw73_64/bin:/mnt/c/adb:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.12.7-hotspot/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/libnvvp:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/mingw64/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/MySQL/MySQL Server 5.7/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ZeroHzzzz/go/bin:/mnt/c/Users/ZeroHzzzz/AppData/Roaming/npm:/mnt/c/Pro:/mnt/c/Users/ZeroHzzzz/AppData/Local/Pandoc/:/mnt/c/texlive/2024/bin/windows:/mnt/c/Users/ZeroHzzzz/miniconda3/condabin:/mnt/c/Users/ZeroHzzzz/miniconda3/Scripts:/mnt/c/Program Files/Tesseract-OCR:/mnt/c/Users/ZeroHzzzz/Infineon/LauncherService:/snap/bin:/mnt/c/adb/'), ('WT_SESSION', '2becc3a8-2ede-4c0f-8b09-669967208173'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.18.16.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.tuna.tsinghua.edu.cn/rosdistro/index-v4.yaml'), ('AMENT_PREFIX_PATH', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/ros2_laser_scan_matcher'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[15.992985] (-) TimerEvent: {}
+[16.040766] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.093158] (-) TimerEvent: {}
+[16.103570] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/lib/ros2_laser_scan_matcher/laser_scan_matcher\n'}
+[16.188121] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ament_index/resource_index/package_run_dependencies/ros2_laser_scan_matcher\n'}
+[16.193252] (-) TimerEvent: {}
+[16.231925] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ament_index/resource_index/parent_prefix_path/ros2_laser_scan_matcher\n'}
+[16.242906] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/environment/ament_prefix_path.sh\n'}
+[16.258026] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/environment/ament_prefix_path.dsv\n'}
+[16.270648] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/environment/path.sh\n'}
+[16.293503] (-) TimerEvent: {}
+[16.390671] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/environment/path.dsv\n'}
+[16.393933] (-) TimerEvent: {}
+[16.448492] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/local_setup.bash\n'}
+[16.473407] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/local_setup.sh\n'}
+[16.494121] (-) TimerEvent: {}
+[16.540425] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/local_setup.zsh\n'}
+[16.585801] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/local_setup.dsv\n'}
+[16.594401] (-) TimerEvent: {}
+[16.642250] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.dsv\n'}
+[16.694620] (-) TimerEvent: {}
+[16.795805] (-) TimerEvent: {}
+[16.819015] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ament_index/resource_index/packages/ros2_laser_scan_matcher\n'}
+[16.839107] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/cmake/ros2_laser_scan_matcherConfig.cmake\n'}
+[16.869966] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/cmake/ros2_laser_scan_matcherConfig-version.cmake\n'}
+[16.890044] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.xml\n'}
+[16.895861] (-) TimerEvent: {}
+[16.896983] (ros2_laser_scan_matcher) CommandEnded: {'returncode': 0}
+[16.996133] (-) TimerEvent: {}
+[17.096937] (-) TimerEvent: {}
+[17.197570] (-) TimerEvent: {}
+[17.298269] (-) TimerEvent: {}
+[17.403792] (-) TimerEvent: {}
+[17.507794] (-) TimerEvent: {}
+[17.608735] (-) TimerEvent: {}
+[17.709715] (-) TimerEvent: {}
+[17.810199] (-) TimerEvent: {}
+[17.911131] (-) TimerEvent: {}
+[18.012098] (-) TimerEvent: {}
+[18.112687] (-) TimerEvent: {}
+[18.213634] (-) TimerEvent: {}
+[18.317873] (-) TimerEvent: {}
+[18.418665] (-) TimerEvent: {}
+[18.519304] (-) TimerEvent: {}
+[18.620078] (-) TimerEvent: {}
+[18.673473] (ros2_laser_scan_matcher) JobEnded: {'identifier': 'ros2_laser_scan_matcher', 'rc': 0}
+[18.741376] (-) TimerEvent: {}
+[18.742288] (nav) JobStarted: {'identifier': 'nav'}
+[18.841674] (-) TimerEvent: {}
+[18.942831] (-) TimerEvent: {}
+[19.064533] (-) TimerEvent: {}
+[19.165676] (-) TimerEvent: {}
+[19.266635] (-) TimerEvent: {}
+[19.367546] (-) TimerEvent: {}
+[19.468624] (-) TimerEvent: {}
+[19.569250] (-) TimerEvent: {}
+[19.670668] (-) TimerEvent: {}
+[19.771471] (-) TimerEvent: {}
+[19.872118] (-) TimerEvent: {}
+[19.972801] (-) TimerEvent: {}
+[20.073428] (-) TimerEvent: {}
+[20.174660] (-) TimerEvent: {}
+[20.275224] (-) TimerEvent: {}
+[20.375865] (-) TimerEvent: {}
+[20.476617] (-) TimerEvent: {}
+[20.577218] (-) TimerEvent: {}
+[20.677982] (-) TimerEvent: {}
+[20.779048] (-) TimerEvent: {}
+[20.879637] (-) TimerEvent: {}
+[20.980344] (-) TimerEvent: {}
+[21.081041] (-) TimerEvent: {}
+[21.182683] (-) TimerEvent: {}
+[21.310154] (-) TimerEvent: {}
+[21.410831] (-) TimerEvent: {}
+[21.511500] (-) TimerEvent: {}
+[21.612217] (-) TimerEvent: {}
+[21.730017] (-) TimerEvent: {}
+[21.830725] (-) TimerEvent: {}
+[21.931472] (-) TimerEvent: {}
+[22.032169] (-) TimerEvent: {}
+[22.132621] (-) TimerEvent: {}
+[22.233069] (-) TimerEvent: {}
+[22.334059] (-) TimerEvent: {}
+[22.434786] (-) TimerEvent: {}
+[22.535505] (-) TimerEvent: {}
+[22.636126] (-) TimerEvent: {}
+[22.737018] (-) TimerEvent: {}
+[22.839935] (nav) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/nav', 'build', '--build-base', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/build', 'install', '--record', '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/c/Users/ZeroHzzzz/Desktop/robot/src/nav', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'zerohzzzz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{0caa0dad-35be-5f56-a8ff-afceeeaa6101}', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/zerohzzzz', 'OLDPWD': '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'zerohzzzz', 'NAME': 'Mask', 'WSL_INTEROP': '/run/WSL/1280_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/libnvvp:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/MySQL/MySQL Server 5.7/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ZeroHzzzz/go/bin:/mnt/c/Users/ZeroHzzzz/AppData/Roaming/npm:/mnt/c/Pro:/mnt/c/Program Files/Tesseract-OCR:/mnt/c/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x86:/mnt/c/Program Files (x86)/NoteBook FanControl/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/opencv-4.10.0/x64/mingw/bin:/mnt/c/Program Files/mingw64/bin:/mnt/d/Qt/Qt5.13.2/Tools/mingw730_64/bin:/mnt/d/Qt/Qt5.13.2/5.13.2/mingw73_64/bin:/mnt/c/adb:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Eclipse Adoptium/jdk-17.0.12.7-hotspot/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/libnvvp:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/mingw64/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/MySQL/MySQL Server 5.7/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/ZeroHzzzz/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ZeroHzzzz/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ZeroHzzzz/go/bin:/mnt/c/Users/ZeroHzzzz/AppData/Roaming/npm:/mnt/c/Pro:/mnt/c/Users/ZeroHzzzz/AppData/Local/Pandoc/:/mnt/c/texlive/2024/bin/windows:/mnt/c/Users/ZeroHzzzz/miniconda3/condabin:/mnt/c/Users/ZeroHzzzz/miniconda3/Scripts:/mnt/c/Program Files/Tesseract-OCR:/mnt/c/Users/ZeroHzzzz/Infineon/LauncherService:/snap/bin:/mnt/c/adb/', 'WT_SESSION': '2becc3a8-2ede-4c0f-8b09-669967208173', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': '172.18.16.1:0.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROSDISTRO_INDEX_URL': 'https://mirrors.tuna.tsinghua.edu.cn/rosdistro/index-v4.yaml', 'AMENT_PREFIX_PATH': '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/lib/python3.10/site-packages:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[22.853709] (-) TimerEvent: {}
+[22.954411] (-) TimerEvent: {}
+[23.054773] (-) TimerEvent: {}
+[23.155179] (-) TimerEvent: {}
+[23.255574] (-) TimerEvent: {}
+[23.356348] (-) TimerEvent: {}
+[23.457347] (-) TimerEvent: {}
+[23.531206] (nav) StdoutLine: {'line': b'running egg_info\n'}
+[23.536360] (nav) StdoutLine: {'line': b'writing ../../build/nav/nav.egg-info/PKG-INFO\n'}
+[23.543813] (nav) StdoutLine: {'line': b'writing dependency_links to ../../build/nav/nav.egg-info/dependency_links.txt\n'}
+[23.557468] (-) TimerEvent: {}
+[23.576098] (nav) StdoutLine: {'line': b'writing requirements to ../../build/nav/nav.egg-info/requires.txt\n'}
+[23.581678] (nav) StdoutLine: {'line': b'writing top-level names to ../../build/nav/nav.egg-info/top_level.txt\n'}
+[23.638981] (nav) StdoutLine: {'line': b"reading manifest file '../../build/nav/nav.egg-info/SOURCES.txt'\n"}
+[23.657590] (-) TimerEvent: {}
+[23.719585] (nav) StdoutLine: {'line': b"writing manifest file '../../build/nav/nav.egg-info/SOURCES.txt'\n"}
+[23.729167] (nav) StdoutLine: {'line': b'running build\n'}
+[23.731727] (nav) StdoutLine: {'line': b'running build_py\n'}
+[23.757786] (-) TimerEvent: {}
+[23.785972] (nav) StdoutLine: {'line': b'running install\n'}
+[23.788318] (nav) StdoutLine: {'line': b'running install_lib\n'}
+[23.857934] (-) TimerEvent: {}
+[23.892580] (nav) StdoutLine: {'line': b'running install_data\n'}
+[23.945011] (nav) StdoutLine: {'line': b'copying package.xml -> /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/share/nav\n'}
+[23.958105] (-) TimerEvent: {}
+[24.007453] (nav) StdoutLine: {'line': b'copying launch/nav.launch.py -> /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/share/nav/launch\n'}
+[24.058233] (-) TimerEvent: {}
+[24.112678] (nav) StdoutLine: {'line': b'running install_egg_info\n'}
+[24.125934] (nav) StdoutLine: {'line': b"removing '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/lib/python3.10/site-packages/nav-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[24.158371] (-) TimerEvent: {}
+[24.219617] (nav) StdoutLine: {'line': b'Copying ../../build/nav/nav.egg-info to /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/lib/python3.10/site-packages/nav-0.0.1-py3.10.egg-info\n'}
+[24.258527] (-) TimerEvent: {}
+[24.359349] (-) TimerEvent: {}
+[24.462191] (-) TimerEvent: {}
+[24.562829] (-) TimerEvent: {}
+[24.648513] (nav) StdoutLine: {'line': b'running install_scripts\n'}
+[24.662940] (-) TimerEvent: {}
+[24.763627] (-) TimerEvent: {}
+[24.772095] (nav) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/install.log'\n"}
+[24.807478] (nav) CommandEnded: {'returncode': 0}
+[24.863714] (-) TimerEvent: {}
+[24.964207] (-) TimerEvent: {}
+[25.064701] (-) TimerEvent: {}
+[25.166265] (-) TimerEvent: {}
+[25.238965] (nav) JobEnded: {'identifier': 'nav', 'rc': 0}
+[25.253655] (-) EventReactorShutdown: {}

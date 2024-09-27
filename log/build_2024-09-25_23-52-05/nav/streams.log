@@ -1,0 +1,19 @@
+[3.025s] Invoking command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/src/nav': LD_LIBRARY_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nav build --build-base /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/build install --record /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/install.log --single-version-externally-managed install_data
+[4.157s] running egg_info
+[4.160s] writing ../../build/nav/nav.egg-info/PKG-INFO
+[4.179s] writing dependency_links to ../../build/nav/nav.egg-info/dependency_links.txt
+[4.187s] writing requirements to ../../build/nav/nav.egg-info/requires.txt
+[4.192s] writing top-level names to ../../build/nav/nav.egg-info/top_level.txt
+[4.236s] reading manifest file '../../build/nav/nav.egg-info/SOURCES.txt'
+[4.316s] writing manifest file '../../build/nav/nav.egg-info/SOURCES.txt'
+[4.320s] running build
+[4.321s] running build_py
+[4.352s] running install
+[4.352s] running install_lib
+[4.403s] running install_data
+[4.506s] running install_egg_info
+[4.520s] removing '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/lib/python3.10/site-packages/nav-0.0.1-py3.10.egg-info' (and everything under it)
+[4.582s] Copying ../../build/nav/nav.egg-info to /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/lib/python3.10/site-packages/nav-0.0.1-py3.10.egg-info
+[4.901s] running install_scripts
+[5.040s] writing list of installed files to '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/install.log'
+[5.076s] Invoked command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/src/nav' returned '0': LD_LIBRARY_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nav build --build-base /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/build install --record /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/install.log --single-version-externally-managed install_data

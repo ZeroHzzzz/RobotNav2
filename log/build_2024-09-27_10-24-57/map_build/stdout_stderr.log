@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/map_build/map_build.egg-info
+writing ../../build/map_build/map_build.egg-info/PKG-INFO
+writing dependency_links to ../../build/map_build/map_build.egg-info/dependency_links.txt
+writing entry points to ../../build/map_build/map_build.egg-info/entry_points.txt
+writing requirements to ../../build/map_build/map_build.egg-info/requires.txt
+writing top-level names to ../../build/map_build/map_build.egg-info/top_level.txt
+writing manifest file '../../build/map_build/map_build.egg-info/SOURCES.txt'
+reading manifest file '../../build/map_build/map_build.egg-info/SOURCES.txt'
+writing manifest file '../../build/map_build/map_build.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/map_build/build
+creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/map_build/build/lib
+creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/map_build/build/lib/map_build
+copying map_build/__init__.py -> /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/map_build/build/lib/map_build
+running install
+running install_lib
+creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/lib/python3.10/site-packages/map_build
+copying /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/map_build/build/lib/map_build/__init__.py -> /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/lib/python3.10/site-packages/map_build
+byte-compiling /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/lib/python3.10/site-packages/map_build/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/share/ament_index
+creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/share/ament_index/resource_index
+creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/share/ament_index/resource_index/packages
+copying resource/map_build -> /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/share/ament_index/resource_index/packages
+copying package.xml -> /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/share/map_build
+creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/share/map_build/launch
+copying launch/map_building.launch.py -> /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/share/map_build/launch
+creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/share/map_build/config
+creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/share/map_build/map
+creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/share/map_build/urdf
+copying urdf/fishbot_base.urdf -> /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/share/map_build/urdf
+creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/share/map_build/worlds
+copying worlds/map1.world -> /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/share/map_build/worlds
+running install_egg_info
+Copying ../../build/map_build/map_build.egg-info to /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/lib/python3.10/site-packages/map_build-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/map_build/install.log'

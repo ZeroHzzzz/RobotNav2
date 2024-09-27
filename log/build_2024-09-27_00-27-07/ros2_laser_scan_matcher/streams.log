@@ -1,0 +1,22 @@
+[0.540s] Invoking command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/ros2_laser_scan_matcher': AMENT_PREFIX_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm:/opt/ros/humble LD_LIBRARY_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/ros2_laser_scan_matcher -- -j32 -l32
+[1.658s] [100%] Built target laser_scan_matcher
+[1.819s] Invoked command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/ros2_laser_scan_matcher' returned '0': AMENT_PREFIX_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm:/opt/ros/humble LD_LIBRARY_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/ros2_laser_scan_matcher -- -j32 -l32
+[1.855s] Invoking command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/ros2_laser_scan_matcher': AMENT_PREFIX_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm:/opt/ros/humble LD_LIBRARY_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/ros2_laser_scan_matcher
+[2.028s] -- Install configuration: ""
+[2.102s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/lib/ros2_laser_scan_matcher/laser_scan_matcher
+[2.227s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ament_index/resource_index/package_run_dependencies/ros2_laser_scan_matcher
+[2.269s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ament_index/resource_index/parent_prefix_path/ros2_laser_scan_matcher
+[2.294s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/environment/ament_prefix_path.sh
+[2.312s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/environment/ament_prefix_path.dsv
+[2.346s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/environment/path.sh
+[2.375s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/environment/path.dsv
+[2.398s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/local_setup.bash
+[2.421s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/local_setup.sh
+[2.441s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/local_setup.zsh
+[2.462s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/local_setup.dsv
+[2.515s] -- Installing: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.dsv
+[2.739s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ament_index/resource_index/packages/ros2_laser_scan_matcher
+[2.762s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/cmake/ros2_laser_scan_matcherConfig.cmake
+[2.779s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/cmake/ros2_laser_scan_matcherConfig-version.cmake
+[2.799s] -- Up-to-date: /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.xml
+[2.810s] Invoked command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/ros2_laser_scan_matcher' returned '0': AMENT_PREFIX_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm:/opt/ros/humble LD_LIBRARY_PATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/ros2_laser_scan_matcher

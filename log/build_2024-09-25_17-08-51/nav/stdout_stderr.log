@@ -1,0 +1,28 @@
+running egg_info
+creating ../../build/nav/nav.egg-info
+writing ../../build/nav/nav.egg-info/PKG-INFO
+writing dependency_links to ../../build/nav/nav.egg-info/dependency_links.txt
+writing requirements to ../../build/nav/nav.egg-info/requires.txt
+writing top-level names to ../../build/nav/nav.egg-info/top_level.txt
+writing manifest file '../../build/nav/nav.egg-info/SOURCES.txt'
+reading manifest file '../../build/nav/nav.egg-info/SOURCES.txt'
+writing manifest file '../../build/nav/nav.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/build
+creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/build/lib
+creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/build/lib/nav
+copying nav/__init__.py -> /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/build/lib/nav
+running install
+running install_lib
+creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/lib/python3.10/site-packages/nav
+copying /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/build/lib/nav/__init__.py -> /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/lib/python3.10/site-packages/nav
+byte-compiling /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/lib/python3.10/site-packages/nav/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/share/ament_index
+creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/share/ament_index/resource_index
+creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/share/ament_index/resource_index/packages
+copying resource/nav -> /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/share/ament_index/resource_index/packages
+copying package.xml -> /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/share/nav
+creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/share/nav/launch
+error: can't copy 'launch/navigation_launch.py': doesn't exist or not a regular file

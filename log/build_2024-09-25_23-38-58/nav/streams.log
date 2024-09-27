@@ -1,0 +1,21 @@
+[3.271s] Invoking command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/src/nav': PYTHONPATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nav build --build-base /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/build install --record /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/install.log --single-version-externally-managed install_data
+[4.302s] running egg_info
+[4.307s] writing ../../build/nav/nav.egg-info/PKG-INFO
+[4.313s] writing dependency_links to ../../build/nav/nav.egg-info/dependency_links.txt
+[4.347s] writing requirements to ../../build/nav/nav.egg-info/requires.txt
+[4.355s] writing top-level names to ../../build/nav/nav.egg-info/top_level.txt
+[4.433s] reading manifest file '../../build/nav/nav.egg-info/SOURCES.txt'
+[4.527s] writing manifest file '../../build/nav/nav.egg-info/SOURCES.txt'
+[4.531s] running build
+[4.534s] running build_py
+[4.568s] running install
+[4.570s] running install_lib
+[4.631s] running install_data
+[4.679s] copying launch/nav.launch.py -> /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/share/nav/launch
+[4.854s] copying config/nav_package.yaml -> /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/share/nav/config
+[4.958s] running install_egg_info
+[4.972s] removing '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/lib/python3.10/site-packages/nav-0.0.1-py3.10.egg-info' (and everything under it)
+[5.022s] Copying ../../build/nav/nav.egg-info to /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/lib/python3.10/site-packages/nav-0.0.1-py3.10.egg-info
+[5.319s] running install_scripts
+[5.439s] writing list of installed files to '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/install.log'
+[5.469s] Invoked command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/src/nav' returned '0': PYTHONPATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nav build --build-base /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/build install --record /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/install.log --single-version-externally-managed install_data

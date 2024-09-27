@@ -1,0 +1,10 @@
+/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm/CMakeFiles/uninstall.dir
+/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm/CMakeFiles/csm_uninstall.dir
+/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm/CMakeFiles/csm.dir
+/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm/CMakeFiles/test.dir
+/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm/CMakeFiles/edit_cache.dir
+/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm/CMakeFiles/list_install_components.dir
+/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm/CMakeFiles/install.dir
+/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm/CMakeFiles/install/local.dir
+/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm/CMakeFiles/install/strip.dir

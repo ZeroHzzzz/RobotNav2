@@ -1,0 +1,3 @@
+[0.148s] Invoking command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm -- -j32 -l32
+[0.407s] [35m[1mConsolidate compiler generated dependencies of target csm[0m
+[3.574s] [100%] Built target csm

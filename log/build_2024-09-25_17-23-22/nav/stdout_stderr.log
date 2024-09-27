@@ -1,0 +1,15 @@
+running egg_info
+writing ../../build/nav/nav.egg-info/PKG-INFO
+writing dependency_links to ../../build/nav/nav.egg-info/dependency_links.txt
+writing requirements to ../../build/nav/nav.egg-info/requires.txt
+writing top-level names to ../../build/nav/nav.egg-info/top_level.txt
+reading manifest file '../../build/nav/nav.egg-info/SOURCES.txt'
+writing manifest file '../../build/nav/nav.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying urdf/fishbot_base.urdf -> /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/share/nav/urdf
+creating /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/share/nav/world
+error: can't copy 'world/map1.world': doesn't exist or not a regular file

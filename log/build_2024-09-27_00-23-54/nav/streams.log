@@ -1,0 +1,15 @@
+[3.457s] Invoking command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/src/nav': PYTHONPATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nav build --build-base /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/build install --record /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/install.log --single-version-externally-managed install_data
+[4.634s] running egg_info
+[4.641s] writing ../../build/nav/nav.egg-info/PKG-INFO
+[4.654s] writing dependency_links to ../../build/nav/nav.egg-info/dependency_links.txt
+[4.671s] writing requirements to ../../build/nav/nav.egg-info/requires.txt
+[4.677s] writing top-level names to ../../build/nav/nav.egg-info/top_level.txt
+[4.734s] reading manifest file '../../build/nav/nav.egg-info/SOURCES.txt'
+[4.831s] writing manifest file '../../build/nav/nav.egg-info/SOURCES.txt'
+[4.838s] running build
+[4.840s] running build_py
+[4.865s] running install
+[4.866s] running install_lib
+[4.945s] running install_data
+[4.989s] error: can't copy 'launch/main_launch.py': doesn't exist or not a regular file
+[5.008s] Invoked command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/src/nav' returned '1': PYTHONPATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nav build --build-base /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/build install --record /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/nav/install.log --single-version-externally-managed install_data

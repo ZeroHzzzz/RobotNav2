@@ -1,0 +1,20 @@
+[1.725s] Invoking command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/src/map_build': PYTHONPATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/map_build/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/map_build build --build-base /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/map_build/build install --record /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/map_build/install.log --single-version-externally-managed install_data
+[2.513s] running egg_info
+[2.520s] writing ../../build/map_build/map_build.egg-info/PKG-INFO
+[2.542s] writing dependency_links to ../../build/map_build/map_build.egg-info/dependency_links.txt
+[2.550s] writing entry points to ../../build/map_build/map_build.egg-info/entry_points.txt
+[2.555s] writing requirements to ../../build/map_build/map_build.egg-info/requires.txt
+[2.561s] writing top-level names to ../../build/map_build/map_build.egg-info/top_level.txt
+[2.624s] reading manifest file '../../build/map_build/map_build.egg-info/SOURCES.txt'
+[2.715s] writing manifest file '../../build/map_build/map_build.egg-info/SOURCES.txt'
+[2.729s] running build
+[2.736s] running build_py
+[2.761s] running install
+[2.763s] running install_lib
+[2.924s] running install_data
+[3.011s] running install_egg_info
+[3.024s] removing '/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/lib/python3.10/site-packages/map_build-0.0.0-py3.10.egg-info' (and everything under it)
+[3.087s] Copying ../../build/map_build/map_build.egg-info to /mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/lib/python3.10/site-packages/map_build-0.0.0-py3.10.egg-info
+[3.406s] running install_scripts
+[3.462s] writing list of installed files to '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/map_build/install.log'
+[3.489s] Invoked command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/src/map_build' returned '0': PYTHONPATH=/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/map_build/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/map_build/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/map_build build --build-base /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/map_build/build install --record /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/map_build/install.log --single-version-externally-managed install_data

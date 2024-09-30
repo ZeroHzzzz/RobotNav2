@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/mapbuild/mapbuild.egg-info/PKG-INFO
+../../build/mapbuild/mapbuild.egg-info/SOURCES.txt
+../../build/mapbuild/mapbuild.egg-info/dependency_links.txt
+../../build/mapbuild/mapbuild.egg-info/entry_points.txt
+../../build/mapbuild/mapbuild.egg-info/requires.txt
+../../build/mapbuild/mapbuild.egg-info/top_level.txt
+../../build/mapbuild/mapbuild.egg-info/zip-safe
+mapbuild/__init__.py
+resource/mapbuild
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,1 +1,0 @@
-gazebo_ros:launch:launch_ros:nav2_amcl:nav2_controller:nav2_map_server:nav2_planner:rclpy:ros2_laser_scan_matcher:rviz2:slam_toolbox

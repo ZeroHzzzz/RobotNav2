@@ -1,8 +1,0 @@
-package_name: "nav"
-robot_name_in_model: "fishbot"
-urdf_name: "fishbot_base.urdf"
-gazebo_world_path: "world/map1.world"
-amcl_yaml_path: "config/amcl.yaml"
-map_yaml_path: "config/mapserver.yaml"
-rviz_config_path: "rviz/nav2_default_view.rviz"
-mode: "map" # 可设置为 "map" 或 "slam"

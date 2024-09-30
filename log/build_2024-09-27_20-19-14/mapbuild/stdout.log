@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/mapbuild/mapbuild.egg-info
+writing ../../build/mapbuild/mapbuild.egg-info/PKG-INFO
+writing dependency_links to ../../build/mapbuild/mapbuild.egg-info/dependency_links.txt
+writing entry points to ../../build/mapbuild/mapbuild.egg-info/entry_points.txt
+writing requirements to ../../build/mapbuild/mapbuild.egg-info/requires.txt
+writing top-level names to ../../build/mapbuild/mapbuild.egg-info/top_level.txt
+writing manifest file '../../build/mapbuild/mapbuild.egg-info/SOURCES.txt'
+reading manifest file '../../build/mapbuild/mapbuild.egg-info/SOURCES.txt'
+writing manifest file '../../build/mapbuild/mapbuild.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/zerohzzzz/Documents/RobotNav2/build/mapbuild/build
+creating /home/zerohzzzz/Documents/RobotNav2/build/mapbuild/build/lib
+creating /home/zerohzzzz/Documents/RobotNav2/build/mapbuild/build/lib/mapbuild
+copying mapbuild/__init__.py -> /home/zerohzzzz/Documents/RobotNav2/build/mapbuild/build/lib/mapbuild
+running install
+running install_lib
+creating /home/zerohzzzz/Documents/RobotNav2/install/mapbuild/lib/python3.10/site-packages/mapbuild
+copying /home/zerohzzzz/Documents/RobotNav2/build/mapbuild/build/lib/mapbuild/__init__.py -> /home/zerohzzzz/Documents/RobotNav2/install/mapbuild/lib/python3.10/site-packages/mapbuild
+byte-compiling /home/zerohzzzz/Documents/RobotNav2/install/mapbuild/lib/python3.10/site-packages/mapbuild/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/zerohzzzz/Documents/RobotNav2/install/mapbuild/share/ament_index
+creating /home/zerohzzzz/Documents/RobotNav2/install/mapbuild/share/ament_index/resource_index
+creating /home/zerohzzzz/Documents/RobotNav2/install/mapbuild/share/ament_index/resource_index/packages
+copying resource/mapbuild -> /home/zerohzzzz/Documents/RobotNav2/install/mapbuild/share/ament_index/resource_index/packages
+copying package.xml -> /home/zerohzzzz/Documents/RobotNav2/install/mapbuild/share/mapbuild
+running install_egg_info
+Copying ../../build/mapbuild/mapbuild.egg-info to /home/zerohzzzz/Documents/RobotNav2/install/mapbuild/lib/python3.10/site-packages/mapbuild-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/zerohzzzz/Documents/RobotNav2/build/mapbuild/install.log'

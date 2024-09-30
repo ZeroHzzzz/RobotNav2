@@ -1,0 +1,20 @@
+[1.850s] Invoking command in '/home/zerohzzzz/Documents/RobotNav2/src/mapbuild': PYTHONPATH=/home/zerohzzzz/Documents/RobotNav2/build/mapbuild/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zerohzzzz/Documents/RobotNav2/install/mapbuild/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mapbuild build --build-base /home/zerohzzzz/Documents/RobotNav2/build/mapbuild/build install --record /home/zerohzzzz/Documents/RobotNav2/build/mapbuild/install.log --single-version-externally-managed install_data
+[2.248s] running egg_info
+[2.249s] writing ../../build/mapbuild/mapbuild.egg-info/PKG-INFO
+[2.249s] writing dependency_links to ../../build/mapbuild/mapbuild.egg-info/dependency_links.txt
+[2.250s] writing entry points to ../../build/mapbuild/mapbuild.egg-info/entry_points.txt
+[2.250s] writing requirements to ../../build/mapbuild/mapbuild.egg-info/requires.txt
+[2.250s] writing top-level names to ../../build/mapbuild/mapbuild.egg-info/top_level.txt
+[2.253s] reading manifest file '../../build/mapbuild/mapbuild.egg-info/SOURCES.txt'
+[2.257s] writing manifest file '../../build/mapbuild/mapbuild.egg-info/SOURCES.txt'
+[2.258s] running build
+[2.258s] running build_py
+[2.259s] running install
+[2.260s] running install_lib
+[2.262s] running install_data
+[2.262s] running install_egg_info
+[2.265s] removing '/home/zerohzzzz/Documents/RobotNav2/install/mapbuild/lib/python3.10/site-packages/mapbuild-0.0.0-py3.10.egg-info' (and everything under it)
+[2.266s] Copying ../../build/mapbuild/mapbuild.egg-info to /home/zerohzzzz/Documents/RobotNav2/install/mapbuild/lib/python3.10/site-packages/mapbuild-0.0.0-py3.10.egg-info
+[2.267s] running install_scripts
+[2.323s] writing list of installed files to '/home/zerohzzzz/Documents/RobotNav2/build/mapbuild/install.log'
+[2.376s] Invoked command in '/home/zerohzzzz/Documents/RobotNav2/src/mapbuild' returned '0': PYTHONPATH=/home/zerohzzzz/Documents/RobotNav2/build/mapbuild/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zerohzzzz/Documents/RobotNav2/install/mapbuild/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mapbuild build --build-base /home/zerohzzzz/Documents/RobotNav2/build/mapbuild/build install --record /home/zerohzzzz/Documents/RobotNav2/build/mapbuild/install.log --single-version-externally-managed install_data

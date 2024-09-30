@@ -1,0 +1,39 @@
+[0.632s] Invoking command in '/home/zerohzzzz/Documents/RobotNav2/src/map_build': PYTHONPATH=/home/zerohzzzz/Documents/RobotNav2/build/map_build/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zerohzzzz/Documents/RobotNav2/install/map_build/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/map_build build --build-base /home/zerohzzzz/Documents/RobotNav2/build/map_build/build install --record /home/zerohzzzz/Documents/RobotNav2/build/map_build/install.log --single-version-externally-managed install_data
+[0.881s] running egg_info
+[0.882s] writing ../../build/map_build/map_build.egg-info/PKG-INFO
+[0.882s] writing dependency_links to ../../build/map_build/map_build.egg-info/dependency_links.txt
+[0.882s] writing entry points to ../../build/map_build/map_build.egg-info/entry_points.txt
+[0.882s] writing requirements to ../../build/map_build/map_build.egg-info/requires.txt
+[0.882s] writing top-level names to ../../build/map_build/map_build.egg-info/top_level.txt
+[0.884s] reading manifest file '../../build/map_build/map_build.egg-info/SOURCES.txt'
+[0.885s] writing manifest file '../../build/map_build/map_build.egg-info/SOURCES.txt'
+[0.885s] running build
+[0.885s] running build_py
+[0.885s] running install
+[0.885s] running install_lib
+[0.886s] creating /home/zerohzzzz/Documents/RobotNav2/install/map_build/lib/python3.10/site-packages/map_build
+[0.886s] copying /home/zerohzzzz/Documents/RobotNav2/build/map_build/build/lib/map_build/__init__.py -> /home/zerohzzzz/Documents/RobotNav2/install/map_build/lib/python3.10/site-packages/map_build
+[0.887s] byte-compiling /home/zerohzzzz/Documents/RobotNav2/install/map_build/lib/python3.10/site-packages/map_build/__init__.py to __init__.cpython-310.pyc
+[0.887s] running install_data
+[0.887s] creating /home/zerohzzzz/Documents/RobotNav2/install/map_build/share/ament_index
+[0.887s] creating /home/zerohzzzz/Documents/RobotNav2/install/map_build/share/ament_index/resource_index
+[0.887s] creating /home/zerohzzzz/Documents/RobotNav2/install/map_build/share/ament_index/resource_index/packages
+[0.887s] copying resource/map_build -> /home/zerohzzzz/Documents/RobotNav2/install/map_build/share/ament_index/resource_index/packages
+[0.887s] copying package.xml -> /home/zerohzzzz/Documents/RobotNav2/install/map_build/share/map_build
+[0.887s] creating /home/zerohzzzz/Documents/RobotNav2/install/map_build/share/map_build/launch
+[0.888s] copying launch/all_launch.py -> /home/zerohzzzz/Documents/RobotNav2/install/map_build/share/map_build/launch
+[0.888s] copying launch/slam_launch.py -> /home/zerohzzzz/Documents/RobotNav2/install/map_build/share/map_build/launch
+[0.888s] copying launch/map_build.launch.py -> /home/zerohzzzz/Documents/RobotNav2/install/map_build/share/map_build/launch
+[0.888s] copying launch/gazebo_launch.py -> /home/zerohzzzz/Documents/RobotNav2/install/map_build/share/map_build/launch
+[0.888s] copying launch/save_launch.py -> /home/zerohzzzz/Documents/RobotNav2/install/map_build/share/map_build/launch
+[0.888s] creating /home/zerohzzzz/Documents/RobotNav2/install/map_build/share/map_build/config
+[0.888s] creating /home/zerohzzzz/Documents/RobotNav2/install/map_build/share/map_build/map
+[0.888s] creating /home/zerohzzzz/Documents/RobotNav2/install/map_build/share/map_build/urdf
+[0.888s] copying urdf/fishbot_base.urdf -> /home/zerohzzzz/Documents/RobotNav2/install/map_build/share/map_build/urdf
+[0.888s] creating /home/zerohzzzz/Documents/RobotNav2/install/map_build/share/map_build/worlds
+[0.888s] copying worlds/map1.world -> /home/zerohzzzz/Documents/RobotNav2/install/map_build/share/map_build/worlds
+[0.888s] running install_egg_info
+[0.891s] Copying ../../build/map_build/map_build.egg-info to /home/zerohzzzz/Documents/RobotNav2/install/map_build/lib/python3.10/site-packages/map_build-0.0.0-py3.10.egg-info
+[0.891s] running install_scripts
+[0.914s] writing list of installed files to '/home/zerohzzzz/Documents/RobotNav2/build/map_build/install.log'
+[0.941s] Invoked command in '/home/zerohzzzz/Documents/RobotNav2/src/map_build' returned '0': PYTHONPATH=/home/zerohzzzz/Documents/RobotNav2/build/map_build/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zerohzzzz/Documents/RobotNav2/install/map_build/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/map_build build --build-base /home/zerohzzzz/Documents/RobotNav2/build/map_build/build install --record /home/zerohzzzz/Documents/RobotNav2/build/map_build/install.log --single-version-externally-managed install_data

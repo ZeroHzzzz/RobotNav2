@@ -8,7 +8,11 @@ setup.py
 ../../build/map_build/map_build.egg-info/requires.txt
 ../../build/map_build/map_build.egg-info/top_level.txt
 ../../build/map_build/map_build.egg-info/zip-safe
-launch/map_building.launch.py
+launch/all_launch.py
+launch/gazebo_launch.py
+launch/map_launch.py
+launch/save_launch.py
+launch/slam_launch.py
 map_build/__init__.py
 resource/map_build
 test/test_copyright.py

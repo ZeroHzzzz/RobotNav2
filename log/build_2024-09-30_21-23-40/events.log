@@ -1,0 +1,171 @@
+[0.000000] (-) TimerEvent: {}
+[0.000197] (explore_lite) JobQueued: {'identifier': 'explore_lite', 'dependencies': OrderedDict()}
+[0.000258] (map_build) JobQueued: {'identifier': 'map_build', 'dependencies': OrderedDict()}
+[0.000287] (multirobot_map_merge) JobQueued: {'identifier': 'multirobot_map_merge', 'dependencies': OrderedDict()}
+[0.000310] (explore_lite) JobStarted: {'identifier': 'explore_lite'}
+[0.008290] (map_build) JobStarted: {'identifier': 'map_build'}
+[0.014513] (multirobot_map_merge) JobStarted: {'identifier': 'multirobot_map_merge'}
+[0.019826] (explore_lite) JobProgress: {'identifier': 'explore_lite', 'progress': 'cmake'}
+[0.019959] (explore_lite) Command: {'cmd': ['/usr/bin/cmake', '/home/zerohzzzz/Documents/RobotNav2/src/explore', '-DCMAKE_INSTALL_PREFIX=/home/zerohzzzz/Documents/RobotNav2/install/explore_lite'], 'cwd': '/home/zerohzzzz/Documents/RobotNav2/build/explore_lite', 'env': OrderedDict([('PROFILEHOME', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('KDE_FULL_SESSION', 'true'), ('LANGUAGE', 'zh_CN:en_US'), ('USER', 'zerohzzzz'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '990'), ('XDG_SESSION_TYPE', 'x11'), ('XCURSOR_SIZE', '24'), ('KONSOLE_VERSION', '211203'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zerohzzzz'), ('KDE_APPLICATIONS_AS_SCOPE', '1'), ('OLDPWD', '/home/zerohzzzz/Documents'), ('DESKTOP_SESSION', 'plasma'), ('ROS_PYTHON_VERSION', '3'), ('SHELL_SESSION_ID', 'e2e33c7cd9c14101962c311d0b398cad'), ('GTK_RC_FILES', '/etc/gtk/gtkrc:/home/zerohzzzz/.gtkrc:/home/zerohzzzz/.config/gtkrc'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('KDE_SESSION_VERSION', '5'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('KONSOLE_DBUS_SESSION', '/Sessions/1'), ('SYSTEMD_EXEC_PID', '920'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('KONSOLE_DBUS_WINDOW', '/Windows/1'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/zerohzzzz/Documents/RobotNav2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'zerohzzzz'), ('WINDOWID', '132120583'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('HOMEPAGE', 'https://www.atzlinux.com/'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_RC_FILES', '/etc/gtk-2.0/gtkrc:/home/zerohzzzz/.gtkrc-2.0:/home/zerohzzzz/.config/gtkrc-2.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/zerohzzzz-ThinkPad-E480:@/tmp/.ICE-unix/1118,unix/zerohzzzz-ThinkPad-E480:/tmp/.ICE-unix/1118'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XCURSOR_THEME', 'breeze_cursors'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'KDE'), ('XAUTHORITY', '/home/zerohzzzz/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXTcgvZK/agent.930'), ('AMENT_PREFIX_PATH', '/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('KONSOLE_DBUS_SERVICE', ':1.156'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('XDG_VTNR', '1'), ('JAVA_HOME', '/usr/lib/jvm/java-17-openjdk-amd64/bin/java'), ('PWD', '/home/zerohzzzz/Documents/RobotNav2/build/explore_lite'), ('XDG_CONFIG_DIRS', '/home/zerohzzzz/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zerohzzzz/Documents/RobotNav2/install/map_build/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('KDE_SESSION_UID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/humble')]), 'shell': False}
+[0.099175] (-) TimerEvent: {}
+[0.199517] (-) TimerEvent: {}
+[0.299862] (-) TimerEvent: {}
+[0.320332] (explore_lite) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.323223] (multirobot_map_merge) JobProgress: {'identifier': 'multirobot_map_merge', 'progress': 'cmake'}
+[0.324600] (multirobot_map_merge) Command: {'cmd': ['/usr/bin/cmake', '/home/zerohzzzz/Documents/RobotNav2/src/map_merge', '-DCMAKE_INSTALL_PREFIX=/home/zerohzzzz/Documents/RobotNav2/install/multirobot_map_merge'], 'cwd': '/home/zerohzzzz/Documents/RobotNav2/build/multirobot_map_merge', 'env': OrderedDict([('PROFILEHOME', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('KDE_FULL_SESSION', 'true'), ('LANGUAGE', 'zh_CN:en_US'), ('USER', 'zerohzzzz'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '990'), ('XDG_SESSION_TYPE', 'x11'), ('XCURSOR_SIZE', '24'), ('KONSOLE_VERSION', '211203'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zerohzzzz'), ('KDE_APPLICATIONS_AS_SCOPE', '1'), ('OLDPWD', '/home/zerohzzzz/Documents'), ('DESKTOP_SESSION', 'plasma'), ('ROS_PYTHON_VERSION', '3'), ('SHELL_SESSION_ID', 'e2e33c7cd9c14101962c311d0b398cad'), ('GTK_RC_FILES', '/etc/gtk/gtkrc:/home/zerohzzzz/.gtkrc:/home/zerohzzzz/.config/gtkrc'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('KDE_SESSION_VERSION', '5'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('KONSOLE_DBUS_SESSION', '/Sessions/1'), ('SYSTEMD_EXEC_PID', '920'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('KONSOLE_DBUS_WINDOW', '/Windows/1'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/zerohzzzz/Documents/RobotNav2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'zerohzzzz'), ('WINDOWID', '132120583'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('HOMEPAGE', 'https://www.atzlinux.com/'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_RC_FILES', '/etc/gtk-2.0/gtkrc:/home/zerohzzzz/.gtkrc-2.0:/home/zerohzzzz/.config/gtkrc-2.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/zerohzzzz-ThinkPad-E480:@/tmp/.ICE-unix/1118,unix/zerohzzzz-ThinkPad-E480:/tmp/.ICE-unix/1118'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XCURSOR_THEME', 'breeze_cursors'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'KDE'), ('XAUTHORITY', '/home/zerohzzzz/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXTcgvZK/agent.930'), ('AMENT_PREFIX_PATH', '/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('KONSOLE_DBUS_SERVICE', ':1.156'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('XDG_VTNR', '1'), ('JAVA_HOME', '/usr/lib/jvm/java-17-openjdk-amd64/bin/java'), ('PWD', '/home/zerohzzzz/Documents/RobotNav2/build/multirobot_map_merge'), ('XDG_CONFIG_DIRS', '/home/zerohzzzz/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zerohzzzz/Documents/RobotNav2/install/map_build/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('KDE_SESSION_UID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/humble')]), 'shell': False}
+[0.365227] (explore_lite) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.377396] (explore_lite) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.393898] (multirobot_map_merge) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.399949] (-) TimerEvent: {}
+[0.465640] (multirobot_map_merge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.466429] (explore_lite) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.475201] (explore_lite) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.475723] (explore_lite) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.476526] (explore_lite) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.477846] (multirobot_map_merge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.480810] (explore_lite) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500086] (-) TimerEvent: {}
+[0.562029] (multirobot_map_merge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.571188] (multirobot_map_merge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.571517] (multirobot_map_merge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.572009] (multirobot_map_merge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.575530] (multirobot_map_merge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.579268] (explore_lite) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.588536] (explore_lite) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.588977] (explore_lite) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.589646] (explore_lite) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.590564] (explore_lite) StdoutLine: {'line': b'-- BuilD for ROS2: humble\n'}
+[0.600215] (-) TimerEvent: {}
+[0.603203] (explore_lite) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.694526] (multirobot_map_merge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.700560] (-) TimerEvent: {}
+[0.708504] (multirobot_map_merge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.711069] (multirobot_map_merge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.711358] (multirobot_map_merge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.715632] (multirobot_map_merge) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.800703] (-) TimerEvent: {}
+[0.815024] (map_build) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/map_build', 'build', '--build-base', '/home/zerohzzzz/Documents/RobotNav2/build/map_build/build', 'install', '--record', '/home/zerohzzzz/Documents/RobotNav2/build/map_build/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/zerohzzzz/Documents/RobotNav2/src/map_build', 'env': {'PROFILEHOME': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'LANGUAGE': 'zh_CN:en_US', 'USER': 'zerohzzzz', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '990', 'XDG_SESSION_TYPE': 'x11', 'XCURSOR_SIZE': '24', 'KONSOLE_VERSION': '211203', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/zerohzzzz', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'OLDPWD': '/home/zerohzzzz/Documents', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'SHELL_SESSION_ID': 'e2e33c7cd9c14101962c311d0b398cad', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/zerohzzzz/.gtkrc:/home/zerohzzzz/.config/gtkrc', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'KDE_SESSION_VERSION': '5', 'LC_MONETARY': 'zh_CN.UTF-8', 'KONSOLE_DBUS_SESSION': '/Sessions/1', 'SYSTEMD_EXEC_PID': '920', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'KONSOLE_DBUS_WINDOW': '/Windows/1', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/zerohzzzz/Documents/RobotNav2/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'zerohzzzz', 'WINDOWID': '132120583', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'COLORFGBG': '15;0', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'HOMEPAGE': 'https://www.atzlinux.com/', 'ROS_LOCALHOST_ONLY': '0', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/zerohzzzz/.gtkrc-2.0:/home/zerohzzzz/.config/gtkrc-2.0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/zerohzzzz-ThinkPad-E480:@/tmp/.ICE-unix/1118,unix/zerohzzzz-ThinkPad-E480:/tmp/.ICE-unix/1118', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'breeze_cursors', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/home/zerohzzzz/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXXTcgvZK/agent.930', 'AMENT_PREFIX_PATH': '/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'KONSOLE_DBUS_SERVICE': ':1.156', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'QT_IM_MODULE': 'fcitx', 'XDG_VTNR': '1', 'JAVA_HOME': '/usr/lib/jvm/java-17-openjdk-amd64/bin/java', 'PWD': '/home/zerohzzzz/Documents/RobotNav2/build/map_build', 'XDG_CONFIG_DIRS': '/home/zerohzzzz/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/zerohzzzz/Documents/RobotNav2/build/map_build/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zerohzzzz/Documents/RobotNav2/install/map_build/lib/python3.10/site-packages:/home/zerohzzzz/Documents/RobotNav2/install/map_build/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'KDE_SESSION_UID': '1000', 'COLCON': '1'}, 'shell': False}
+[0.852278] (explore_lite) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.900792] (-) TimerEvent: {}
+[0.957868] (multirobot_map_merge) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.000927] (-) TimerEvent: {}
+[1.022542] (explore_lite) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.066579] (multirobot_map_merge) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.094133] (explore_lite) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.101048] (-) TimerEvent: {}
+[1.101751] (explore_lite) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.112483] (multirobot_map_merge) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.115695] (explore_lite) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.118518] (multirobot_map_merge) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.128303] (map_build) StdoutLine: {'line': b'running egg_info\n'}
+[1.129163] (map_build) StdoutLine: {'line': b'writing ../../build/map_build/map_build.egg-info/PKG-INFO\n'}
+[1.129416] (map_build) StdoutLine: {'line': b'writing dependency_links to ../../build/map_build/map_build.egg-info/dependency_links.txt\n'}
+[1.129659] (map_build) StdoutLine: {'line': b'writing entry points to ../../build/map_build/map_build.egg-info/entry_points.txt\n'}
+[1.129842] (map_build) StdoutLine: {'line': b'writing requirements to ../../build/map_build/map_build.egg-info/requires.txt\n'}
+[1.130036] (map_build) StdoutLine: {'line': b'writing top-level names to ../../build/map_build/map_build.egg-info/top_level.txt\n'}
+[1.131276] (multirobot_map_merge) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.134269] (map_build) StdoutLine: {'line': b"reading manifest file '../../build/map_build/map_build.egg-info/SOURCES.txt'\n"}
+[1.135577] (map_build) StdoutLine: {'line': b"writing manifest file '../../build/map_build/map_build.egg-info/SOURCES.txt'\n"}
+[1.135794] (map_build) StdoutLine: {'line': b'running build\n'}
+[1.135870] (map_build) StdoutLine: {'line': b'running build_py\n'}
+[1.136123] (map_build) StdoutLine: {'line': b'running install\n'}
+[1.136477] (map_build) StdoutLine: {'line': b'running install_lib\n'}
+[1.138192] (map_build) StdoutLine: {'line': b'running install_data\n'}
+[1.138909] (map_build) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.144186] (map_build) StdoutLine: {'line': b"removing '/home/zerohzzzz/Documents/RobotNav2/install/map_build/lib/python3.10/site-packages/map_build-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.144975] (map_build) StdoutLine: {'line': b'Copying ../../build/map_build/map_build.egg-info to /home/zerohzzzz/Documents/RobotNav2/install/map_build/lib/python3.10/site-packages/map_build-0.0.0-py3.10.egg-info\n'}
+[1.145189] (explore_lite) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.146241] (map_build) StdoutLine: {'line': b'running install_scripts\n'}
+[1.153436] (multirobot_map_merge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.172417] (explore_lite) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.172870] (map_build) StdoutLine: {'line': b"writing list of installed files to '/home/zerohzzzz/Documents/RobotNav2/build/map_build/install.log'\n"}
+[1.173117] (multirobot_map_merge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.200930] (map_build) CommandEnded: {'returncode': 0}
+[1.201579] (-) TimerEvent: {}
+[1.226812] (map_build) JobEnded: {'identifier': 'map_build', 'rc': 0}
+[1.253459] (explore_lite) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.253769] (multirobot_map_merge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.257631] (multirobot_map_merge) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.257753] (explore_lite) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.301730] (-) TimerEvent: {}
+[1.402211] (-) TimerEvent: {}
+[1.500557] (explore_lite) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.501303] (multirobot_map_merge) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.502389] (-) TimerEvent: {}
+[1.559714] (explore_lite) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.560033] (multirobot_map_merge) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.602495] (-) TimerEvent: {}
+[1.605083] (explore_lite) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.605290] (multirobot_map_merge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.618562] (explore_lite) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.618754] (multirobot_map_merge) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.702603] (-) TimerEvent: {}
+[1.711279] (explore_lite) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.711477] (multirobot_map_merge) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.712171] (explore_lite) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.712309] (multirobot_map_merge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.802721] (-) TimerEvent: {}
+[1.803032] (multirobot_map_merge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.803192] (explore_lite) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.804718] (explore_lite) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.804863] (multirobot_map_merge) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.899015] (multirobot_map_merge) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.900176] (explore_lite) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.902811] (-) TimerEvent: {}
+[1.930543] (multirobot_map_merge) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:22 (find_package):\n'}
+[1.930735] (multirobot_map_merge) StderrLine: {'line': b'  By not providing "Findimage_geometry.cmake" in CMAKE_MODULE_PATH this\n'}
+[1.930810] (multirobot_map_merge) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[1.930884] (multirobot_map_merge) StderrLine: {'line': b'  "image_geometry", but CMake did not find one.\n'}
+[1.930944] (multirobot_map_merge) StderrLine: {'line': b'\n'}
+[1.931004] (multirobot_map_merge) StderrLine: {'line': b'  Could not find a package configuration file provided by "image_geometry"\n'}
+[1.931062] (multirobot_map_merge) StderrLine: {'line': b'  with any of the following names:\n'}
+[1.931119] (multirobot_map_merge) StderrLine: {'line': b'\n'}
+[1.931174] (multirobot_map_merge) StderrLine: {'line': b'    image_geometryConfig.cmake\n'}
+[1.931229] (multirobot_map_merge) StderrLine: {'line': b'    image_geometry-config.cmake\n'}
+[1.931306] (multirobot_map_merge) StderrLine: {'line': b'\n'}
+[1.931364] (multirobot_map_merge) StderrLine: {'line': b'  Add the installation prefix of "image_geometry" to CMAKE_PREFIX_PATH or set\n'}
+[1.931419] (multirobot_map_merge) StderrLine: {'line': b'  "image_geometry_DIR" to a directory containing one of the above files.  If\n'}
+[1.931473] (multirobot_map_merge) StderrLine: {'line': b'  "image_geometry" provides a separate development package or SDK, be sure it\n'}
+[1.931534] (multirobot_map_merge) StderrLine: {'line': b'  has been installed.\n'}
+[1.931587] (multirobot_map_merge) StderrLine: {'line': b'\n'}
+[1.931650] (multirobot_map_merge) StderrLine: {'line': b'\x1b[0m\n'}
+[1.931705] (multirobot_map_merge) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.931792] (multirobot_map_merge) StdoutLine: {'line': b'See also "/home/zerohzzzz/Documents/RobotNav2/build/multirobot_map_merge/CMakeFiles/CMakeOutput.log".\n'}
+[1.940848] (multirobot_map_merge) CommandEnded: {'returncode': 1}
+[1.946820] (explore_lite) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.960536] (multirobot_map_merge) JobEnded: {'identifier': 'multirobot_map_merge', 'rc': 1}
+[2.002963] (-) TimerEvent: {}
+[2.103279] (-) TimerEvent: {}
+[2.125717] (explore_lite) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[2.149485] (explore_lite) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.151455] (explore_lite) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.151697] (explore_lite) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.156339] (explore_lite) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.16 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[2.203352] (-) TimerEvent: {}
+[2.229538] (explore_lite) StdoutLine: {'line': b'-- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)\n'}
+[2.265312] (explore_lite) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[2.303480] (explore_lite) StdoutLine: {'line': b'-- Found nav2_costmap_2d: 1.1.16 (/opt/ros/humble/share/nav2_costmap_2d/cmake)\n'}
+[2.303649] (-) TimerEvent: {}
+[2.403897] (-) TimerEvent: {}
+[2.504223] (-) TimerEvent: {}
+[2.507256] (explore_lite) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.604449] (-) TimerEvent: {}
+[2.629569] (explore_lite) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[2.637076] (explore_lite) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[2.655944] (explore_lite) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.656421] (explore_lite) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/zerohzzzz/Documents/RobotNav2/src/explore/include;$<BUILD_INTERFACE:/home/zerohzzzz/Documents/RobotNav2/src/explore/include>\n'}
+[2.656528] (explore_lite) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.657320] (explore_lite) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.658322] (explore_lite) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.659155] (explore_lite) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.661146] (explore_lite) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.661269] (explore_lite) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.662002] (explore_lite) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.664785] (explore_lite) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.704729] (-) TimerEvent: {}
+[2.805408] (-) TimerEvent: {}
+[2.906490] (-) TimerEvent: {}
+[2.910508] (explore_lite) StdoutLine: {'line': b'-- Generating done\n'}
+[2.913189] (explore_lite) StdoutLine: {'line': b'-- Build files have been written to: /home/zerohzzzz/Documents/RobotNav2/build/explore_lite\n'}
+[2.934320] (explore_lite) JobEnded: {'identifier': 'explore_lite', 'rc': 'SIGINT'}
+[2.945740] (-) EventReactorShutdown: {}

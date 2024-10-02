@@ -1,0 +1,22 @@
+[1.079s] Invoking command in '/home/zerohzzzz/Documents/RobotNav2/src/map_build': PYTHONPATH=/home/zerohzzzz/Documents/RobotNav2/build/map_build/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zerohzzzz/Documents/RobotNav2/install/map_build/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/map_build build --build-base /home/zerohzzzz/Documents/RobotNav2/build/map_build/build install --record /home/zerohzzzz/Documents/RobotNav2/build/map_build/install.log --single-version-externally-managed install_data
+[1.406s] running egg_info
+[1.407s] writing ../../build/map_build/map_build.egg-info/PKG-INFO
+[1.407s] writing dependency_links to ../../build/map_build/map_build.egg-info/dependency_links.txt
+[1.407s] writing entry points to ../../build/map_build/map_build.egg-info/entry_points.txt
+[1.408s] writing requirements to ../../build/map_build/map_build.egg-info/requires.txt
+[1.408s] writing top-level names to ../../build/map_build/map_build.egg-info/top_level.txt
+[1.411s] reading manifest file '../../build/map_build/map_build.egg-info/SOURCES.txt'
+[1.412s] writing manifest file '../../build/map_build/map_build.egg-info/SOURCES.txt'
+[1.412s] running build
+[1.413s] running build_py
+[1.413s] running install
+[1.414s] running install_lib
+[1.416s] running install_data
+[1.416s] copying launch/nav.launch.py -> /home/zerohzzzz/Documents/RobotNav2/install/map_build/share/map_build/launch
+[1.416s] copying config/nav.yaml -> /home/zerohzzzz/Documents/RobotNav2/install/map_build/share/map_build/config
+[1.417s] running install_egg_info
+[1.421s] removing '/home/zerohzzzz/Documents/RobotNav2/install/map_build/lib/python3.10/site-packages/map_build-0.0.0-py3.10.egg-info' (and everything under it)
+[1.421s] Copying ../../build/map_build/map_build.egg-info to /home/zerohzzzz/Documents/RobotNav2/install/map_build/lib/python3.10/site-packages/map_build-0.0.0-py3.10.egg-info
+[1.423s] running install_scripts
+[1.459s] writing list of installed files to '/home/zerohzzzz/Documents/RobotNav2/build/map_build/install.log'
+[1.501s] Invoked command in '/home/zerohzzzz/Documents/RobotNav2/src/map_build' returned '0': PYTHONPATH=/home/zerohzzzz/Documents/RobotNav2/build/map_build/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zerohzzzz/Documents/RobotNav2/install/map_build/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/map_build build --build-base /home/zerohzzzz/Documents/RobotNav2/build/map_build/build install --record /home/zerohzzzz/Documents/RobotNav2/build/map_build/install.log --single-version-externally-managed install_data

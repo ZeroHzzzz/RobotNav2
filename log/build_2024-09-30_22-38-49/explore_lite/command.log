@@ -1,0 +1,1 @@
+Invoking command in '/home/zerohzzzz/Documents/RobotNav2/build/explore_lite': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zerohzzzz/Documents/RobotNav2/build/explore_lite -- -j8 -l8

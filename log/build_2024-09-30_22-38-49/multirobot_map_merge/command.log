@@ -1,0 +1,2 @@
+Invoking command in '/home/zerohzzzz/Documents/RobotNav2/build/multirobot_map_merge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zerohzzzz/Documents/RobotNav2/src/map_merge -DCMAKE_INSTALL_PREFIX=/home/zerohzzzz/Documents/RobotNav2/install/multirobot_map_merge
+Invoked command in '/home/zerohzzzz/Documents/RobotNav2/build/multirobot_map_merge' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zerohzzzz/Documents/RobotNav2/src/map_merge -DCMAKE_INSTALL_PREFIX=/home/zerohzzzz/Documents/RobotNav2/install/multirobot_map_merge

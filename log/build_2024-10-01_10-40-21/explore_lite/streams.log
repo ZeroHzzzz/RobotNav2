@@ -1,0 +1,36 @@
+[0.072s] Invoking command in '/home/zerohzzzz/Documents/RobotNav2/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/humble /usr/bin/cmake --build /home/zerohzzzz/Documents/RobotNav2/build/explore_lite -- -j8 -l8
+[1.007s] [ 40%] Built target gtest
+[1.008s] [ 40%] Built target gtest_main
+[1.008s] [ 80%] Built target explore
+[1.010s] [100%] Built target test_explore
+[1.012s] Invoked command in '/home/zerohzzzz/Documents/RobotNav2/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/humble /usr/bin/cmake --build /home/zerohzzzz/Documents/RobotNav2/build/explore_lite -- -j8 -l8
+[1.184s] Invoking command in '/home/zerohzzzz/Documents/RobotNav2/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/humble /usr/bin/cmake --install /home/zerohzzzz/Documents/RobotNav2/build/explore_lite
+[1.216s] -- Install configuration: ""
+[1.216s] -- Up-to-date: /home/zerohzzzz/Documents/RobotNav2/install/explore_lite/include/explore/
+[1.217s] -- Up-to-date: /home/zerohzzzz/Documents/RobotNav2/install/explore_lite/include/explore//costmap_tools.h
+[1.218s] -- Up-to-date: /home/zerohzzzz/Documents/RobotNav2/install/explore_lite/include/explore//costmap_client.h
+[1.218s] -- Up-to-date: /home/zerohzzzz/Documents/RobotNav2/install/explore_lite/include/explore//explore.h
+[1.218s] -- Up-to-date: /home/zerohzzzz/Documents/RobotNav2/install/explore_lite/include/explore//frontier_search.h
+[1.219s] -- Up-to-date: /home/zerohzzzz/Documents/RobotNav2/install/explore_lite/share/explore_lite/config
+[1.219s] -- Up-to-date: /home/zerohzzzz/Documents/RobotNav2/install/explore_lite/share/explore_lite/config/params.yaml
+[1.219s] -- Up-to-date: /home/zerohzzzz/Documents/RobotNav2/install/explore_lite/share/explore_lite/config/params_costmap.yaml
+[1.219s] -- Up-to-date: /home/zerohzzzz/Documents/RobotNav2/install/explore_lite/share/explore_lite/launch
+[1.220s] -- Up-to-date: /home/zerohzzzz/Documents/RobotNav2/install/explore_lite/share/explore_lite/launch/explore.launch.py
+[1.221s] -- Up-to-date: /home/zerohzzzz/Documents/RobotNav2/install/explore_lite/lib/explore_lite/explore
+[1.223s] -- Up-to-date: /home/zerohzzzz/Documents/RobotNav2/install/explore_lite/share/ament_index/resource_index/package_run_dependencies/explore_lite
+[1.224s] -- Up-to-date: /home/zerohzzzz/Documents/RobotNav2/install/explore_lite/share/ament_index/resource_index/parent_prefix_path/explore_lite
+[1.225s] -- Up-to-date: /home/zerohzzzz/Documents/RobotNav2/install/explore_lite/share/explore_lite/environment/ament_prefix_path.sh
+[1.226s] -- Up-to-date: /home/zerohzzzz/Documents/RobotNav2/install/explore_lite/share/explore_lite/environment/ament_prefix_path.dsv
+[1.227s] -- Up-to-date: /home/zerohzzzz/Documents/RobotNav2/install/explore_lite/share/explore_lite/environment/path.sh
+[1.228s] -- Up-to-date: /home/zerohzzzz/Documents/RobotNav2/install/explore_lite/share/explore_lite/environment/path.dsv
+[1.228s] -- Up-to-date: /home/zerohzzzz/Documents/RobotNav2/install/explore_lite/share/explore_lite/local_setup.bash
+[1.229s] -- Up-to-date: /home/zerohzzzz/Documents/RobotNav2/install/explore_lite/share/explore_lite/local_setup.sh
+[1.230s] -- Up-to-date: /home/zerohzzzz/Documents/RobotNav2/install/explore_lite/share/explore_lite/local_setup.zsh
+[1.230s] -- Up-to-date: /home/zerohzzzz/Documents/RobotNav2/install/explore_lite/share/explore_lite/local_setup.dsv
+[1.231s] -- Installing: /home/zerohzzzz/Documents/RobotNav2/install/explore_lite/share/explore_lite/package.dsv
+[1.232s] -- Up-to-date: /home/zerohzzzz/Documents/RobotNav2/install/explore_lite/share/ament_index/resource_index/packages/explore_lite
+[1.232s] -- Up-to-date: /home/zerohzzzz/Documents/RobotNav2/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.233s] -- Up-to-date: /home/zerohzzzz/Documents/RobotNav2/install/explore_lite/share/explore_lite/cmake/explore_liteConfig.cmake
+[1.234s] -- Up-to-date: /home/zerohzzzz/Documents/RobotNav2/install/explore_lite/share/explore_lite/cmake/explore_liteConfig-version.cmake
+[1.234s] -- Up-to-date: /home/zerohzzzz/Documents/RobotNav2/install/explore_lite/share/explore_lite/package.xml
+[1.240s] Invoked command in '/home/zerohzzzz/Documents/RobotNav2/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/humble /usr/bin/cmake --install /home/zerohzzzz/Documents/RobotNav2/build/explore_lite

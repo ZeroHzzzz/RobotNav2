@@ -1,0 +1,395 @@
+[0.000000] (-) TimerEvent: {}
+[0.000316] (explore_lite) JobQueued: {'identifier': 'explore_lite', 'dependencies': OrderedDict()}
+[0.000373] (map_build) JobQueued: {'identifier': 'map_build', 'dependencies': OrderedDict()}
+[0.000405] (multirobot_map_merge) JobQueued: {'identifier': 'multirobot_map_merge', 'dependencies': OrderedDict()}
+[0.000426] (explore_lite) JobStarted: {'identifier': 'explore_lite'}
+[0.007408] (map_build) JobStarted: {'identifier': 'map_build'}
+[0.013235] (multirobot_map_merge) JobStarted: {'identifier': 'multirobot_map_merge'}
+[0.017267] (explore_lite) JobProgress: {'identifier': 'explore_lite', 'progress': 'cmake'}
+[0.018608] (explore_lite) JobProgress: {'identifier': 'explore_lite', 'progress': 'build'}
+[0.019528] (explore_lite) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zerohzzzz/Documents/RobotNav2/build/explore_lite', '--', '-j8', '-l8'], 'cwd': '/home/zerohzzzz/Documents/RobotNav2/build/explore_lite', 'env': OrderedDict([('PROFILEHOME', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('KDE_FULL_SESSION', 'true'), ('LANGUAGE', 'zh_CN:en_US'), ('USER', 'zerohzzzz'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '990'), ('XDG_SESSION_TYPE', 'x11'), ('XCURSOR_SIZE', '24'), ('KONSOLE_VERSION', '211203'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zerohzzzz'), ('KDE_APPLICATIONS_AS_SCOPE', '1'), ('OLDPWD', '/home/zerohzzzz/Documents/RobotNav2/src'), ('DESKTOP_SESSION', 'plasma'), ('ROS_PYTHON_VERSION', '3'), ('SHELL_SESSION_ID', 'd3c57239e42f4df6bf562803d1553981'), ('GTK_RC_FILES', '/etc/gtk/gtkrc:/home/zerohzzzz/.gtkrc:/home/zerohzzzz/.config/gtkrc'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('KDE_SESSION_VERSION', '5'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('KONSOLE_DBUS_SESSION', '/Sessions/1'), ('SYSTEMD_EXEC_PID', '920'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('KONSOLE_DBUS_WINDOW', '/Windows/1'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'zerohzzzz'), ('WINDOWID', '148897799'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('HOMEPAGE', 'https://www.atzlinux.com/'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_RC_FILES', '/etc/gtk-2.0/gtkrc:/home/zerohzzzz/.gtkrc-2.0:/home/zerohzzzz/.config/gtkrc-2.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/zerohzzzz-ThinkPad-E480:@/tmp/.ICE-unix/1118,unix/zerohzzzz-ThinkPad-E480:/tmp/.ICE-unix/1118'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XCURSOR_THEME', 'breeze_cursors'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'KDE'), ('XAUTHORITY', '/home/zerohzzzz/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXTcgvZK/agent.930'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('KONSOLE_DBUS_SERVICE', ':1.534'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('XDG_VTNR', '1'), ('JAVA_HOME', '/usr/lib/jvm/java-17-openjdk-amd64/bin/java'), ('PWD', '/home/zerohzzzz/Documents/RobotNav2/build/explore_lite'), ('XDG_CONFIG_DIRS', '/home/zerohzzzz/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('KDE_SESSION_UID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099331] (-) TimerEvent: {}
+[0.199758] (-) TimerEvent: {}
+[0.300085] (-) TimerEvent: {}
+[0.404288] (-) TimerEvent: {}
+[0.504768] (-) TimerEvent: {}
+[0.583200] (explore_lite) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[0.585116] (explore_lite) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[0.585555] (explore_lite) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/explore.dir/src/costmap_client.cpp.o\x1b[0m\n'}
+[0.585781] (explore_lite) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/explore.dir/src/explore.cpp.o\x1b[0m\n'}
+[0.586251] (explore_lite) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/explore.dir/src/frontier_search.cpp.o\x1b[0m\n'}
+[0.586565] (multirobot_map_merge) JobProgress: {'identifier': 'multirobot_map_merge', 'progress': 'cmake'}
+[0.587255] (multirobot_map_merge) Command: {'cmd': ['/usr/bin/cmake', '/home/zerohzzzz/Documents/RobotNav2/src/map_merge', '-DCMAKE_INSTALL_PREFIX=/home/zerohzzzz/Documents/RobotNav2/install/multirobot_map_merge'], 'cwd': '/home/zerohzzzz/Documents/RobotNav2/build/multirobot_map_merge', 'env': OrderedDict([('PROFILEHOME', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('KDE_FULL_SESSION', 'true'), ('LANGUAGE', 'zh_CN:en_US'), ('USER', 'zerohzzzz'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '990'), ('XDG_SESSION_TYPE', 'x11'), ('XCURSOR_SIZE', '24'), ('KONSOLE_VERSION', '211203'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zerohzzzz'), ('KDE_APPLICATIONS_AS_SCOPE', '1'), ('OLDPWD', '/home/zerohzzzz/Documents/RobotNav2/src'), ('DESKTOP_SESSION', 'plasma'), ('ROS_PYTHON_VERSION', '3'), ('SHELL_SESSION_ID', 'd3c57239e42f4df6bf562803d1553981'), ('GTK_RC_FILES', '/etc/gtk/gtkrc:/home/zerohzzzz/.gtkrc:/home/zerohzzzz/.config/gtkrc'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('KDE_SESSION_VERSION', '5'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('KONSOLE_DBUS_SESSION', '/Sessions/1'), ('SYSTEMD_EXEC_PID', '920'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('KONSOLE_DBUS_WINDOW', '/Windows/1'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'zerohzzzz'), ('WINDOWID', '148897799'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('HOMEPAGE', 'https://www.atzlinux.com/'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_RC_FILES', '/etc/gtk-2.0/gtkrc:/home/zerohzzzz/.gtkrc-2.0:/home/zerohzzzz/.config/gtkrc-2.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/zerohzzzz-ThinkPad-E480:@/tmp/.ICE-unix/1118,unix/zerohzzzz-ThinkPad-E480:/tmp/.ICE-unix/1118'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XCURSOR_THEME', 'breeze_cursors'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'KDE'), ('XAUTHORITY', '/home/zerohzzzz/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXTcgvZK/agent.930'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('KONSOLE_DBUS_SERVICE', ':1.534'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('XDG_VTNR', '1'), ('JAVA_HOME', '/usr/lib/jvm/java-17-openjdk-amd64/bin/java'), ('PWD', '/home/zerohzzzz/Documents/RobotNav2/build/multirobot_map_merge'), ('XDG_CONFIG_DIRS', '/home/zerohzzzz/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('KDE_SESSION_UID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.605253] (-) TimerEvent: {}
+[0.620080] (multirobot_map_merge) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.705411] (-) TimerEvent: {}
+[0.805970] (-) TimerEvent: {}
+[0.906530] (-) TimerEvent: {}
+[1.006840] (-) TimerEvent: {}
+[1.059468] (multirobot_map_merge) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.107004] (-) TimerEvent: {}
+[1.149571] (multirobot_map_merge) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.157748] (multirobot_map_merge) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.175483] (multirobot_map_merge) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.202584] (multirobot_map_merge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.207142] (-) TimerEvent: {}
+[1.246276] (multirobot_map_merge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.307295] (-) TimerEvent: {}
+[1.346918] (multirobot_map_merge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.351994] (multirobot_map_merge) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.407476] (-) TimerEvent: {}
+[1.508008] (-) TimerEvent: {}
+[1.595055] (map_build) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/map_build', 'build', '--build-base', '/home/zerohzzzz/Documents/RobotNav2/build/map_build/build', 'install', '--record', '/home/zerohzzzz/Documents/RobotNav2/build/map_build/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/zerohzzzz/Documents/RobotNav2/src/map_build', 'env': {'PROFILEHOME': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'LANGUAGE': 'zh_CN:en_US', 'USER': 'zerohzzzz', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '990', 'XDG_SESSION_TYPE': 'x11', 'XCURSOR_SIZE': '24', 'KONSOLE_VERSION': '211203', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/zerohzzzz', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'OLDPWD': '/home/zerohzzzz/Documents/RobotNav2/src', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'SHELL_SESSION_ID': 'd3c57239e42f4df6bf562803d1553981', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/zerohzzzz/.gtkrc:/home/zerohzzzz/.config/gtkrc', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'KDE_SESSION_VERSION': '5', 'LC_MONETARY': 'zh_CN.UTF-8', 'KONSOLE_DBUS_SESSION': '/Sessions/1', 'SYSTEMD_EXEC_PID': '920', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'KONSOLE_DBUS_WINDOW': '/Windows/1', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'zerohzzzz', 'WINDOWID': '148897799', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'COLORFGBG': '15;0', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'HOMEPAGE': 'https://www.atzlinux.com/', 'ROS_LOCALHOST_ONLY': '0', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/zerohzzzz/.gtkrc-2.0:/home/zerohzzzz/.config/gtkrc-2.0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/zerohzzzz-ThinkPad-E480:@/tmp/.ICE-unix/1118,unix/zerohzzzz-ThinkPad-E480:/tmp/.ICE-unix/1118', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'breeze_cursors', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/home/zerohzzzz/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXXTcgvZK/agent.930', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'KONSOLE_DBUS_SERVICE': ':1.534', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'QT_IM_MODULE': 'fcitx', 'XDG_VTNR': '1', 'JAVA_HOME': '/usr/lib/jvm/java-17-openjdk-amd64/bin/java', 'PWD': '/home/zerohzzzz/Documents/RobotNav2/build/map_build', 'XDG_CONFIG_DIRS': '/home/zerohzzzz/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/zerohzzzz/Documents/RobotNav2/build/map_build/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zerohzzzz/Documents/RobotNav2/install/map_build/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'KDE_SESSION_UID': '1000', 'COLCON': '1'}, 'shell': False}
+[1.608179] (-) TimerEvent: {}
+[1.711442] (-) TimerEvent: {}
+[1.725492] (explore_lite) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[1.815463] (-) TimerEvent: {}
+[1.819880] (multirobot_map_merge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.820410] (explore_lite) StdoutLine: {'line': b'[ 60%] Built target gtest_main\n'}
+[1.915597] (-) TimerEvent: {}
+[2.014443] (multirobot_map_merge) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.015707] (-) TimerEvent: {}
+[2.090478] (multirobot_map_merge) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:22 (find_package):\n'}
+[2.090875] (multirobot_map_merge) StderrLine: {'line': b'  By not providing "Findimage_geometry.cmake" in CMAKE_MODULE_PATH this\n'}
+[2.091100] (multirobot_map_merge) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[2.091287] (multirobot_map_merge) StderrLine: {'line': b'  "image_geometry", but CMake did not find one.\n'}
+[2.091487] (multirobot_map_merge) StderrLine: {'line': b'\n'}
+[2.091655] (multirobot_map_merge) StderrLine: {'line': b'  Could not find a package configuration file provided by "image_geometry"\n'}
+[2.091849] (multirobot_map_merge) StderrLine: {'line': b'  with any of the following names:\n'}
+[2.092124] (multirobot_map_merge) StderrLine: {'line': b'\n'}
+[2.092289] (multirobot_map_merge) StderrLine: {'line': b'    image_geometryConfig.cmake\n'}
+[2.092491] (multirobot_map_merge) StderrLine: {'line': b'    image_geometry-config.cmake\n'}
+[2.092653] (multirobot_map_merge) StderrLine: {'line': b'\n'}
+[2.092818] (multirobot_map_merge) StderrLine: {'line': b'  Add the installation prefix of "image_geometry" to CMAKE_PREFIX_PATH or set\n'}
+[2.092976] (multirobot_map_merge) StderrLine: {'line': b'  "image_geometry_DIR" to a directory containing one of the above files.  If\n'}
+[2.093149] (multirobot_map_merge) StderrLine: {'line': b'  "image_geometry" provides a separate development package or SDK, be sure it\n'}
+[2.093309] (multirobot_map_merge) StderrLine: {'line': b'  has been installed.\n'}
+[2.093631] (multirobot_map_merge) StderrLine: {'line': b'\n'}
+[2.093809] (multirobot_map_merge) StderrLine: {'line': b'\x1b[0m\n'}
+[2.094147] (multirobot_map_merge) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.094338] (multirobot_map_merge) StdoutLine: {'line': b'See also "/home/zerohzzzz/Documents/RobotNav2/build/multirobot_map_merge/CMakeFiles/CMakeOutput.log".\n'}
+[2.111370] (multirobot_map_merge) CommandEnded: {'returncode': 1}
+[2.115832] (-) TimerEvent: {}
+[2.177514] (multirobot_map_merge) JobEnded: {'identifier': 'multirobot_map_merge', 'rc': 1}
+[2.216105] (-) TimerEvent: {}
+[2.292958] (map_build) StdoutLine: {'line': b'running egg_info\n'}
+[2.294752] (map_build) StdoutLine: {'line': b'writing ../../build/map_build/map_build.egg-info/PKG-INFO\n'}
+[2.300179] (map_build) StdoutLine: {'line': b'writing dependency_links to ../../build/map_build/map_build.egg-info/dependency_links.txt\n'}
+[2.300644] (map_build) StdoutLine: {'line': b'writing entry points to ../../build/map_build/map_build.egg-info/entry_points.txt\n'}
+[2.300909] (map_build) StdoutLine: {'line': b'writing requirements to ../../build/map_build/map_build.egg-info/requires.txt\n'}
+[2.301195] (map_build) StdoutLine: {'line': b'writing top-level names to ../../build/map_build/map_build.egg-info/top_level.txt\n'}
+[2.305113] (map_build) StdoutLine: {'line': b"reading manifest file '../../build/map_build/map_build.egg-info/SOURCES.txt'\n"}
+[2.307669] (map_build) StdoutLine: {'line': b"writing manifest file '../../build/map_build/map_build.egg-info/SOURCES.txt'\n"}
+[2.307975] (map_build) StdoutLine: {'line': b'running build\n'}
+[2.308085] (map_build) StdoutLine: {'line': b'running build_py\n'}
+[2.308720] (map_build) StdoutLine: {'line': b'running install\n'}
+[2.309462] (map_build) StdoutLine: {'line': b'running install_lib\n'}
+[2.312617] (map_build) StdoutLine: {'line': b'running install_data\n'}
+[2.313464] (map_build) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.316186] (-) TimerEvent: {}
+[2.317587] (map_build) StdoutLine: {'line': b"removing '/home/zerohzzzz/Documents/RobotNav2/install/map_build/lib/python3.10/site-packages/map_build-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.321737] (map_build) StdoutLine: {'line': b'Copying ../../build/map_build/map_build.egg-info to /home/zerohzzzz/Documents/RobotNav2/install/map_build/lib/python3.10/site-packages/map_build-0.0.0-py3.10.egg-info\n'}
+[2.323775] (map_build) StdoutLine: {'line': b'running install_scripts\n'}
+[2.384414] (map_build) StdoutLine: {'line': b"writing list of installed files to '/home/zerohzzzz/Documents/RobotNav2/build/map_build/install.log'\n"}
+[2.416403] (-) TimerEvent: {}
+[2.465677] (map_build) JobEnded: {'identifier': 'map_build', 'rc': 'SIGINT'}
+[2.516538] (-) TimerEvent: {}
+[2.617102] (-) TimerEvent: {}
+[2.717630] (-) TimerEvent: {}
+[2.818046] (-) TimerEvent: {}
+[2.919368] (-) TimerEvent: {}
+[3.019864] (-) TimerEvent: {}
+[3.120361] (-) TimerEvent: {}
+[3.220758] (-) TimerEvent: {}
+[3.321155] (-) TimerEvent: {}
+[3.421650] (-) TimerEvent: {}
+[3.522228] (-) TimerEvent: {}
+[3.622806] (-) TimerEvent: {}
+[3.723337] (-) TimerEvent: {}
+[3.824079] (-) TimerEvent: {}
+[3.924478] (-) TimerEvent: {}
+[4.024907] (-) TimerEvent: {}
+[4.125332] (-) TimerEvent: {}
+[4.225857] (-) TimerEvent: {}
+[4.326319] (-) TimerEvent: {}
+[4.426838] (-) TimerEvent: {}
+[4.527273] (-) TimerEvent: {}
+[4.627891] (-) TimerEvent: {}
+[4.728862] (-) TimerEvent: {}
+[4.829310] (-) TimerEvent: {}
+[4.929790] (-) TimerEvent: {}
+[5.030254] (-) TimerEvent: {}
+[5.130850] (-) TimerEvent: {}
+[5.232268] (-) TimerEvent: {}
+[5.332712] (-) TimerEvent: {}
+[5.433407] (-) TimerEvent: {}
+[5.534512] (-) TimerEvent: {}
+[5.635155] (-) TimerEvent: {}
+[5.736052] (-) TimerEvent: {}
+[5.836559] (-) TimerEvent: {}
+[5.937091] (-) TimerEvent: {}
+[6.037655] (-) TimerEvent: {}
+[6.138128] (-) TimerEvent: {}
+[6.238854] (-) TimerEvent: {}
+[6.339704] (-) TimerEvent: {}
+[6.440408] (-) TimerEvent: {}
+[6.540883] (-) TimerEvent: {}
+[6.641307] (-) TimerEvent: {}
+[6.741786] (-) TimerEvent: {}
+[6.842259] (-) TimerEvent: {}
+[6.942750] (-) TimerEvent: {}
+[7.043270] (-) TimerEvent: {}
+[7.143736] (-) TimerEvent: {}
+[7.244777] (-) TimerEvent: {}
+[7.345375] (-) TimerEvent: {}
+[7.445863] (-) TimerEvent: {}
+[7.546459] (-) TimerEvent: {}
+[7.646902] (-) TimerEvent: {}
+[7.747534] (-) TimerEvent: {}
+[7.848721] (-) TimerEvent: {}
+[7.949385] (-) TimerEvent: {}
+[8.050094] (-) TimerEvent: {}
+[8.150655] (-) TimerEvent: {}
+[8.251386] (-) TimerEvent: {}
+[8.352504] (-) TimerEvent: {}
+[8.453011] (-) TimerEvent: {}
+[8.553647] (-) TimerEvent: {}
+[8.654140] (-) TimerEvent: {}
+[8.690686] (explore_lite) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[8.754293] (-) TimerEvent: {}
+[8.854880] (-) TimerEvent: {}
+[8.874195] (explore_lite) StdoutLine: {'line': b'[ 70%] Built target gtest\n'}
+[8.948734] (explore_lite) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/test_explore.dir/test/test_explore.cpp.o\x1b[0m\n'}
+[8.955032] (-) TimerEvent: {}
+[9.055507] (-) TimerEvent: {}
+[9.155893] (-) TimerEvent: {}
+[9.256644] (-) TimerEvent: {}
+[9.357858] (-) TimerEvent: {}
+[9.458358] (-) TimerEvent: {}
+[9.558922] (-) TimerEvent: {}
+[9.659425] (-) TimerEvent: {}
+[9.759807] (-) TimerEvent: {}
+[9.860364] (-) TimerEvent: {}
+[9.960830] (-) TimerEvent: {}
+[10.062051] (-) TimerEvent: {}
+[10.163784] (-) TimerEvent: {}
+[10.264249] (-) TimerEvent: {}
+[10.364695] (-) TimerEvent: {}
+[10.465181] (-) TimerEvent: {}
+[10.565646] (-) TimerEvent: {}
+[10.666214] (-) TimerEvent: {}
+[10.766861] (-) TimerEvent: {}
+[10.869018] (-) TimerEvent: {}
+[10.970170] (-) TimerEvent: {}
+[11.070979] (-) TimerEvent: {}
+[11.172009] (-) TimerEvent: {}
+[11.272854] (-) TimerEvent: {}
+[11.373405] (-) TimerEvent: {}
+[11.473806] (-) TimerEvent: {}
+[11.574241] (-) TimerEvent: {}
+[11.674955] (-) TimerEvent: {}
+[11.776584] (-) TimerEvent: {}
+[11.877694] (-) TimerEvent: {}
+[11.978219] (-) TimerEvent: {}
+[12.078679] (-) TimerEvent: {}
+[12.179109] (-) TimerEvent: {}
+[12.279562] (-) TimerEvent: {}
+[12.293706] (explore_lite) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable test_explore\x1b[0m\n'}
+[12.379728] (-) TimerEvent: {}
+[12.480154] (-) TimerEvent: {}
+[12.580582] (-) TimerEvent: {}
+[12.681572] (-) TimerEvent: {}
+[12.782172] (-) TimerEvent: {}
+[12.882678] (-) TimerEvent: {}
+[12.983181] (-) TimerEvent: {}
+[13.083715] (-) TimerEvent: {}
+[13.184082] (-) TimerEvent: {}
+[13.284454] (-) TimerEvent: {}
+[13.385166] (-) TimerEvent: {}
+[13.486098] (-) TimerEvent: {}
+[13.586936] (-) TimerEvent: {}
+[13.687304] (-) TimerEvent: {}
+[13.787855] (-) TimerEvent: {}
+[13.888734] (-) TimerEvent: {}
+[13.989276] (-) TimerEvent: {}
+[14.089710] (-) TimerEvent: {}
+[14.190038] (-) TimerEvent: {}
+[14.290381] (-) TimerEvent: {}
+[14.390853] (-) TimerEvent: {}
+[14.491460] (-) TimerEvent: {}
+[14.591923] (-) TimerEvent: {}
+[14.692351] (-) TimerEvent: {}
+[14.792757] (-) TimerEvent: {}
+[14.832834] (explore_lite) StdoutLine: {'line': b'[ 90%] Built target test_explore\n'}
+[14.892939] (-) TimerEvent: {}
+[14.993367] (-) TimerEvent: {}
+[15.093731] (-) TimerEvent: {}
+[15.194146] (-) TimerEvent: {}
+[15.295628] (-) TimerEvent: {}
+[15.397052] (-) TimerEvent: {}
+[15.498399] (-) TimerEvent: {}
+[15.599799] (-) TimerEvent: {}
+[15.701034] (-) TimerEvent: {}
+[15.801635] (-) TimerEvent: {}
+[15.902289] (-) TimerEvent: {}
+[16.003561] (-) TimerEvent: {}
+[16.104795] (-) TimerEvent: {}
+[16.205186] (-) TimerEvent: {}
+[16.305661] (-) TimerEvent: {}
+[16.406627] (-) TimerEvent: {}
+[16.508032] (-) TimerEvent: {}
+[16.608718] (-) TimerEvent: {}
+[16.709939] (-) TimerEvent: {}
+[16.811663] (-) TimerEvent: {}
+[16.912917] (-) TimerEvent: {}
+[17.013319] (-) TimerEvent: {}
+[17.113722] (-) TimerEvent: {}
+[17.214210] (-) TimerEvent: {}
+[17.315279] (-) TimerEvent: {}
+[17.415755] (-) TimerEvent: {}
+[17.516203] (-) TimerEvent: {}
+[17.617553] (-) TimerEvent: {}
+[17.717893] (-) TimerEvent: {}
+[17.818491] (-) TimerEvent: {}
+[17.919160] (-) TimerEvent: {}
+[18.019622] (-) TimerEvent: {}
+[18.120059] (-) TimerEvent: {}
+[18.220941] (-) TimerEvent: {}
+[18.322253] (-) TimerEvent: {}
+[18.423333] (-) TimerEvent: {}
+[18.524061] (-) TimerEvent: {}
+[18.624761] (-) TimerEvent: {}
+[18.725461] (-) TimerEvent: {}
+[18.827006] (-) TimerEvent: {}
+[18.927911] (-) TimerEvent: {}
+[19.028595] (-) TimerEvent: {}
+[19.129003] (-) TimerEvent: {}
+[19.229497] (-) TimerEvent: {}
+[19.330143] (-) TimerEvent: {}
+[19.430500] (-) TimerEvent: {}
+[19.530865] (-) TimerEvent: {}
+[19.631223] (-) TimerEvent: {}
+[19.731566] (-) TimerEvent: {}
+[19.831940] (-) TimerEvent: {}
+[19.932314] (-) TimerEvent: {}
+[20.032778] (-) TimerEvent: {}
+[20.133151] (-) TimerEvent: {}
+[20.233476] (-) TimerEvent: {}
+[20.333928] (-) TimerEvent: {}
+[20.434325] (-) TimerEvent: {}
+[20.534782] (-) TimerEvent: {}
+[20.635159] (-) TimerEvent: {}
+[20.735587] (-) TimerEvent: {}
+[20.836234] (-) TimerEvent: {}
+[20.936699] (-) TimerEvent: {}
+[21.037167] (-) TimerEvent: {}
+[21.137578] (-) TimerEvent: {}
+[21.237940] (-) TimerEvent: {}
+[21.338317] (-) TimerEvent: {}
+[21.438801] (-) TimerEvent: {}
+[21.539125] (-) TimerEvent: {}
+[21.639473] (-) TimerEvent: {}
+[21.739808] (-) TimerEvent: {}
+[21.840164] (-) TimerEvent: {}
+[21.940523] (-) TimerEvent: {}
+[22.041061] (-) TimerEvent: {}
+[22.141907] (-) TimerEvent: {}
+[22.242644] (-) TimerEvent: {}
+[22.343707] (-) TimerEvent: {}
+[22.444071] (-) TimerEvent: {}
+[22.544398] (-) TimerEvent: {}
+[22.644695] (-) TimerEvent: {}
+[22.745141] (-) TimerEvent: {}
+[22.845914] (-) TimerEvent: {}
+[22.946252] (-) TimerEvent: {}
+[23.046645] (-) TimerEvent: {}
+[23.146999] (-) TimerEvent: {}
+[23.247586] (-) TimerEvent: {}
+[23.348111] (-) TimerEvent: {}
+[23.448430] (-) TimerEvent: {}
+[23.548847] (-) TimerEvent: {}
+[23.649157] (-) TimerEvent: {}
+[23.749474] (-) TimerEvent: {}
+[23.850245] (-) TimerEvent: {}
+[23.950755] (-) TimerEvent: {}
+[24.051088] (-) TimerEvent: {}
+[24.151424] (-) TimerEvent: {}
+[24.251905] (-) TimerEvent: {}
+[24.352622] (-) TimerEvent: {}
+[24.453008] (-) TimerEvent: {}
+[24.553374] (-) TimerEvent: {}
+[24.653687] (-) TimerEvent: {}
+[24.754001] (-) TimerEvent: {}
+[24.854357] (-) TimerEvent: {}
+[24.954696] (-) TimerEvent: {}
+[25.055071] (-) TimerEvent: {}
+[25.155377] (-) TimerEvent: {}
+[25.255668] (-) TimerEvent: {}
+[25.356062] (-) TimerEvent: {}
+[25.456415] (-) TimerEvent: {}
+[25.556770] (-) TimerEvent: {}
+[25.657112] (-) TimerEvent: {}
+[25.757439] (-) TimerEvent: {}
+[25.857774] (-) TimerEvent: {}
+[25.958116] (-) TimerEvent: {}
+[26.058510] (-) TimerEvent: {}
+[26.158881] (-) TimerEvent: {}
+[26.259252] (-) TimerEvent: {}
+[26.359710] (-) TimerEvent: {}
+[26.460154] (-) TimerEvent: {}
+[26.560574] (-) TimerEvent: {}
+[26.660942] (-) TimerEvent: {}
+[26.761298] (-) TimerEvent: {}
+[26.861659] (-) TimerEvent: {}
+[26.962008] (-) TimerEvent: {}
+[27.020935] (explore_lite) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable explore\x1b[0m\n'}
+[27.062164] (-) TimerEvent: {}
+[27.162521] (-) TimerEvent: {}
+[27.262956] (-) TimerEvent: {}
+[27.363772] (-) TimerEvent: {}
+[27.464623] (-) TimerEvent: {}
+[27.565219] (-) TimerEvent: {}
+[27.665706] (-) TimerEvent: {}
+[27.766142] (-) TimerEvent: {}
+[27.866659] (-) TimerEvent: {}
+[27.967209] (-) TimerEvent: {}
+[28.067783] (-) TimerEvent: {}
+[28.168251] (-) TimerEvent: {}
+[28.268858] (-) TimerEvent: {}
+[28.369525] (-) TimerEvent: {}
+[28.470043] (-) TimerEvent: {}
+[28.570492] (-) TimerEvent: {}
+[28.671044] (-) TimerEvent: {}
+[28.771639] (-) TimerEvent: {}
+[28.872212] (-) TimerEvent: {}
+[28.972789] (-) TimerEvent: {}
+[29.073314] (-) TimerEvent: {}
+[29.173806] (-) TimerEvent: {}
+[29.274379] (-) TimerEvent: {}
+[29.374922] (-) TimerEvent: {}
+[29.475516] (-) TimerEvent: {}
+[29.576058] (-) TimerEvent: {}
+[29.676461] (-) TimerEvent: {}
+[29.776945] (-) TimerEvent: {}
+[29.878086] (-) TimerEvent: {}
+[29.978934] (-) TimerEvent: {}
+[30.079651] (-) TimerEvent: {}
+[30.180138] (-) TimerEvent: {}
+[30.280626] (-) TimerEvent: {}
+[30.381222] (-) TimerEvent: {}
+[30.481727] (-) TimerEvent: {}
+[30.582180] (-) TimerEvent: {}
+[30.682536] (-) TimerEvent: {}
+[30.782931] (-) TimerEvent: {}
+[30.883314] (-) TimerEvent: {}
+[30.983671] (-) TimerEvent: {}
+[31.084013] (-) TimerEvent: {}
+[31.184328] (-) TimerEvent: {}
+[31.284610] (-) TimerEvent: {}
+[31.384958] (-) TimerEvent: {}
+[31.485402] (-) TimerEvent: {}
+[31.585822] (-) TimerEvent: {}
+[31.681930] (explore_lite) StdoutLine: {'line': b'[100%] Built target explore\n'}
+[31.685959] (-) TimerEvent: {}
+[31.696086] (explore_lite) JobEnded: {'identifier': 'explore_lite', 'rc': 'SIGINT'}
+[31.710442] (-) EventReactorShutdown: {}

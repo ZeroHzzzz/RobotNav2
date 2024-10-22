@@ -1,1 +1,0 @@
-Invoking command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/c/Users/ZeroHzzzz/Desktop/robot/src/csm -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm

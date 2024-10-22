@@ -80,7 +80,7 @@ def generate_launch_description():
     bringup_cmd = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(launch_dir, 'bringup_launch.py')),
-        launch_arguments={'slam': True,
+        launch_arguments={'slam': 'True',
                           'map': map_file_path,
                           'use_sim_time': use_sim_time,
                           'params_file': nav_default_path,

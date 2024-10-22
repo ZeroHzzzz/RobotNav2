@@ -1,1 +1,0 @@
-Invoking command in '/home/zerohzzzz/Documents/RobotNav2/build/explore_lite': CMAKE_PREFIX_PATH=/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/humble /usr/bin/cmake /home/zerohzzzz/Documents/RobotNav2/src/explore -DCMAKE_INSTALL_PREFIX=/home/zerohzzzz/Documents/RobotNav2/install/explore_lite

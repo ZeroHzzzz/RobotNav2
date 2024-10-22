@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -Dcsm_EXPORTS
 
-CXX_INCLUDES = -I/mnt/c/Users/ZeroHzzzz/Desktop/robot/src/csm/include -I/mnt/c/Users/ZeroHzzzz/Desktop/robot/src/csm/src -I/usr/include/eigen3
+CXX_INCLUDES = -I/home/zerohzzzz/Documents/RobotNav2/src/csm/include -I/home/zerohzzzz/Documents/RobotNav2/src/csm/src -I/usr/include/eigen3
 
 CXX_FLAGS = -fPIC
 

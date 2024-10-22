@@ -1,4 +1,0 @@
-Invoking command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm -- -j32 -l32
-Invoked command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm -- -j32 -l32
-Invoking command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm
-Invoked command in '/mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/ZeroHzzzz/Desktop/robot/build/csm

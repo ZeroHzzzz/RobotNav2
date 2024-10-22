@@ -1,3 +1,8 @@
 [console_scripts]
-
+demo = map_build.demo_picking:main
+follow = map_build.example_follow_path:main
+listen = map_build.listen:main
+nav_action = map_build.nav_action:main
+new = map_build.dd:main
+test = map_build.test:main
 

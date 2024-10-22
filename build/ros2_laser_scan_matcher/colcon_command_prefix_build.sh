@@ -1,2 +1,2 @@
 # generated from colcon_core/shell/template/command_prefix.sh.em
-. "/mnt/c/Users/ZeroHzzzz/Desktop/robot/install/csm/share/csm/package.sh"
+. "/home/zerohzzzz/Documents/RobotNav2/install/csm/share/csm/package.sh"

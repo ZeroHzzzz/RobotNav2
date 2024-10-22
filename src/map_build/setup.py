@@ -14,8 +14,9 @@ setup(
         (os.path.join('share', package_name, 'launch'), glob('launch/*.py')),
         (os.path.join('share', package_name, 'config'), glob('config/*')),
         (os.path.join('share', package_name, 'maps'), glob('maps/*')),
-        (os.path.join('share', package_name, 'urdf'), glob('urdf/*.urdf')),
-        (os.path.join('share', package_name, 'worlds'), glob('worlds/*.world')),
+        (os.path.join('share', package_name, 'urdf'), glob('urdf/*')),
+        (os.path.join('share', package_name, 'worlds'), glob('worlds/*')),
+        (os.path.join('share', package_name, 'rviz'), glob('rviz/*')),
     ],
     
     install_requires=['setuptools'],
@@ -27,6 +28,12 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'nav_action = map_build.nav_action:main',
+            'listen = map_build.listen:main',
+            'demo = map_build.demo_picking:main',
+            'new = map_build.dd:main',
+            'follow = map_build.example_follow_path:main',
+            'test = map_build.test:main'
         ],
     },
 )

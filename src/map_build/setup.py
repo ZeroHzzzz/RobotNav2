@@ -29,10 +29,13 @@ setup(
     entry_points={
         'console_scripts': [
             'nav_action = map_build.nav_action:main',
-            'listen = map_build.listen:main',
+            'move = map_build.move:main',
             'demo = map_build.demo_picking:main',
-            'new = map_build.dd:main',
+            'icp_fusion = map_build.icp_fusion:main',
             'follow = map_build.example_follow_path:main',
+            'imu = map_build.imu:main',
+            'action = map_build.action:main',
+            'tmp = map_build.tmp:main',
             'test = map_build.test:main'
         ],
     },

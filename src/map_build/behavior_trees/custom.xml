@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<root main_tree_to_execute="NavigateWithReplanningAndRecovery">
+  <BehaviorTree ID="NavigateWithReplanningAndRecovery">
+    <!-- Fallback节点处理正常导航失败后的恢复操作 -->
+    <Fallback name="NavigateAndRecover">
+      <!-- Sequence节点确保顺序执行导航 -->
+      <Sequence name="NavigateToPoseSequence">
+        <!-- 计算路径并导航 -->
+        <ComputePathToPose goal="{goal}" path="{path}" planner_id="GridBased"/>
+        <FollowPath path="{path}" controller_id="FollowPath"/>
+      </Sequence>
+
+      <!-- 如果导航失败，执行恢复行为 -->
+      <RecoveryNode name="RecoveryBehavior" number_of_retries="10">
+        <!-- 清除局部代价地图，解决临时障碍物问题 -->
+        <ClearCostmapRecoveryNode name="ClearLocalCostmap" service_name="local_costmap/clear" />
+
+        <!-- 清除全局代价地图，解决规划层面问题 -->
+        <ClearCostmapRecoveryNode name="ClearGlobalCostmap" service_name="global_costmap/clear" />
+
+        <!-- 如果依然无法解决，执行旋转以试图摆脱困境 -->
+        <Spin spin_dist="3.14159" is_recovery="true" />
+
+        <!-- 新增：如果旋转不能解决，尝试沿着原路径返回 -->
+        <NavigateBackwards distance="2.0" speed="0.3"/>
+      </RecoveryNode>
+    </Fallback>
+  </BehaviorTree>
+</root>

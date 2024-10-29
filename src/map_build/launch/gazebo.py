@@ -6,7 +6,7 @@ from launch.conditions import IfCondition
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration, PythonExpression
 from launch_ros.actions import Node, LifecycleNode
-
+from launch_ros.substitutions import FindPackageShare
 
 def generate_launch_description():
     # Get the launch directory
@@ -18,9 +18,10 @@ def generate_launch_description():
     slam = 'False'
     namespace = ''
     use_namespace = 'False'
-    map_yaml_file = os.path.join(bringup_dir, 'maps', 'map3.yaml')
-    use_sim_time = False
+    map_yaml_file = os.path.join(bringup_dir, 'maps', 'map2.yaml')
+    use_sim_time = True
     nav_params_file = os.path.join(bringup_dir, 'config', 'nav2_params.yaml')
+    slam_params_file = os.path.join(bringup_dir, 'config', 'slam_params.yaml')
     collision_params_file = os.path.join(bringup_dir, 'config', 'collision.yaml')
     autostart = 'True'
     use_composition = 'True'
@@ -58,17 +59,17 @@ def generate_launch_description():
     )
 
     # Specify the actions
-    # start_gazebo_server_cmd = ExecuteProcess(
-    #     condition=IfCondition(use_simulator),
-    #     cmd=['gzserver', '-s', 'libgazebo_ros_init.so',
-    #          '-s', 'libgazebo_ros_factory.so', world],
-    #     cwd=[launch_dir], output='screen')
+    start_gazebo_server_cmd = ExecuteProcess(
+        condition=IfCondition(use_simulator),
+        cmd=['gzserver', '-s', 'libgazebo_ros_init.so',
+             '-s', 'libgazebo_ros_factory.so', world],
+        cwd=[launch_dir], output='screen')
 
-    # start_gazebo_client_cmd = ExecuteProcess(
-    #     condition=IfCondition(PythonExpression(
-    #         [use_simulator, ' and not ', headless])),
-    #     cmd=['gzclient'],
-    #     cwd=[launch_dir], output='screen')
+    start_gazebo_client_cmd = ExecuteProcess(
+        condition=IfCondition(PythonExpression(
+            [use_simulator, ' and not ', headless])),
+        cmd=['gzclient'],
+        cwd=[launch_dir], output='screen')
 
     with open(urdf_file, 'r') as infp:
         robot_description = infp.read()
@@ -85,18 +86,18 @@ def generate_launch_description():
         remappings=remappings,
         arguments=['--ros-args', '--log-level', log_level])
 
-    # start_gazebo_spawner_cmd = Node(
-    #     package='gazebo_ros',
-    #     executable='spawn_entity.py',
-    #     output='screen',
-    #     arguments=[
-    #         '-entity', robot_name,
-    #         '-file', urdf_file,
-    #         '-robot_namespace', namespace,
-    #         '-x', pose['x'], '-y', pose['y'], '-z', pose['z'],
-    #         '-R', pose['R'], '-P', pose['P'], '-Y', pose['Y'],
-    #         '--ros-args', '--log-level', log_level],
-    #     )
+    start_gazebo_spawner_cmd = Node(
+        package='gazebo_ros',
+        executable='spawn_entity.py',
+        output='screen',
+        arguments=[
+            '-entity', robot_name,
+            '-file', urdf_file,
+            '-robot_namespace', namespace,
+            '-x', pose['x'], '-y', pose['y'], '-z', pose['z'],
+            '-R', pose['R'], '-P', pose['P'], '-Y', pose['Y'],
+            '--ros-args', '--log-level', log_level],
+        )
 
     driver_node = LifecycleNode(
         package='lslidar_driver',
@@ -108,15 +109,15 @@ def generate_launch_description():
         parameters=[scan_driver_dir],
         arguments=['--ros-args', '--log-level', log_level])
 
-    # rviz_dir = os.path.join(get_package_share_directory('lslidar_driver'), 'rviz', 'lslidar.rviz')
+    rviz_dir = os.path.join(get_package_share_directory('lslidar_driver'), 'rviz', 'lslidar.rviz')
 
-    # rviz_node = Node(
-    #     package='rviz2',
-    #     namespace='',
-    #     executable='rviz2',
-    #     name='rviz2',
-    #     arguments=['-d', rviz_dir, '--ros-args', '--log-level', log_level],
-    #     output='screen')
+    rviz_node = Node(
+        package='rviz2',
+        namespace='',
+        executable='rviz2',
+        name='rviz2',
+        arguments=['-d', rviz_dir, '--ros-args', '--log-level', log_level],
+        output='screen')
 
     scan2odom = Node(
         package='rf2o_laser_odometry',
@@ -133,29 +134,45 @@ def generate_launch_description():
             'freq': 10.0}],
         arguments=['--ros-args', '--log-level', log_level])
 
-    # rviz_cmd = IncludeLaunchDescription(
-    #     PythonLaunchDescriptionSource(
-    #         os.path.join(launch_dir, 'rviz_launch.py')),
-    #     condition=IfCondition(use_rviz),
-    #     launch_arguments={'namespace': namespace,
-    #                       'use_namespace': use_namespace,
-    #                       'rviz_config': rviz_config_file,
-    #                       'log_level': log_level}.items())
-
-    bringup_cmd = IncludeLaunchDescription(
+    rviz_cmd = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
-            os.path.join(launch_dir, 'bringup_launch.py')),
+            os.path.join(launch_dir, 'rviz_launch.py')),
+        condition=IfCondition(use_rviz),
         launch_arguments={'namespace': namespace,
                           'use_namespace': use_namespace,
-                          'slam': slam,
-                          'map': map_yaml_file,
-                          'use_sim_time': "False",
-                          'params_file': nav_params_file,
-                          'autostart': autostart,
-                          'use_composition': use_composition,
-                          'use_respawn': use_respawn,
+                          'rviz_config': rviz_config_file,
                           'log_level': log_level}.items())
 
+    # bringup_cmd = IncludeLaunchDescription(
+    #     PythonLaunchDescriptionSource(
+    #         os.path.join(launch_dir, 'bringup_launch.py')),
+    #     launch_arguments={'namespace': namespace,
+    #                       'use_namespace': use_namespace,
+    #                       'slam': slam,
+    #                       'map': map_yaml_file,
+    #                       'use_sim_time': "True",
+    #                       'params_file': nav_params_file,
+    #                       'autostart': autostart,
+    #                       'use_composition': use_composition,
+    #                       'use_respawn': use_respawn,
+    #                       'log_level': log_level}.items())
+
+    nav_container = Node(
+            condition=IfCondition(use_composition),
+            name='nav2_container',
+            package='rclcpp_components',
+            executable='component_container_isolated',
+            parameters=[nav_params_file, {'autostart': autostart}],
+            arguments=['--ros-args', '--log-level', log_level],
+            remappings=remappings,
+            output='screen')
+    
+    nav_cmd = IncludeLaunchDescription(
+            PythonLaunchDescriptionSource(os.path.join(launch_dir, 'navigation_launch.py')),
+            launch_arguments={'namespace': namespace,
+                              'use_sim_time': "True",
+                              'params_file': nav_params_file,
+                              'container_name': 'nav2_container'}.items())
     velocity_smoother = Node(
         package='nav2_velocity_smoother',
         executable='velocity_smoother',
@@ -164,42 +181,6 @@ def generate_launch_description():
         parameters=[nav_params_file],
         arguments=['--ros-args', '--log-level', log_level])
 
-    icp_fusion = Node(
-        package='map_build',
-        executable='icp_fusion',
-        name='icp_fusion',
-        output='screen',
-    )
-
-    move_commander = Node(
-        package='map_build',
-        executable='move',
-        name='move_commander',
-        output='screen',
-    )
-
-    resolution = LaunchConfiguration('resolution', default='0.01')
-    # 地图的发布周期
-    publish_period_sec = LaunchConfiguration('publish_period_sec', default='0.1')
-    # 配置文件夹路径
-    configuration_directory = LaunchConfiguration('configuration_directory',default= os.path.join(bringup_dir, 'config') )
-    # 配置文件
-    configuration_basename = LaunchConfiguration('configuration_basename', default='odom.lua')
-    cartographer_node = Node(
-        package='cartographer_ros',
-        executable='cartographer_node',
-        name='cartographer_node',
-        output='screen',
-        parameters=[{'use_sim_time': use_sim_time}],
-        arguments=['-configuration_directory', configuration_directory,
-                   '-configuration_basename', configuration_basename])
-    cartographer_occupancy_grid_node = Node(
-        package='cartographer_ros',
-        executable='cartographer_occupancy_grid_node',
-        name='cartographer_occupancy_grid_node',
-        output='screen',
-        parameters=[{'use_sim_time': use_sim_time}],
-        arguments=['-resolution', resolution, '-publish_period_sec', publish_period_sec])
         # collision_monitor_cmd = GroupAction(
     #     condition=IfCondition(PythonExpression(['not ', use_composition])),
     #     actions=[
@@ -222,34 +203,84 @@ def generate_launch_description():
     #             remappings=remappings)
     #     ]
     # )
+
+    cartographer_node = Node(
+        package = 'cartographer_ros',
+        executable = 'cartographer_node',
+        parameters = [{'use_sim_time': True}],
+        arguments = [
+            '-configuration_directory', FindPackageShare('map_build').find('map_build') + '/config',
+            '-configuration_basename', 'backpack_2d.lua'],
+        remappings = [
+            ('echoes', 'horizontal_laser_2d')],
+        output = 'screen'
+        )
+
+    cartographer_occupancy_grid_node = Node(
+        package = 'cartographer_ros',
+        executable = 'cartographer_occupancy_grid_node',
+        parameters = [
+            {'use_sim_time': True},
+            {'resolution': 0.05}],
+        remappings=[('/map', '/cartographer_map')],
+        )
+
+    slam_params_file = os.path.join(get_package_share_directory("map_build"),
+                                   'config', 'mapper_params_localization.yaml')
     
-    move_commander = Node(
-        package='map_build',
-        executable='move',
-        name='move_commander',
+    start_localization_slam_toolbox_node = Node(
+        parameters=[
+          slam_params_file,
+          {'use_sim_time': use_sim_time}
+        ],
+        package='slam_toolbox',
+        executable='localization_slam_toolbox_node',
+        name='slam_toolbox',
+        output='screen')
+    
+    amcl_cmd = IncludeLaunchDescription(
+            PythonLaunchDescriptionSource(os.path.join(launch_dir,
+                                                       'localization_launch.py')),
+            condition=IfCondition(PythonExpression(['not ', slam])),
+            launch_arguments={'namespace': namespace,
+                              'map': map_yaml_file,
+                              'use_sim_time': "False",
+                              'autostart': autostart,
+                              'params_file': nav_params_file,
+                              'container_name': 'nav2_container'}.items())
+    
+    driver_node = LifecycleNode(
+        package='lslidar_driver',
+        executable='lslidar_driver_node',
+        name='lslidar_driver_node',
         output='screen',
-    )
+        emulate_tty=True,
+        namespace='',
+        parameters=[scan_driver_dir],
+        arguments=['--ros-args', '--log-level', log_level])
     # Create the launch description and populate
     ld = LaunchDescription()
 
     # Add the log level declaration
     ld.add_action(declare_log_level_cmd)
 
-    ld.add_action(driver_node)
-    # ld.add_action(scan2odom)
     # Add any conditioned actions
-    # ld.add_action(start_gazebo_server_cmd)
-    # ld.add_action(start_gazebo_client_cmd)
-    # ld.add_action(start_gazebo_spawner_cmd)
+    ld.add_action(start_gazebo_server_cmd)
+    ld.add_action(start_gazebo_client_cmd)
+    ld.add_action(start_gazebo_spawner_cmd)
 
     # Add the actions to launch all of the navigation nodes
     ld.add_action(start_robot_state_publisher_cmd)
     # ld.add_action(rviz_cmd)
     # ld.add_action(bringup_cmd)
-    # ld.add_action(icp_fusion)
     # ld.add_action(cartographer_node)
     # ld.add_action(cartographer_occupancy_grid_node)
-    # ld.add_action(velocity_smoother)
-    # ld
-    ld.add_action(move_commander)
+    # ld.add_action(nav_container)
+    # ld.add_action(nav_cmd)
+    # ld.add_action(scan2odom)
+    # ld.add_action(amcl_cmd)
+    # ld.add_action(start_localization_slam_toolbox_node)
+    # ld.add_action(driver_node)
+    # ld.add_action(sync_slam_toolbox)
+
     return ld

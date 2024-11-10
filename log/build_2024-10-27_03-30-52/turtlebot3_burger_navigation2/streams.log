@@ -1,0 +1,58 @@
+[0.033s] Invoking command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake /home/zerohzzzz/Documents/ros2-slam-comparison/turtlebot3_burger_navigation2 -DCMAKE_INSTALL_PREFIX=/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2
+[0.177s] -- The C compiler identification is GNU 11.4.0
+[0.404s] -- The CXX compiler identification is GNU 11.4.0
+[0.420s] -- Detecting C compiler ABI info
+[0.537s] -- Detecting C compiler ABI info - done
+[0.556s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.557s] -- Detecting C compile features
+[0.557s] -- Detecting C compile features - done
+[0.563s] -- Detecting CXX compiler ABI info
+[0.709s] -- Detecting CXX compiler ABI info - done
+[0.729s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.730s] -- Detecting CXX compile features
+[0.731s] -- Detecting CXX compile features - done
+[0.737s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.034s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.378s] -- Configuring done
+[1.383s] -- Generating done
+[1.385s] -- Build files have been written to: /home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger_navigation2
+[1.409s] Invoked command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake /home/zerohzzzz/Documents/ros2-slam-comparison/turtlebot3_burger_navigation2 -DCMAKE_INSTALL_PREFIX=/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2
+[1.412s] Invoking command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --build /home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger_navigation2 -- -j8 -l8
+[1.469s] Invoked command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --build /home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger_navigation2 -- -j8 -l8
+[1.516s] Invoking command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --install /home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger_navigation2
+[1.526s] -- Install configuration: ""
+[1.526s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/launch
+[1.527s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/launch/navigation2.launch.py
+[1.527s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/maps
+[1.527s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/maps/cart_lidar2-5res
+[1.527s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/maps/cart_lidar2-5res/map.pgm
+[1.527s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/maps/cart_lidar2-5res/map.yaml
+[1.528s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/maps/cart_lidar0-9res
+[1.528s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/maps/cart_lidar0-9res/map.pgm
+[1.528s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/maps/cart_lidar0-9res/map.yaml
+[1.529s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/maps/rtab_lidar2-5res
+[1.529s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/maps/rtab_lidar2-5res/map.pgm
+[1.529s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/maps/rtab_lidar2-5res/map.yaml
+[1.529s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/maps/rtab_lidar0-9res
+[1.530s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/maps/rtab_lidar0-9res/map.pgm
+[1.530s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/maps/rtab_lidar0-9res/map.yaml
+[1.530s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/param
+[1.530s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/param/burger.yaml
+[1.530s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/rviz
+[1.531s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/rviz/tb3_navigation2.rviz
+[1.531s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_burger_navigation2
+[1.531s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_burger_navigation2
+[1.531s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/environment/ament_prefix_path.sh
+[1.531s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/environment/ament_prefix_path.dsv
+[1.531s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/environment/path.sh
+[1.532s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/environment/path.dsv
+[1.532s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/local_setup.bash
+[1.532s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/local_setup.sh
+[1.532s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/local_setup.zsh
+[1.533s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/local_setup.dsv
+[1.533s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/package.dsv
+[1.533s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/ament_index/resource_index/packages/turtlebot3_burger_navigation2
+[1.533s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/cmake/turtlebot3_burger_navigation2Config.cmake
+[1.533s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/cmake/turtlebot3_burger_navigation2Config-version.cmake
+[1.533s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/package.xml
+[1.535s] Invoked command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --install /home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger_navigation2

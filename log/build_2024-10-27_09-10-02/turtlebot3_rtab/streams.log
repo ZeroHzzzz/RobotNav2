@@ -1,0 +1,26 @@
+[0.049s] Invoking command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_rtab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --build /home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_rtab -- -j8 -l8
+[0.115s] Invoked command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_rtab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --build /home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_rtab -- -j8 -l8
+[0.155s] Invoking command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_rtab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --install /home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_rtab
+[0.198s] -- Install configuration: ""
+[0.201s] -- Up-to-date: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/launch
+[0.203s] -- Up-to-date: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/launch/rtab_with_noise.launch.py
+[0.203s] -- Up-to-date: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/launch/rtab.launch.py
+[0.206s] -- Up-to-date: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/rviz
+[0.207s] -- Up-to-date: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/rviz/tb3_rtab_with_noise.rviz
+[0.208s] -- Up-to-date: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/rviz/tb3_rtab.rviz
+[0.208s] -- Up-to-date: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/ament_index/resource_index/package_run_dependencies/turtlebot3_rtab
+[0.209s] -- Up-to-date: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/ament_index/resource_index/parent_prefix_path/turtlebot3_rtab
+[0.210s] -- Up-to-date: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/environment/ament_prefix_path.sh
+[0.213s] -- Up-to-date: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/environment/ament_prefix_path.dsv
+[0.215s] -- Up-to-date: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/environment/path.sh
+[0.215s] -- Up-to-date: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/environment/path.dsv
+[0.216s] -- Up-to-date: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/local_setup.bash
+[0.217s] -- Up-to-date: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/local_setup.sh
+[0.217s] -- Up-to-date: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/local_setup.zsh
+[0.217s] -- Up-to-date: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/local_setup.dsv
+[0.217s] -- Up-to-date: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/package.dsv
+[0.218s] -- Up-to-date: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/ament_index/resource_index/packages/turtlebot3_rtab
+[0.218s] -- Up-to-date: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/cmake/turtlebot3_rtabConfig.cmake
+[0.219s] -- Up-to-date: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/cmake/turtlebot3_rtabConfig-version.cmake
+[0.219s] -- Up-to-date: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/package.xml
+[0.305s] Invoked command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_rtab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --install /home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_rtab

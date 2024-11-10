@@ -1,0 +1,57 @@
+[0.033s] Invoking command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/noisy_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake /home/zerohzzzz/Documents/ros2-slam-comparison/noisy_odometry -DCMAKE_INSTALL_PREFIX=/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry
+[0.183s] -- The C compiler identification is GNU 11.4.0
+[0.414s] -- The CXX compiler identification is GNU 11.4.0
+[0.425s] -- Detecting C compiler ABI info
+[0.543s] -- Detecting C compiler ABI info - done
+[0.563s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.563s] -- Detecting C compile features
+[0.563s] -- Detecting C compile features - done
+[0.568s] -- Detecting CXX compiler ABI info
+[0.712s] -- Detecting CXX compiler ABI info - done
+[0.732s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.733s] -- Detecting CXX compile features
+[0.734s] -- Detecting CXX compile features - done
+[0.741s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.067s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.243s] -- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)
+[1.350s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.392s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.448s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.509s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.800s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.806s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.980s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.022s] -- Found FastRTPS: /opt/ros/iron/include  
+[2.083s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.319s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[2.678s] -- Found nav_msgs: 5.0.1 (/opt/ros/iron/share/nav_msgs/cmake)
+[2.892s] -- Found tf2_ros: 0.31.8 (/opt/ros/iron/share/tf2_ros/cmake)
+[3.634s] -- Configuring done
+[3.651s] -- Generating done
+[3.653s] -- Build files have been written to: /home/zerohzzzz/Documents/ros2-slam-comparison/build/noisy_odometry
+[3.665s] Invoked command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/noisy_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake /home/zerohzzzz/Documents/ros2-slam-comparison/noisy_odometry -DCMAKE_INSTALL_PREFIX=/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry
+[3.668s] Invoking command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/noisy_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --build /home/zerohzzzz/Documents/ros2-slam-comparison/build/noisy_odometry -- -j8 -l8
+[3.736s] [ 50%] [32mBuilding CXX object CMakeFiles/noisy_odometry_node.dir/src/noisy_odometry_node.cpp.o[0m
+[16.003s] [100%] [32m[1mLinking CXX executable noisy_odometry_node[0m
+[16.726s] [100%] Built target noisy_odometry_node
+[16.740s] Invoked command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/noisy_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --build /home/zerohzzzz/Documents/ros2-slam-comparison/build/noisy_odometry -- -j8 -l8
+[16.779s] Invoking command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/noisy_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --install /home/zerohzzzz/Documents/ros2-slam-comparison/build/noisy_odometry
+[16.790s] -- Install configuration: ""
+[16.790s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/lib/noisy_odometry/noisy_odometry_node
+[16.795s] -- Set runtime path of "/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/lib/noisy_odometry/noisy_odometry_node" to ""
+[16.795s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/share/ament_index/resource_index/package_run_dependencies/noisy_odometry
+[16.795s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/share/ament_index/resource_index/parent_prefix_path/noisy_odometry
+[16.795s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/share/noisy_odometry/environment/ament_prefix_path.sh
+[16.796s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/share/noisy_odometry/environment/ament_prefix_path.dsv
+[16.796s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/share/noisy_odometry/environment/path.sh
+[16.796s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/share/noisy_odometry/environment/path.dsv
+[16.796s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/share/noisy_odometry/local_setup.bash
+[16.796s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/share/noisy_odometry/local_setup.sh
+[16.796s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/share/noisy_odometry/local_setup.zsh
+[16.797s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/share/noisy_odometry/local_setup.dsv
+[16.797s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/share/noisy_odometry/package.dsv
+[16.797s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/share/ament_index/resource_index/packages/noisy_odometry
+[16.797s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/share/noisy_odometry/cmake/noisy_odometryConfig.cmake
+[16.797s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/share/noisy_odometry/cmake/noisy_odometryConfig-version.cmake
+[16.798s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/share/noisy_odometry/package.xml
+[16.800s] Invoked command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/noisy_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --install /home/zerohzzzz/Documents/ros2-slam-comparison/build/noisy_odometry

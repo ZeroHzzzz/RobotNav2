@@ -1,0 +1,797 @@
+[0.034s] Invoking command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/aws_robomaker_small_house_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake /home/zerohzzzz/Documents/ros2-slam-comparison/aws-robomaker-small-house-world -DCMAKE_INSTALL_PREFIX=/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world
+[0.177s] -- The C compiler identification is GNU 11.4.0
+[0.418s] -- The CXX compiler identification is GNU 11.4.0
+[0.435s] -- Detecting C compiler ABI info
+[0.555s] -- Detecting C compiler ABI info - done
+[0.567s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.568s] -- Detecting C compile features
+[0.569s] -- Detecting C compile features - done
+[0.574s] -- Detecting CXX compiler ABI info
+[0.720s] -- Detecting CXX compiler ABI info - done
+[0.740s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.740s] -- Detecting CXX compile features
+[0.741s] -- Detecting CXX compile features - done
+[0.748s] -- Found gazebo_ros: 3.7.0 (/opt/ros/iron/share/gazebo_ros/cmake)
+[1.073s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.408s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.441s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.479s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.534s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.807s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.813s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.991s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.038s] -- Found FastRTPS: /opt/ros/iron/include  
+[2.097s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.340s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.342s] -- Checking for module 'bullet>=2.82'
+[2.359s] --   Found bullet, version 3.05
+[2.517s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[2.585s] -- Found assimp: /usr/include (found version "5.2.0") 
+[2.610s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.832s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[2.850s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.858s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.865s] -- Searching for dependencies of ignition-math6
+[2.867s] -- Looking for OGRE...
+[2.867s] -- OGRE_PREFIX_WATCH changed.
+[2.873s] -- Checking for module 'OGRE'
+[2.887s] --   Found OGRE, version 1.9.0
+[2.928s] -- Found Ogre Ghadamon (1.9.0)
+[2.938s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.949s] -- Looking for OGRE_Paging...
+[2.956s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.956s] -- Looking for OGRE_Terrain...
+[2.963s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.963s] -- Looking for OGRE_Property...
+[2.970s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.970s] -- Looking for OGRE_RTShaderSystem...
+[2.976s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.976s] -- Looking for OGRE_Volume...
+[2.983s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.983s] -- Looking for OGRE_Overlay...
+[2.990s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[3.175s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.178s] -- Looking for ignition-transport8 -- found version 8.2.1
+[3.179s] -- Searching for dependencies of ignition-transport8
+[3.201s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[3.215s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[3.223s] -- Checking for module 'libzmq >= 4'
+[3.244s] --   Found libzmq , version 4.3.4
+[3.288s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[3.295s] -- Checking for module 'uuid'
+[3.310s] --   Found uuid, version 2.37.2
+[3.352s] -- Found UUID: TRUE  
+[3.356s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.357s] -- Searching for dependencies of ignition-msgs5
+[3.383s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.389s] -- Checking for module 'tinyxml2'
+[3.404s] --   Found tinyxml2, version 9.0.0
+[3.453s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.457s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.458s] -- Searching for dependencies of ignition-common3
+[3.458s] -- Looking for dlfcn.h - found
+[3.459s] -- Looking for libdl - found
+[3.461s] -- Found DL: TRUE  
+[3.475s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[3.476s] -- Searching for <ignition-common3> component [graphics]
+[3.480s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[3.480s] -- Searching for dependencies of ignition-common3-graphics
+[3.480s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.485s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[3.485s] -- Searching for dependencies of ignition-fuel_tools4
+[3.590s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[3.602s] -- Checking for module 'jsoncpp'
+[3.620s] --   Found jsoncpp, version 1.9.5
+[3.673s] -- Found JSONCPP: TRUE  
+[3.684s] -- Checking for module 'libzip'
+[3.704s] --   Found libzip, version 1.7.3
+[3.756s] -- Found ZIP: TRUE  
+[3.757s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.757s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.758s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.764s] -- Gazebo version: 11.10
+[3.764s] -- Checking for module 'tbb'
+[3.784s] --   Found tbb, version 2021.5.0
+[3.852s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[3.968s] -- Configuring done
+[3.976s] -- Generating done
+[3.979s] -- Build files have been written to: /home/zerohzzzz/Documents/ros2-slam-comparison/build/aws_robomaker_small_house_world
+[3.998s] Invoked command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/aws_robomaker_small_house_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake /home/zerohzzzz/Documents/ros2-slam-comparison/aws-robomaker-small-house-world -DCMAKE_INSTALL_PREFIX=/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world
+[4.002s] Invoking command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/aws_robomaker_small_house_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --build /home/zerohzzzz/Documents/ros2-slam-comparison/build/aws_robomaker_small_house_world -- -j8 -l8
+[4.063s] Invoked command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/aws_robomaker_small_house_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --build /home/zerohzzzz/Documents/ros2-slam-comparison/build/aws_robomaker_small_house_world -- -j8 -l8
+[4.100s] Invoking command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/aws_robomaker_small_house_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --install /home/zerohzzzz/Documents/ros2-slam-comparison/build/aws_robomaker_small_house_world
+[4.111s] -- Install configuration: ""
+[4.111s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/launch
+[4.111s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/launch/small_house.launch.py
+[4.111s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/launch/view_small_house.launch.py
+[4.111s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models
+[4.112s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_02
+[4.112s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_02/materials
+[4.112s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_02/materials/textures
+[4.112s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_02/materials/textures/aws_PortraitB_02.png
+[4.113s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_02/materials/textures/aws_PortraitB_01.png
+[4.113s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_02/meshes
+[4.113s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_02/meshes/aws_PortraitB_01_collision.DAE
+[4.113s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_02/meshes/aws_PortraitB_01_visual.DAE
+[4.114s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_02/model.sdf
+[4.114s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_02/model.config
+[4.114s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Sofa_01
+[4.114s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Sofa_01/materials
+[4.114s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Sofa_01/materials/textures
+[4.115s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Sofa_01/materials/textures/aws_Sofa_01.png
+[4.115s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Sofa_01/meshes
+[4.115s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Sofa_01/meshes/aws_Sofa_01_collision.DAE
+[4.115s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Sofa_01/meshes/aws_Sofa_01_visual.DAE
+[4.117s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Sofa_01/meshes/aws_Sofa_01.DAE
+[4.121s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Sofa_01/model.sdf
+[4.121s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Sofa_01/model.config
+[4.122s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Rangehood_01
+[4.122s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Rangehood_01/materials
+[4.122s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Rangehood_01/materials/textures
+[4.122s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Rangehood_01/materials/textures/aws_Rangehood_01.png
+[4.123s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Rangehood_01/meshes
+[4.123s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Rangehood_01/meshes/aws_Rangehood_01_visual.DAE
+[4.123s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Rangehood_01/meshes/aws_Rangehood_01_collision.DAE
+[4.123s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Rangehood_01/model.sdf
+[4.123s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Rangehood_01/model.config
+[4.124s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ChairD_01
+[4.124s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ChairD_01/materials
+[4.124s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ChairD_01/materials/textures
+[4.124s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ChairD_01/materials/textures/aws_ChairD_01.png
+[4.124s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ChairD_01/meshes
+[4.124s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ChairD_01/meshes/aws_ChairD_01_collision.DAE
+[4.125s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ChairD_01/meshes/aws_ChairD_01_visual.DAE
+[4.125s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ChairD_01/model.sdf
+[4.125s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ChairD_01/model.config
+[4.125s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Trash_01
+[4.125s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Trash_01/materials
+[4.125s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Trash_01/materials/textures
+[4.125s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Trash_01/materials/textures/aws_Trash_01.png
+[4.126s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Trash_01/meshes
+[4.126s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Trash_01/meshes/aws_Trash_01_visual.DAE
+[4.126s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Trash_01/meshes/aws_Trash_01_collision.DAE
+[4.126s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Trash_01/model.sdf
+[4.126s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Trash_01/model.config
+[4.127s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_CookingBench_01
+[4.127s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_CookingBench_01/materials
+[4.127s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_CookingBench_01/materials/textures
+[4.127s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_CookingBench_01/materials/textures/aws_CookingBench_01.png
+[4.127s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_CookingBench_01/meshes
+[4.127s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_CookingBench_01/meshes/aws_CookingBench_01_collision.DAE
+[4.127s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_CookingBench_01/meshes/aws_CookingBench_01_visual.DAE
+[4.128s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_CookingBench_01/meshes/aws_CookingBench_01.DAE
+[4.128s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_CookingBench_01/model.sdf
+[4.128s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_CookingBench_01/model.config
+[4.128s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitC_01
+[4.129s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitC_01/materials
+[4.129s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitC_01/materials/textures
+[4.129s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitC_01/materials/textures/aws_DeskPortraitC_02.png
+[4.130s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitC_01/materials/textures/aws_DeskPortraitC_01.png
+[4.130s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitC_01/meshes
+[4.130s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitC_01/meshes/aws_DeskPortraitC_01_collision.DAE
+[4.130s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitC_01/meshes/aws_DeskPortraitC_01_visual.DAE
+[4.131s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitC_01/model.sdf
+[4.131s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitC_01/model.config
+[4.131s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FloorB_01
+[4.131s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FloorB_01/materials
+[4.131s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FloorB_01/materials/textures
+[4.132s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FloorB_01/materials/textures/aws_FloorB_01.png
+[4.132s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FloorB_01/meshes
+[4.132s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FloorB_01/meshes/aws_FloorB_01_collision.DAE
+[4.132s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FloorB_01/meshes/aws_FloorB_01_visual.DAE
+[4.132s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FloorB_01/model.sdf
+[4.133s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FloorB_01/model.config
+[4.133s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitA_01
+[4.133s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitA_01/materials
+[4.133s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitA_01/materials/textures
+[4.133s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitA_01/materials/textures/aws_DeskPortraitA_01.png
+[4.133s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitA_01/materials/textures/aws_DeskPortraitA_02.png
+[4.135s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitA_01/meshes
+[4.135s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitA_01/meshes/aws_DeskPortraitA_01_visual.DAE
+[4.135s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitA_01/meshes/aws_DeskPortraitA_01_collision.DAE
+[4.136s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitA_01/model.sdf
+[4.136s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitA_01/model.config
+[4.136s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Tablet_01
+[4.136s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Tablet_01/materials
+[4.136s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Tablet_01/materials/textures
+[4.136s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Tablet_01/materials/textures/aws_Tablet_01_nologo.png
+[4.136s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Tablet_01/meshes
+[4.137s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Tablet_01/meshes/aws_Tablet_01_visual.DAE
+[4.137s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Tablet_01/meshes/aws_Tablet_01_collision.DAE
+[4.137s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Tablet_01/model.sdf
+[4.137s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Tablet_01/model.config
+[4.137s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitC_02
+[4.137s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitC_02/materials
+[4.138s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitC_02/materials/textures
+[4.138s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitC_02/materials/textures/aws_DeskPortraitC_02.png
+[4.140s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitC_02/materials/textures/aws_DeskPortraitC_01.png
+[4.140s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitC_02/meshes
+[4.140s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitC_02/meshes/aws_DeskPortraitC_01_collision.DAE
+[4.140s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitC_02/meshes/aws_DeskPortraitC_01_visual.DAE
+[4.140s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitC_02/model.sdf
+[4.141s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitC_02/model.config
+[4.141s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Carpet_01
+[4.141s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Carpet_01/materials
+[4.141s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Carpet_01/materials/textures
+[4.141s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Carpet_01/materials/textures/aws_Carpet_01.png
+[4.148s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Carpet_01/meshes
+[4.148s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Carpet_01/meshes/aws_Carpet_01_collision.DAE
+[4.148s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Carpet_01/meshes/aws_Carpet_01_visual.DAE
+[4.149s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Carpet_01/model.sdf
+[4.149s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Carpet_01/model.config
+[4.149s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomWindow_01
+[4.149s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomWindow_01/materials
+[4.149s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomWindow_01/materials/textures
+[4.149s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomWindow_01/materials/textures/aws_RoomWindow_01.png
+[4.149s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomWindow_01/meshes
+[4.149s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomWindow_01/meshes/aws_RoomWindow_01_visual.DAE
+[4.150s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomWindow_01/meshes/aws_RoomWindow_01_collision.DAE
+[4.150s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomWindow_01/model.sdf
+[4.150s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomWindow_01/model.config
+[4.150s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Door_01
+[4.150s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Door_01/materials
+[4.150s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Door_01/materials/textures
+[4.150s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Door_01/materials/textures/aws_Door_01.png
+[4.152s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Door_01/meshes
+[4.152s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Door_01/meshes/aws_Door_01_visual.DAE
+[4.152s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Door_01/meshes/aws_Door_01_collision.DAE
+[4.152s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Door_01/model.sdf
+[4.153s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Door_01/model.config
+[4.153s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_01
+[4.153s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_01/materials
+[4.153s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_01/materials/textures
+[4.153s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_01/materials/textures/aws_DeskPortraitD_01.png
+[4.153s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_01/materials/textures/aws_DeskPortraitD_02.png
+[4.156s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_01/meshes
+[4.156s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_01/meshes/aws_DeskPortraitD_01_collision.DAE
+[4.156s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_01/meshes/aws_DeskPortraitD_01_visual.DAE
+[4.156s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_01/model.sdf
+[4.156s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_01/model.config
+[4.156s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_02
+[4.157s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_02/materials
+[4.157s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_02/materials/textures
+[4.157s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_02/materials/textures/aws_DeskPortraitD_01.png
+[4.157s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_02/materials/textures/aws_DeskPortraitD_02.png
+[4.159s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_02/meshes
+[4.159s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_02/meshes/aws_DeskPortraitD_01_collision.DAE
+[4.159s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_02/meshes/aws_DeskPortraitD_01_visual.DAE
+[4.159s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_02/model.sdf
+[4.160s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_02/model.config
+[4.160s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_03
+[4.160s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_03/materials
+[4.160s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_03/materials/textures
+[4.160s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_03/materials/textures/aws_PortraitB_02.png
+[4.161s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_03/materials/textures/aws_PortraitB_01.png
+[4.161s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_03/meshes
+[4.161s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_03/meshes/aws_PortraitB_01_collision.DAE
+[4.162s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_03/meshes/aws_PortraitB_01_visual.DAE
+[4.162s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_03/model.sdf
+[4.162s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_03/model.config
+[4.162s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitE_01
+[4.162s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitE_01/materials
+[4.162s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitE_01/materials/textures
+[4.163s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitE_01/materials/textures/aws_PortraitE_02.png
+[4.165s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitE_01/materials/textures/aws_PortraitE_01.png
+[4.165s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitE_01/meshes
+[4.165s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitE_01/meshes/aws_PortraitE_01_collision.DAE
+[4.165s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitE_01/meshes/aws_PortraitE_01_visual.DAE
+[4.165s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitE_01/model.sdf
+[4.165s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitE_01/model.config
+[4.166s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ChairA_01
+[4.166s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ChairA_01/materials
+[4.166s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ChairA_01/materials/textures
+[4.166s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ChairA_01/materials/textures/aws_ChairA_01.png
+[4.166s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ChairA_01/meshes
+[4.167s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ChairA_01/meshes/aws_ChairA_01_visual.DAE
+[4.167s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ChairA_01/meshes/aws_ChairA_01_collision.DAE
+[4.167s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ChairA_01/model.sdf
+[4.167s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ChairA_01/model.config
+[4.167s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitB_02
+[4.168s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitB_02/materials
+[4.168s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitB_02/materials/textures
+[4.168s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitB_02/materials/textures/aws_DeskPortraitB_02.png
+[4.169s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitB_02/materials/textures/aws_DeskPortraitB_01.png
+[4.169s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitB_02/meshes
+[4.169s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitB_02/meshes/aws_DeskPortraitB_01_visual.DAE
+[4.169s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitB_02/meshes/aws_DeskPortraitB_01_collision.DAE
+[4.169s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitB_02/model.sdf
+[4.170s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitB_02/model.config
+[4.170s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Ball_01
+[4.170s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Ball_01/materials
+[4.170s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Ball_01/materials/textures
+[4.171s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Ball_01/materials/textures/aws_Ball_01.png
+[4.171s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Ball_01/meshes
+[4.171s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Ball_01/meshes/aws_Ball_01_visual.DAE
+[4.171s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Ball_01/meshes/aws_Ball_01_collision.DAE
+[4.171s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Ball_01/model.sdf
+[4.171s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Ball_01/model.config
+[4.172s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Refrigerator_01
+[4.172s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Refrigerator_01/materials
+[4.172s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Refrigerator_01/materials/textures
+[4.172s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Refrigerator_01/materials/textures/aws_Refrigerator_01.png
+[4.172s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Refrigerator_01/materials/textures/aws_Refrigerator_02.png
+[4.172s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Refrigerator_01/meshes
+[4.173s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Refrigerator_01/meshes/aws_Refrigerator_01_collision.DAE
+[4.173s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Refrigerator_01/meshes/aws_Refrigerator_01_visual.DAE
+[4.173s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Refrigerator_01/meshes/aws_Refrigerator_01.DAE
+[4.173s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Refrigerator_01/model.sdf
+[4.173s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Refrigerator_01/model.config
+[4.173s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_BalconyTable_01
+[4.174s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_BalconyTable_01/materials
+[4.174s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_BalconyTable_01/materials/textures
+[4.174s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_BalconyTable_01/materials/textures/aws_BalconyTable_01.png
+[4.174s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_BalconyTable_01/meshes
+[4.174s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_BalconyTable_01/meshes/aws_BalconyTable_01_visual.DAE
+[4.174s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_BalconyTable_01/meshes/aws_BalconyTable_01_collision.DAE
+[4.174s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_BalconyTable_01/model.sdf
+[4.175s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_BalconyTable_01/model.config
+[4.175s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Bed_01
+[4.175s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Bed_01/materials
+[4.175s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Bed_01/materials/textures
+[4.175s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Bed_01/materials/textures/aws_Bed_01.png
+[4.175s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Bed_01/materials/textures/aws_BedA_01.png
+[4.176s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Bed_01/materials/textures/aws_BedB_01.png
+[4.177s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Bed_01/materials/textures/aws_BedC_01.png
+[4.178s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Bed_01/meshes
+[4.178s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Bed_01/meshes/aws_Bed_01_visual.DAE
+[4.179s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Bed_01/meshes/aws_Bed_01_collision.DAE
+[4.180s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Bed_01/model.sdf
+[4.180s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Bed_01/model.config
+[4.180s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_NightStand_01
+[4.180s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_NightStand_01/materials
+[4.180s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_NightStand_01/materials/textures
+[4.181s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_NightStand_01/materials/textures/aws_NightStand_01.png
+[4.181s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_NightStand_01/meshes
+[4.181s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_NightStand_01/meshes/aws_NightStand_01_collision.DAE
+[4.181s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_NightStand_01/meshes/aws_NightStand_01_visual.DAE
+[4.181s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_NightStand_01/model.sdf
+[4.181s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_NightStand_01/model.config
+[4.181s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Vase_01
+[4.182s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Vase_01/materials
+[4.182s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Vase_01/materials/textures
+[4.182s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Vase_01/materials/textures/aws_Vase_01.png
+[4.182s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Vase_01/meshes
+[4.182s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Vase_01/meshes/aws_Vase_01_visual.DAE
+[4.182s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Vase_01/meshes/aws_Vase_01_collision.DAE
+[4.182s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Vase_01/model.sdf
+[4.182s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Vase_01/model.config
+[4.183s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitD_01
+[4.183s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitD_01/materials
+[4.183s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitD_01/materials/textures
+[4.183s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitD_01/materials/textures/aws_PortraitD_02.png
+[4.184s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitD_01/materials/textures/aws_PortraitD_01.png
+[4.184s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitD_01/meshes
+[4.184s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitD_01/meshes/aws_PortraitD_01_collision.DAE
+[4.184s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitD_01/meshes/aws_PortraitD_01_visual.DAE
+[4.184s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitD_01/model.sdf
+[4.184s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitD_01/model.config
+[4.185s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SofaC_01
+[4.185s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SofaC_01/materials
+[4.185s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SofaC_01/materials/textures
+[4.185s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SofaC_01/materials/textures/aws_SofaC_01.png
+[4.185s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SofaC_01/meshes
+[4.185s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SofaC_01/meshes/aws_SofaC_01_visual.DAE
+[4.186s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SofaC_01/meshes/aws_SofaC_01_collision.DAE
+[4.186s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SofaC_01/model.sdf
+[4.187s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SofaC_01/model.config
+[4.187s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Dumbbell_01
+[4.187s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Dumbbell_01/materials
+[4.187s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Dumbbell_01/materials/textures
+[4.187s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Dumbbell_01/materials/textures/aws_Dumbbell_01.png
+[4.187s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Dumbbell_01/meshes
+[4.187s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Dumbbell_01/meshes/aws_Dumbbell_01_collision.DAE
+[4.187s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Dumbbell_01/meshes/aws_Dumbbell_01_visual.DAE
+[4.188s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Dumbbell_01/model.sdf
+[4.188s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Dumbbell_01/model.config
+[4.188s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Quilt_01
+[4.188s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Quilt_01/materials
+[4.188s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Quilt_01/materials/textures
+[4.189s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Quilt_01/materials/textures/aws_Quilt_01.png
+[4.190s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Quilt_01/meshes
+[4.190s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Quilt_01/meshes/aws_Quilt_01_collision.DAE
+[4.190s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Quilt_01/meshes/aws_Quilt_01_visual.DAE
+[4.190s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Quilt_01/model.sdf
+[4.191s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Quilt_01/model.config
+[4.191s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FoldingDoor_01
+[4.191s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FoldingDoor_01/materials
+[4.191s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FoldingDoor_01/materials/textures
+[4.191s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FoldingDoor_01/materials/textures/aws_FoldingDoor_01.png
+[4.192s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FoldingDoor_01/meshes
+[4.192s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FoldingDoor_01/meshes/aws_FoldingDoor_01_visual.DAE
+[4.193s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FoldingDoor_01/meshes/aws_FoldingDoor_01_collision.DAE
+[4.194s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FoldingDoor_01/model.sdf
+[4.194s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FoldingDoor_01/model.config
+[4.194s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_AirconditionerB_01
+[4.194s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_AirconditionerB_01/materials
+[4.194s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_AirconditionerB_01/materials/textures
+[4.194s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_AirconditionerB_01/materials/textures/aws_AirconditionerB_01.png
+[4.194s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_AirconditionerB_01/meshes
+[4.195s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_AirconditionerB_01/meshes/aws_AirconditionerB_01_visual.DAE
+[4.195s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_AirconditionerB_01/meshes/aws_AirconditionerB_01_collision.DAE
+[4.195s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_AirconditionerB_01/model.sdf
+[4.195s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_AirconditionerB_01/model.config
+[4.195s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitC_01
+[4.196s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitC_01/materials
+[4.196s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitC_01/materials/textures
+[4.196s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitC_01/materials/textures/aws_PortraitC_02.png
+[4.197s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitC_01/materials/textures/aws_PortraitC_01.png
+[4.197s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitC_01/meshes
+[4.197s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitC_01/meshes/aws_PortraitC_01_collision.DAE
+[4.197s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitC_01/meshes/aws_PortraitC_01_visual.DAE
+[4.198s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitC_01/model.sdf
+[4.198s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitC_01/model.config
+[4.198s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Wardrobe_01
+[4.198s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Wardrobe_01/materials
+[4.198s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Wardrobe_01/materials/textures
+[4.198s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Wardrobe_01/materials/textures/aws_Wardrobe_01.png
+[4.200s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Wardrobe_01/meshes
+[4.200s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Wardrobe_01/meshes/aws_Wardrobe_01_visual.DAE
+[4.200s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Wardrobe_01/meshes/aws_Wardrobe_01_collision.DAE
+[4.201s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Wardrobe_01/model.sdf
+[4.201s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Wardrobe_01/model.config
+[4.201s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Tableware_01
+[4.201s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Tableware_01/materials
+[4.201s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Tableware_01/materials/textures
+[4.201s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Tableware_01/materials/textures/aws_Tableware_01.png
+[4.201s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Tableware_01/meshes
+[4.201s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Tableware_01/meshes/aws_Tableware_01_collision.DAE
+[4.201s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Tableware_01/meshes/aws_Tableware_01_visual.DAE
+[4.203s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Tableware_01/model.sdf
+[4.203s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Tableware_01/model.config
+[4.203s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_CoffeeTable_01
+[4.203s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_CoffeeTable_01/materials
+[4.203s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_CoffeeTable_01/materials/textures
+[4.203s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_CoffeeTable_01/materials/textures/aws_CoffeeTable_01.png
+[4.204s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_CoffeeTable_01/meshes
+[4.204s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_CoffeeTable_01/meshes/aws_CoffeeTable_01_collision.DAE
+[4.204s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_CoffeeTable_01/meshes/aws_CoffeeTable_01_visual.DAE
+[4.204s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_CoffeeTable_01/model.sdf
+[4.205s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_CoffeeTable_01/model.config
+[4.205s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TVCabinet_01
+[4.205s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TVCabinet_01/materials
+[4.205s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TVCabinet_01/materials/textures
+[4.205s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TVCabinet_01/materials/textures/aws_TVCabinet_01.png
+[4.206s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TVCabinet_01/meshes
+[4.206s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TVCabinet_01/meshes/aws_TVCabinet_01_collision.DAE
+[4.206s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TVCabinet_01/meshes/aws_TVCabinet_01_visual.DAE
+[4.206s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TVCabinet_01/model.sdf
+[4.207s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TVCabinet_01/model.config
+[4.207s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FoldingDoor_02
+[4.207s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FoldingDoor_02/materials
+[4.207s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FoldingDoor_02/materials/textures
+[4.207s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FoldingDoor_02/materials/textures/aws_FoldingDoor_02.png
+[4.207s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FoldingDoor_02/meshes
+[4.208s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FoldingDoor_02/meshes/aws_FoldingDoor_02_visual.DAE
+[4.208s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FoldingDoor_02/meshes/aws_FoldingDoor_02_collision.DAE
+[4.208s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FoldingDoor_02/model.sdf
+[4.208s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FoldingDoor_02/model.config
+[4.208s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Curtain_01
+[4.208s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Curtain_01/materials
+[4.209s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Curtain_01/materials/textures
+[4.209s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Curtain_01/materials/textures/aws_Curtain_01.png
+[4.209s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Curtain_01/meshes
+[4.209s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Curtain_01/meshes/aws_Curtain_01_visual.DAE
+[4.209s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Curtain_01/meshes/aws_Curtain_01_collision.DAE
+[4.210s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Curtain_01/model.sdf
+[4.210s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Curtain_01/model.config
+[4.210s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Chandelier_01
+[4.211s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Chandelier_01/materials
+[4.211s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Chandelier_01/materials/textures
+[4.211s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Chandelier_01/materials/textures/aws_Chandelier_01.png
+[4.212s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Chandelier_01/meshes
+[4.212s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Chandelier_01/meshes/aws_Chandelier_01_collision.DAE
+[4.212s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Chandelier_01/meshes/aws_Chandelier_01_visual.DAE
+[4.213s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Chandelier_01/meshes/aws_Chandelier_01.DAE
+[4.214s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Chandelier_01/model.sdf
+[4.215s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Chandelier_01/model.config
+[4.215s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SofaB_01
+[4.215s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SofaB_01/materials
+[4.215s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SofaB_01/materials/textures
+[4.215s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SofaB_01/materials/textures/aws_SofaB_01.png
+[4.215s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SofaB_01/meshes
+[4.216s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SofaB_01/meshes/aws_SofaB_01_visual.DAE
+[4.216s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SofaB_01/meshes/aws_SofaB_01_collision.DAE
+[4.216s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SofaB_01/model.sdf
+[4.216s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SofaB_01/model.config
+[4.216s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Pillow_01
+[4.216s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Pillow_01/materials
+[4.216s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Pillow_01/materials/textures
+[4.216s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Pillow_01/materials/textures/aws_Pillow_01.png
+[4.218s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Pillow_01/meshes
+[4.218s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Pillow_01/meshes/aws_Pillow_01_visual.DAE
+[4.219s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Pillow_01/meshes/aws_Pillow_01_collision.DAE
+[4.219s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Pillow_01/model.sdf
+[4.219s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Pillow_01/model.config
+[4.220s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenCabinet_01
+[4.220s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenCabinet_01/materials
+[4.220s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenCabinet_01/materials/textures
+[4.220s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenCabinet_01/materials/textures/aws_KitchenCabinet_01.png
+[4.220s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenCabinet_01/meshes
+[4.220s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenCabinet_01/meshes/aws_KitchenCabinet_01_collision.DAE
+[4.220s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenCabinet_01/meshes/aws_KitchenCabinet_01_visual.DAE
+[4.223s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenCabinet_01/model.sdf
+[4.223s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenCabinet_01/model.config
+[4.223s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitE_02
+[4.223s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitE_02/materials
+[4.223s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitE_02/materials/textures
+[4.223s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitE_02/materials/textures/aws_PortraitE_02.png
+[4.225s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitE_02/materials/textures/aws_PortraitE_01.png
+[4.225s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitE_02/meshes
+[4.225s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitE_02/meshes/aws_PortraitE_01_collision.DAE
+[4.225s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitE_02/meshes/aws_PortraitE_01_visual.DAE
+[4.225s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitE_02/model.sdf
+[4.225s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitE_02/model.config
+[4.225s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitA_02
+[4.225s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitA_02/materials
+[4.226s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitA_02/materials/textures
+[4.226s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitA_02/materials/textures/aws_DeskPortraitA_01.png
+[4.226s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitA_02/materials/textures/aws_DeskPortraitA_02.png
+[4.227s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitA_02/meshes
+[4.227s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitA_02/meshes/aws_DeskPortraitA_01_visual.DAE
+[4.227s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitA_02/meshes/aws_DeskPortraitA_01_collision.DAE
+[4.227s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitA_02/model.sdf
+[4.227s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitA_02/model.config
+[4.228s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_01
+[4.228s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_01/materials
+[4.228s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_01/materials/textures
+[4.228s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_01/materials/textures/aws_PortraitB_02.png
+[4.228s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_01/materials/textures/aws_PortraitB_01.png
+[4.228s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_01/meshes
+[4.229s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_01/meshes/aws_PortraitB_01_collision.DAE
+[4.229s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_01/meshes/aws_PortraitB_01_visual.DAE
+[4.229s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_01/model.sdf
+[4.229s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitB_01/model.config
+[4.229s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomWall_01
+[4.229s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomWall_01/materials
+[4.229s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomWall_01/materials/textures
+[4.230s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomWall_01/materials/textures/aws_RoomWall_01.png
+[4.234s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomWall_01/meshes
+[4.234s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomWall_01/meshes/aws_RoomWall_01_visual.DAE
+[4.235s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomWall_01/meshes/aws_RoomWall_01_collision.DAE
+[4.235s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomWall_01/model.sdf
+[4.236s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomWall_01/model.config
+[4.236s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_04
+[4.236s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_04/materials
+[4.236s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_04/materials/textures
+[4.237s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_04/materials/textures/aws_DeskPortraitD_01.png
+[4.237s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_04/materials/textures/aws_DeskPortraitD_02.png
+[4.239s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_04/meshes
+[4.239s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_04/meshes/aws_DeskPortraitD_01_collision.DAE
+[4.239s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_04/meshes/aws_DeskPortraitD_01_visual.DAE
+[4.239s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_04/model.sdf
+[4.239s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_04/model.config
+[4.240s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FitnessEquipment_01
+[4.240s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FitnessEquipment_01/materials
+[4.240s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FitnessEquipment_01/materials/textures
+[4.240s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FitnessEquipment_01/materials/textures/aws_FitnessEquipment_01.png
+[4.240s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FitnessEquipment_01/meshes
+[4.240s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FitnessEquipment_01/meshes/aws_FitnessEquipment_01_visual.DAE
+[4.241s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FitnessEquipment_01/meshes/aws_FitnessEquipment_01_collision.DAE
+[4.241s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FitnessEquipment_01/model.sdf
+[4.241s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_FitnessEquipment_01/model.config
+[4.241s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TV_01
+[4.241s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TV_01/materials
+[4.242s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TV_01/materials/textures
+[4.242s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TV_01/materials/textures/aws_TV_01.png
+[4.242s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TV_01/meshes
+[4.243s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TV_01/meshes/aws_TV_01_collision.DAE
+[4.243s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TV_01/meshes/aws_TV_01_visual.DAE
+[4.243s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TV_01/model.sdf
+[4.243s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TV_01/model.config
+[4.243s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SeasoningBox_01
+[4.243s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SeasoningBox_01/materials
+[4.244s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SeasoningBox_01/materials/textures
+[4.244s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SeasoningBox_01/materials/textures/aws_SeasoningBox_01.png
+[4.244s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SeasoningBox_01/meshes
+[4.244s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SeasoningBox_01/meshes/aws_SeasoningBox_01_collision.DAE
+[4.244s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SeasoningBox_01/meshes/aws_SeasoningBox_01_visual.DAE
+[4.248s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SeasoningBox_01/model.sdf
+[4.248s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SeasoningBox_01/model.config
+[4.248s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_03
+[4.249s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_03/materials
+[4.249s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_03/materials/textures
+[4.249s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_03/materials/textures/aws_DeskPortraitD_01.png
+[4.249s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_03/materials/textures/aws_DeskPortraitD_02.png
+[4.253s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_03/meshes
+[4.253s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_03/meshes/aws_DeskPortraitD_01_collision.DAE
+[4.253s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_03/meshes/aws_DeskPortraitD_01_visual.DAE
+[4.253s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_03/model.sdf
+[4.254s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitD_03/model.config
+[4.254s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenTable_01
+[4.254s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenTable_01/materials
+[4.254s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenTable_01/materials/textures
+[4.254s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenTable_01/materials/textures/aws_KitchenTable_01.png
+[4.256s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenTable_01/meshes
+[4.256s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenTable_01/meshes/aws_KitchenTable_01_collision.DAE
+[4.256s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenTable_01/meshes/aws_KitchenTable_01_visual.DAE
+[4.256s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenTable_01/model.sdf
+[4.256s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenTable_01/model.config
+[4.257s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenUtensils_01
+[4.257s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenUtensils_01/materials
+[4.257s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenUtensils_01/materials/textures
+[4.257s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenUtensils_01/materials/textures/aws_KitchenUtensils_01.png
+[4.257s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenUtensils_01/meshes
+[4.258s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenUtensils_01/meshes/aws_KitchenUtensils_01_visual.DAE
+[4.260s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenUtensils_01/meshes/aws_KitchenUtensils_01_collision.DAE
+[4.260s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenUtensils_01/model.sdf
+[4.260s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_KitchenUtensils_01/model.config
+[4.260s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Board_01
+[4.260s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Board_01/materials
+[4.260s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Board_01/materials/textures
+[4.261s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Board_01/materials/textures/aws_Board_01.png
+[4.261s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Board_01/meshes
+[4.261s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Board_01/meshes/aws_Board_01_visual.DAE
+[4.261s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Board_01/meshes/aws_Board_01_collision.DAE
+[4.261s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Board_01/model.sdf
+[4.261s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Board_01/model.config
+[4.262s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Handle_01
+[4.262s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Handle_01/materials
+[4.262s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Handle_01/materials/textures
+[4.262s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Handle_01/materials/textures/aws_Handle_01.png
+[4.262s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Handle_01/meshes
+[4.262s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Handle_01/meshes/aws_Handle_01_visual.DAE
+[4.263s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Handle_01/meshes/aws_Handle_01_collision.DAE
+[4.263s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Handle_01/meshes/aws_ handle_01_collision.DAE
+[4.264s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Handle_01/model.sdf
+[4.264s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_Handle_01/model.config
+[4.264s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_HouseWallB_01
+[4.264s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_HouseWallB_01/materials
+[4.264s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_HouseWallB_01/materials/textures
+[4.264s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_HouseWallB_01/materials/textures/aws_HouseWallB_01.png
+[4.265s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_HouseWallB_01/meshes
+[4.265s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_HouseWallB_01/meshes/aws_HouseWallB_01_collision.DAE
+[4.265s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_HouseWallB_01/meshes/aws_HouseWallB_01_visual.DAE
+[4.266s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_HouseWallB_01/model.sdf
+[4.266s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_HouseWallB_01/model.config
+[4.267s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitD_02
+[4.267s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitD_02/materials
+[4.267s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitD_02/materials/textures
+[4.267s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitD_02/materials/textures/aws_PortraitD_02.png
+[4.269s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitD_02/materials/textures/aws_PortraitD_01.png
+[4.270s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitD_02/meshes
+[4.270s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitD_02/meshes/aws_PortraitD_01_collision.DAE
+[4.271s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitD_02/meshes/aws_PortraitD_01_visual.DAE
+[4.271s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitD_02/model.sdf
+[4.271s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitD_02/model.config
+[4.271s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitA_02
+[4.271s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitA_02/materials
+[4.271s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitA_02/materials/textures
+[4.271s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitA_02/materials/textures/aws_PortraitA_02.png
+[4.272s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitA_02/materials/textures/aws_PortraitA_01.png
+[4.272s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitA_02/meshes
+[4.273s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitA_02/meshes/aws_PortraitA_01_collision.DAE
+[4.273s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitA_02/meshes/aws_PortraitA_01_visual.DAE
+[4.273s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitA_02/model.sdf
+[4.273s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitA_02/model.config
+[4.274s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SecurityCamera_01
+[4.274s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SecurityCamera_01/materials
+[4.274s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SecurityCamera_01/materials/textures
+[4.274s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SecurityCamera_01/materials/textures/aws_SecurityCamera_01.png
+[4.274s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SecurityCamera_01/meshes
+[4.274s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SecurityCamera_01/meshes/aws_SecurityCamera_01_visual.DAE
+[4.275s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SecurityCamera_01/meshes/aws_SecurityCamera_01_collision.DAE
+[4.275s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SecurityCamera_01/model.sdf
+[4.275s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_SecurityCamera_01/model.config
+[4.275s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ReadingDesk_01
+[4.275s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ReadingDesk_01/materials
+[4.275s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ReadingDesk_01/materials/textures
+[4.276s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ReadingDesk_01/materials/textures/aws_ReadingDesk_01.png
+[4.277s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ReadingDesk_01/meshes
+[4.277s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ReadingDesk_01/meshes/aws_ReadingDesk_01_collision.DAE
+[4.277s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ReadingDesk_01/meshes/aws_ReadingDesk_01_visual.DAE
+[4.277s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ReadingDesk_01/model.sdf
+[4.278s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ReadingDesk_01/model.config
+[4.278s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TV_02
+[4.278s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TV_02/materials
+[4.278s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TV_02/materials/textures
+[4.278s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TV_02/materials/textures/aws_TV_01.png
+[4.280s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TV_02/meshes
+[4.280s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TV_02/meshes/aws_TV_01_collision.DAE
+[4.280s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TV_02/meshes/aws_TV_01_visual.DAE
+[4.280s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TV_02/model.sdf
+[4.280s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_TV_02/model.config
+[4.281s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_AirconditionerA_01
+[4.281s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_AirconditionerA_01/materials
+[4.281s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_AirconditionerA_01/materials/textures
+[4.281s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_AirconditionerA_01/materials/textures/aws_AirconditionerA_01.png
+[4.283s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_AirconditionerA_01/meshes
+[4.283s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_AirconditionerA_01/meshes/aws_AirconditionerA_01_collision.DAE
+[4.284s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_AirconditionerA_01/meshes/aws__Air conditioner_01.DAE
+[4.284s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_AirconditionerA_01/meshes/aws_AirconditionerA_01_visual.DAE
+[4.284s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_AirconditionerA_01/model.sdf
+[4.285s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_AirconditionerA_01/model.config
+[4.285s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_LightC_01
+[4.285s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_LightC_01/materials
+[4.285s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_LightC_01/materials/textures
+[4.285s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_LightC_01/materials/textures/aws_LightC_01.png
+[4.286s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_LightC_01/meshes
+[4.286s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_LightC_01/meshes/aws_LightC_01_visual.DAE
+[4.286s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_LightC_01/meshes/aws_LightC_01_collision.DAE
+[4.287s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_LightC_01/model.sdf
+[4.287s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_LightC_01/model.config
+[4.287s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomCeiling_01
+[4.287s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomCeiling_01/materials
+[4.287s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomCeiling_01/materials/textures
+[4.288s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomCeiling_01/materials/textures/aws_RoomCeiling_01.png
+[4.288s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomCeiling_01/meshes
+[4.288s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomCeiling_01/meshes/aws_RoomCeiling_01_visual.DAE
+[4.288s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomCeiling_01/meshes/aws_RoomCeiling_01_collision.DAE
+[4.288s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomCeiling_01/model.sdf
+[4.288s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_RoomCeiling_01/model.config
+[4.289s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitB_01
+[4.289s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitB_01/materials
+[4.289s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitB_01/materials/textures
+[4.289s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitB_01/materials/textures/aws_DeskPortraitB_02.png
+[4.290s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitB_01/materials/textures/aws_DeskPortraitB_01.png
+[4.290s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitB_01/meshes
+[4.290s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitB_01/meshes/aws_DeskPortraitB_01_visual.DAE
+[4.291s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitB_01/meshes/aws_DeskPortraitB_01_collision.DAE
+[4.291s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitB_01/model.sdf
+[4.291s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_DeskPortraitB_01/model.config
+[4.291s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ShoeRack_01
+[4.291s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ShoeRack_01/materials
+[4.291s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ShoeRack_01/materials/textures
+[4.291s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ShoeRack_01/materials/textures/aws_ShoeRack_01.png
+[4.292s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ShoeRack_01/meshes
+[4.293s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ShoeRack_01/meshes/aws_ShoeRack_01_visual.DAE
+[4.293s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ShoeRack_01/meshes/aws_ShoeRack_01_collision.DAE
+[4.293s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ShoeRack_01/model.sdf
+[4.293s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_ShoeRack_01/model.config
+[4.293s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitA_01
+[4.293s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitA_01/materials
+[4.294s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitA_01/materials/textures
+[4.294s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitA_01/materials/textures/aws_PortraitA_02.png
+[4.294s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitA_01/materials/textures/aws_PortraitA_01.png
+[4.295s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitA_01/meshes
+[4.295s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitA_01/meshes/aws_PortraitA_01_collision.DAE
+[4.295s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitA_01/meshes/aws_PortraitA_01_visual.DAE
+[4.295s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitA_01/model.sdf
+[4.296s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/models/aws_robomaker_residential_PortraitA_01/model.config
+[4.296s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/worlds
+[4.296s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/worlds/small_house.world
+[4.296s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/maps
+[4.297s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/maps/turtlebot3_waffle_pi
+[4.297s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/maps/turtlebot3_waffle_pi/map.pgm
+[4.297s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/maps/turtlebot3_waffle_pi/map.yaml
+[4.297s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos
+[4.297s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/DeskPortraitB_01.jpg
+[4.298s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/DeskPortraitB_02.jpg
+[4.310s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/DeskPortraitC_01.jpg
+[4.319s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/DeskPortraitA_02.jpg
+[4.322s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/DeskPortraitD_02.jpg
+[4.322s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/DeskPortraitD_01.jpg
+[4.324s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/PortraitC_01.jpg
+[4.325s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/PortraitB_01.jpg
+[4.327s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/DeskPortraitA_01.jpg
+[4.328s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/PortraitE_01.jpg
+[4.328s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/PortraitA_02.jpg
+[4.330s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/DeskPortraitD_04.jpg
+[4.331s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/PortraitD_01.jpg
+[4.331s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/PortraitB_02.jpg
+[4.335s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/PortraitA_01.jpg
+[4.336s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/PortraitB_03.jpg
+[4.336s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/PortraitE_02.jpg
+[4.337s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/PortraitD_02.jpg
+[4.337s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/DeskPortraitD_03.jpg
+[4.338s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/photos/DeskPortraitC_02.jpg
+[4.338s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/param
+[4.338s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/param/waffle_pi.yaml
+[4.339s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/routes
+[4.339s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/routes/route.yaml
+[4.339s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/ament_index/resource_index/package_run_dependencies/aws_robomaker_small_house_world
+[4.340s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/ament_index/resource_index/parent_prefix_path/aws_robomaker_small_house_world
+[4.340s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/environment/ament_prefix_path.sh
+[4.341s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/environment/ament_prefix_path.dsv
+[4.341s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/environment/path.sh
+[4.341s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/environment/path.dsv
+[4.341s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/local_setup.bash
+[4.342s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/local_setup.sh
+[4.342s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/local_setup.zsh
+[4.342s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/local_setup.dsv
+[4.343s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/package.dsv
+[4.343s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/ament_index/resource_index/packages/aws_robomaker_small_house_world
+[4.343s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.344s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/cmake/aws_robomaker_small_house_worldConfig.cmake
+[4.344s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/cmake/aws_robomaker_small_house_worldConfig-version.cmake
+[4.344s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/package.xml
+[4.349s] Invoked command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/aws_robomaker_small_house_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --install /home/zerohzzzz/Documents/ros2-slam-comparison/build/aws_robomaker_small_house_world

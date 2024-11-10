@@ -1,0 +1,480 @@
+[0.127s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.127s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x77ec7e7477c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77ec7e747190>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77ec7e747190>>, mixin_verb=('build',))
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.323s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/zerohzzzz/Documents/ros2-slam-comparison'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(assests) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(assests) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(assests) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(assests) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(assests) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(assests) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(assests) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(assests) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(assests) by extension 'ros'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(assests) by extensions ['cmake', 'python']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(assests) by extension 'cmake'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(assests) by extension 'python'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(assests) by extensions ['python_setup_py']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(assests) by extension 'python_setup_py'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(assests/images) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(assests/images) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(assests/images) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(assests/images) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(assests/images) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(assests/images) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(assests/images) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(assests/images) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(assests/images) by extension 'ros'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(assests/images) by extensions ['cmake', 'python']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(assests/images) by extension 'cmake'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(assests/images) by extension 'python'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(assests/images) by extensions ['python_setup_py']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(assests/images) by extension 'python_setup_py'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(aws-robomaker-small-house-world) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(aws-robomaker-small-house-world) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(aws-robomaker-small-house-world) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(aws-robomaker-small-house-world) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(aws-robomaker-small-house-world) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(aws-robomaker-small-house-world) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(aws-robomaker-small-house-world) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(aws-robomaker-small-house-world) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(aws-robomaker-small-house-world) by extension 'ros'
+[0.339s] DEBUG:colcon.colcon_core.package_identification:Package 'aws-robomaker-small-house-world' with type 'ros.ament_cmake' and name 'aws_robomaker_small_house_world'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(noisy_odometry) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(noisy_odometry) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(noisy_odometry) by extension 'ignore_ament_install'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(noisy_odometry) by extensions ['colcon_pkg']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(noisy_odometry) by extension 'colcon_pkg'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(noisy_odometry) by extensions ['colcon_meta']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(noisy_odometry) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(noisy_odometry) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(noisy_odometry) by extension 'ros'
+[0.342s] DEBUG:colcon.colcon_core.package_identification:Package 'noisy_odometry' with type 'ros.ament_cmake' and name 'noisy_odometry'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_burger) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_burger) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_burger) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_burger) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_burger) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_burger) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_burger) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_burger) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_burger) by extension 'ros'
+[0.343s] DEBUG:colcon.colcon_core.package_identification:Package 'turtlebot3_burger' with type 'ros.ament_cmake' and name 'turtlebot3_burger'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_burger_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_burger_navigation2) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_burger_navigation2) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_burger_navigation2) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_burger_navigation2) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_burger_navigation2) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_burger_navigation2) by extension 'colcon_meta'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_burger_navigation2) by extensions ['ros']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_burger_navigation2) by extension 'ros'
+[0.344s] DEBUG:colcon.colcon_core.package_identification:Package 'turtlebot3_burger_navigation2' with type 'ros.ament_cmake' and name 'turtlebot3_burger_navigation2'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_cartographer) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_cartographer) by extension 'ignore_ament_install'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_cartographer) by extensions ['colcon_pkg']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_cartographer) by extension 'colcon_pkg'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_cartographer) by extensions ['colcon_meta']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_cartographer) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_cartographer) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_cartographer) by extension 'ros'
+[0.345s] DEBUG:colcon.colcon_core.package_identification:Package 'turtlebot3_cartographer' with type 'ros.ament_cmake' and name 'turtlebot3_cartographer'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_rtab) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_rtab) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_rtab) by extension 'ignore_ament_install'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_rtab) by extensions ['colcon_pkg']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_rtab) by extension 'colcon_pkg'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_rtab) by extensions ['colcon_meta']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_rtab) by extension 'colcon_meta'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_rtab) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_rtab) by extension 'ros'
+[0.346s] DEBUG:colcon.colcon_core.package_identification:Package 'turtlebot3_rtab' with type 'ros.ament_cmake' and name 'turtlebot3_rtab'
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.381s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.381s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.383s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/zerohzzzz/Documents/RobotNav2/install
+[0.385s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 413 installed packages in /opt/ros/iron
+[0.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_house_world' build argument 'cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_house_world' build argument 'cmake_target' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_house_world' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_house_world' build argument 'cmake_clean_cache' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_house_world' build argument 'cmake_clean_first' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_house_world' build argument 'cmake_force_configure' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_house_world' build argument 'ament_cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_house_world' build argument 'catkin_cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_house_world' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.456s] DEBUG:colcon.colcon_core.verb:Building package 'aws_robomaker_small_house_world' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zerohzzzz/Documents/ros2-slam-comparison/build/aws_robomaker_small_house_world', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world', 'merge_install': False, 'path': '/home/zerohzzzz/Documents/ros2-slam-comparison/aws-robomaker-small-house-world', 'symlink_install': False, 'test_result_base': None}
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'noisy_odometry' build argument 'cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'noisy_odometry' build argument 'cmake_target' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'noisy_odometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'noisy_odometry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'noisy_odometry' build argument 'cmake_clean_first' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'noisy_odometry' build argument 'cmake_force_configure' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'noisy_odometry' build argument 'ament_cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'noisy_odometry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'noisy_odometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.457s] DEBUG:colcon.colcon_core.verb:Building package 'noisy_odometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zerohzzzz/Documents/ros2-slam-comparison/build/noisy_odometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry', 'merge_install': False, 'path': '/home/zerohzzzz/Documents/ros2-slam-comparison/noisy_odometry', 'symlink_install': False, 'test_result_base': None}
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_burger' build argument 'cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_burger' build argument 'cmake_target' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_burger' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_burger' build argument 'cmake_clean_cache' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_burger' build argument 'cmake_clean_first' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_burger' build argument 'cmake_force_configure' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_burger' build argument 'ament_cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_burger' build argument 'catkin_cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_burger' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.457s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_burger' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger', 'merge_install': False, 'path': '/home/zerohzzzz/Documents/ros2-slam-comparison/turtlebot3_burger', 'symlink_install': False, 'test_result_base': None}
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_burger_navigation2' build argument 'cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_burger_navigation2' build argument 'cmake_target' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_burger_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_burger_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_burger_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_burger_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_burger_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_burger_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_burger_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.458s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_burger_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2', 'merge_install': False, 'path': '/home/zerohzzzz/Documents/ros2-slam-comparison/turtlebot3_burger_navigation2', 'symlink_install': False, 'test_result_base': None}
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'cmake_target' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.458s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_cartographer', 'merge_install': False, 'path': '/home/zerohzzzz/Documents/ros2-slam-comparison/turtlebot3_cartographer', 'symlink_install': False, 'test_result_base': None}
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_rtab' build argument 'cmake_args' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_rtab' build argument 'cmake_target' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_rtab' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_rtab' build argument 'cmake_clean_cache' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_rtab' build argument 'cmake_clean_first' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_rtab' build argument 'cmake_force_configure' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_rtab' build argument 'ament_cmake_args' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_rtab' build argument 'catkin_cmake_args' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_rtab' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.459s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_rtab' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_rtab', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab', 'merge_install': False, 'path': '/home/zerohzzzz/Documents/ros2-slam-comparison/turtlebot3_rtab', 'symlink_install': False, 'test_result_base': None}
+[0.459s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.460s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.460s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zerohzzzz/Documents/ros2-slam-comparison/aws-robomaker-small-house-world' with build type 'ament_cmake'
+[0.460s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zerohzzzz/Documents/ros2-slam-comparison/aws-robomaker-small-house-world'
+[0.463s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.463s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.463s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.467s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zerohzzzz/Documents/ros2-slam-comparison/noisy_odometry' with build type 'ament_cmake'
+[0.467s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zerohzzzz/Documents/ros2-slam-comparison/noisy_odometry'
+[0.468s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.468s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.472s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zerohzzzz/Documents/ros2-slam-comparison/turtlebot3_burger' with build type 'ament_cmake'
+[0.472s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zerohzzzz/Documents/ros2-slam-comparison/turtlebot3_burger'
+[0.472s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.472s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.476s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zerohzzzz/Documents/ros2-slam-comparison/turtlebot3_burger_navigation2' with build type 'ament_cmake'
+[0.477s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zerohzzzz/Documents/ros2-slam-comparison/turtlebot3_burger_navigation2'
+[0.477s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.477s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.481s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zerohzzzz/Documents/ros2-slam-comparison/turtlebot3_cartographer' with build type 'ament_cmake'
+[0.481s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zerohzzzz/Documents/ros2-slam-comparison/turtlebot3_cartographer'
+[0.481s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.481s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.486s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zerohzzzz/Documents/ros2-slam-comparison/turtlebot3_rtab' with build type 'ament_cmake'
+[0.486s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zerohzzzz/Documents/ros2-slam-comparison/turtlebot3_rtab'
+[0.486s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.486s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/aws_robomaker_small_house_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake /home/zerohzzzz/Documents/ros2-slam-comparison/aws-robomaker-small-house-world -DCMAKE_INSTALL_PREFIX=/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world
+[0.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/noisy_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake /home/zerohzzzz/Documents/ros2-slam-comparison/noisy_odometry -DCMAKE_INSTALL_PREFIX=/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry
+[0.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake /home/zerohzzzz/Documents/ros2-slam-comparison/turtlebot3_burger -DCMAKE_INSTALL_PREFIX=/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger
+[0.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake /home/zerohzzzz/Documents/ros2-slam-comparison/turtlebot3_burger_navigation2 -DCMAKE_INSTALL_PREFIX=/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2
+[0.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake /home/zerohzzzz/Documents/ros2-slam-comparison/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_cartographer
+[0.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_rtab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake /home/zerohzzzz/Documents/ros2-slam-comparison/turtlebot3_rtab -DCMAKE_INSTALL_PREFIX=/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab
+[1.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_rtab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake /home/zerohzzzz/Documents/ros2-slam-comparison/turtlebot3_rtab -DCMAKE_INSTALL_PREFIX=/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab
+[1.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_rtab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --build /home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_rtab -- -j8 -l8
+[1.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_rtab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --build /home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_rtab -- -j8 -l8
+[1.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake /home/zerohzzzz/Documents/ros2-slam-comparison/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_cartographer
+[1.849s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --build /home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_cartographer -- -j8 -l8
+[1.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_rtab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --install /home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_rtab
+[1.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake /home/zerohzzzz/Documents/ros2-slam-comparison/turtlebot3_burger_navigation2 -DCMAKE_INSTALL_PREFIX=/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2
+[1.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --build /home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger_navigation2 -- -j8 -l8
+[1.902s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_rtab)
+[1.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_rtab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --install /home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_rtab
+[1.907s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab' for CMake module files
+[1.908s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab' for CMake config files
+[1.908s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_rtab', 'cmake_prefix_path')
+[1.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/hook/cmake_prefix_path.ps1'
+[1.910s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/hook/cmake_prefix_path.dsv'
+[1.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/hook/cmake_prefix_path.sh'
+[1.912s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/bin'
+[1.913s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/lib/pkgconfig/turtlebot3_rtab.pc'
+[1.913s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/lib/python3.10/site-packages'
+[1.914s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/bin'
+[1.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/package.ps1'
+[1.916s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/package.dsv'
+[1.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/package.sh'
+[1.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/package.bash'
+[1.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/package.zsh'
+[1.923s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/colcon-core/packages/turtlebot3_rtab)
+[1.926s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --build /home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_cartographer -- -j8 -l8
+[1.946s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --build /home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger_navigation2 -- -j8 -l8
+[1.961s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_rtab)
+[1.962s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab' for CMake module files
+[1.962s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --install /home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_cartographer
+[1.963s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab' for CMake config files
+[1.964s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_rtab', 'cmake_prefix_path')
+[1.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/hook/cmake_prefix_path.ps1'
+[1.965s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/hook/cmake_prefix_path.dsv'
+[1.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/hook/cmake_prefix_path.sh'
+[1.966s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/bin'
+[1.966s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/lib/pkgconfig/turtlebot3_rtab.pc'
+[1.967s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/lib/python3.10/site-packages'
+[1.967s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/bin'
+[1.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/package.ps1'
+[1.969s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/package.dsv'
+[1.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/package.sh'
+[1.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/package.bash'
+[1.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/turtlebot3_rtab/package.zsh'
+[1.972s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_rtab/share/colcon-core/packages/turtlebot3_rtab)
+[1.978s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_cartographer)
+[1.979s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_cartographer' for CMake module files
+[1.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --install /home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_cartographer
+[1.980s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_cartographer' for CMake config files
+[1.981s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_cartographer', 'cmake_prefix_path')
+[1.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_cartographer/share/turtlebot3_cartographer/hook/cmake_prefix_path.ps1'
+[1.981s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_cartographer/share/turtlebot3_cartographer/hook/cmake_prefix_path.dsv'
+[1.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_cartographer/share/turtlebot3_cartographer/hook/cmake_prefix_path.sh'
+[1.982s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_cartographer/bin'
+[1.982s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_cartographer/lib/pkgconfig/turtlebot3_cartographer.pc'
+[1.983s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_cartographer/lib/python3.10/site-packages'
+[1.983s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_cartographer/bin'
+[1.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.ps1'
+[1.984s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv'
+[1.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.sh'
+[1.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.bash'
+[1.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.zsh'
+[1.987s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_cartographer/share/colcon-core/packages/turtlebot3_cartographer)
+[1.994s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --install /home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger_navigation2
+[2.012s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_burger_navigation2)
+[2.012s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2' for CMake module files
+[2.013s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --install /home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger_navigation2
+[2.014s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2' for CMake config files
+[2.014s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_burger_navigation2', 'cmake_prefix_path')
+[2.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/hook/cmake_prefix_path.ps1'
+[2.015s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/hook/cmake_prefix_path.dsv'
+[2.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/hook/cmake_prefix_path.sh'
+[2.016s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/bin'
+[2.016s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/lib/pkgconfig/turtlebot3_burger_navigation2.pc'
+[2.016s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/lib/python3.10/site-packages'
+[2.016s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/bin'
+[2.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/package.ps1'
+[2.017s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/package.dsv'
+[2.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/package.sh'
+[2.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/package.bash'
+[2.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/package.zsh'
+[2.019s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/colcon-core/packages/turtlebot3_burger_navigation2)
+[2.021s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_cartographer)
+[2.021s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_cartographer' for CMake module files
+[2.022s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_cartographer' for CMake config files
+[2.022s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_cartographer', 'cmake_prefix_path')
+[2.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_cartographer/share/turtlebot3_cartographer/hook/cmake_prefix_path.ps1'
+[2.023s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_cartographer/share/turtlebot3_cartographer/hook/cmake_prefix_path.dsv'
+[2.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_cartographer/share/turtlebot3_cartographer/hook/cmake_prefix_path.sh'
+[2.024s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_cartographer/bin'
+[2.024s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_cartographer/lib/pkgconfig/turtlebot3_cartographer.pc'
+[2.024s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_cartographer/lib/python3.10/site-packages'
+[2.025s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_cartographer/bin'
+[2.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.ps1'
+[2.026s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv'
+[2.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.sh'
+[2.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.bash'
+[2.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.zsh'
+[2.027s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_cartographer/share/colcon-core/packages/turtlebot3_cartographer)
+[2.055s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_burger_navigation2)
+[2.056s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2' for CMake module files
+[2.056s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2' for CMake config files
+[2.056s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_burger_navigation2', 'cmake_prefix_path')
+[2.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/hook/cmake_prefix_path.ps1'
+[2.057s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/hook/cmake_prefix_path.dsv'
+[2.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/hook/cmake_prefix_path.sh'
+[2.058s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/bin'
+[2.058s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/lib/pkgconfig/turtlebot3_burger_navigation2.pc'
+[2.059s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/lib/python3.10/site-packages'
+[2.059s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/bin'
+[2.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/package.ps1'
+[2.060s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/package.dsv'
+[2.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/package.sh'
+[2.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/package.bash'
+[2.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/turtlebot3_burger_navigation2/package.zsh'
+[2.062s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger_navigation2/share/colcon-core/packages/turtlebot3_burger_navigation2)
+[4.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/noisy_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake /home/zerohzzzz/Documents/ros2-slam-comparison/noisy_odometry -DCMAKE_INSTALL_PREFIX=/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry
+[4.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/noisy_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --build /home/zerohzzzz/Documents/ros2-slam-comparison/build/noisy_odometry -- -j8 -l8
+[4.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/aws_robomaker_small_house_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake /home/zerohzzzz/Documents/ros2-slam-comparison/aws-robomaker-small-house-world -DCMAKE_INSTALL_PREFIX=/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world
+[4.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/aws_robomaker_small_house_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --build /home/zerohzzzz/Documents/ros2-slam-comparison/build/aws_robomaker_small_house_world -- -j8 -l8
+[4.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/aws_robomaker_small_house_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --build /home/zerohzzzz/Documents/ros2-slam-comparison/build/aws_robomaker_small_house_world -- -j8 -l8
+[4.562s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/aws_robomaker_small_house_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --install /home/zerohzzzz/Documents/ros2-slam-comparison/build/aws_robomaker_small_house_world
+[4.808s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aws_robomaker_small_house_world)
+[4.809s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world' for CMake module files
+[4.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/aws_robomaker_small_house_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --install /home/zerohzzzz/Documents/ros2-slam-comparison/build/aws_robomaker_small_house_world
+[4.811s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world' for CMake config files
+[4.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('aws_robomaker_small_house_world', 'cmake_prefix_path')
+[4.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/hook/cmake_prefix_path.ps1'
+[4.821s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/hook/cmake_prefix_path.dsv'
+[4.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/hook/cmake_prefix_path.sh'
+[4.822s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/bin'
+[4.822s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/lib/pkgconfig/aws_robomaker_small_house_world.pc'
+[4.823s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/lib/python3.10/site-packages'
+[4.823s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/bin'
+[4.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/package.ps1'
+[4.824s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/package.dsv'
+[4.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/package.sh'
+[4.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/package.bash'
+[4.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/package.zsh'
+[4.826s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/colcon-core/packages/aws_robomaker_small_house_world)
+[4.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake /home/zerohzzzz/Documents/ros2-slam-comparison/turtlebot3_burger -DCMAKE_INSTALL_PREFIX=/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger
+[4.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --build /home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger -- -j8 -l8
+[4.870s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aws_robomaker_small_house_world)
+[4.871s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world' for CMake module files
+[4.871s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world' for CMake config files
+[4.881s] Level 1:colcon.colcon_core.shell:create_environment_hook('aws_robomaker_small_house_world', 'cmake_prefix_path')
+[4.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/hook/cmake_prefix_path.ps1'
+[4.882s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/hook/cmake_prefix_path.dsv'
+[4.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/hook/cmake_prefix_path.sh'
+[4.883s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/bin'
+[4.883s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/lib/pkgconfig/aws_robomaker_small_house_world.pc'
+[4.883s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/lib/python3.10/site-packages'
+[4.884s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/bin'
+[4.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/package.ps1'
+[4.885s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/package.dsv'
+[4.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/package.sh'
+[4.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/package.bash'
+[4.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/package.zsh'
+[4.887s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zerohzzzz/Documents/ros2-slam-comparison/install/aws_robomaker_small_house_world/share/colcon-core/packages/aws_robomaker_small_house_world)
+[17.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/noisy_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --build /home/zerohzzzz/Documents/ros2-slam-comparison/build/noisy_odometry -- -j8 -l8
+[17.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/noisy_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --install /home/zerohzzzz/Documents/ros2-slam-comparison/build/noisy_odometry
+[17.267s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(noisy_odometry)
+[17.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/noisy_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --install /home/zerohzzzz/Documents/ros2-slam-comparison/build/noisy_odometry
+[17.268s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry' for CMake module files
+[17.269s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry' for CMake config files
+[17.269s] Level 1:colcon.colcon_core.shell:create_environment_hook('noisy_odometry', 'cmake_prefix_path')
+[17.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/share/noisy_odometry/hook/cmake_prefix_path.ps1'
+[17.270s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/share/noisy_odometry/hook/cmake_prefix_path.dsv'
+[17.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/share/noisy_odometry/hook/cmake_prefix_path.sh'
+[17.270s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/lib'
+[17.271s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/bin'
+[17.271s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/lib/pkgconfig/noisy_odometry.pc'
+[17.271s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/lib/python3.10/site-packages'
+[17.271s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/bin'
+[17.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/share/noisy_odometry/package.ps1'
+[17.272s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/share/noisy_odometry/package.dsv'
+[17.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/share/noisy_odometry/package.sh'
+[17.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/share/noisy_odometry/package.bash'
+[17.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/share/noisy_odometry/package.zsh'
+[17.274s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/share/colcon-core/packages/noisy_odometry)
+[17.306s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(noisy_odometry)
+[17.307s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry' for CMake module files
+[17.308s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry' for CMake config files
+[17.308s] Level 1:colcon.colcon_core.shell:create_environment_hook('noisy_odometry', 'cmake_prefix_path')
+[17.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/share/noisy_odometry/hook/cmake_prefix_path.ps1'
+[17.309s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/share/noisy_odometry/hook/cmake_prefix_path.dsv'
+[17.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/share/noisy_odometry/hook/cmake_prefix_path.sh'
+[17.312s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/lib'
+[17.312s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/bin'
+[17.312s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/lib/pkgconfig/noisy_odometry.pc'
+[17.312s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/lib/python3.10/site-packages'
+[17.312s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/bin'
+[17.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/share/noisy_odometry/package.ps1'
+[17.313s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/share/noisy_odometry/package.dsv'
+[17.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/share/noisy_odometry/package.sh'
+[17.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/share/noisy_odometry/package.bash'
+[17.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/share/noisy_odometry/package.zsh'
+[17.315s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zerohzzzz/Documents/ros2-slam-comparison/install/noisy_odometry/share/colcon-core/packages/noisy_odometry)
+[21.273s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --build /home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger -- -j8 -l8
+[21.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --install /home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger
+[21.376s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_burger)
+[21.377s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger' for CMake module files
+[21.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --install /home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger
+[21.378s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger' for CMake config files
+[21.378s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_burger', 'cmake_prefix_path')
+[21.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger/hook/cmake_prefix_path.ps1'
+[21.379s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger/hook/cmake_prefix_path.dsv'
+[21.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger/hook/cmake_prefix_path.sh'
+[21.380s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/lib'
+[21.380s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/bin'
+[21.380s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/lib/pkgconfig/turtlebot3_burger.pc'
+[21.380s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/lib/python3.10/site-packages'
+[21.381s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/bin'
+[21.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger/package.ps1'
+[21.381s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger/package.dsv'
+[21.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger/package.sh'
+[21.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger/package.bash'
+[21.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger/package.zsh'
+[21.383s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/colcon-core/packages/turtlebot3_burger)
+[21.416s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_burger)
+[21.417s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger' for CMake module files
+[21.417s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger' for CMake config files
+[21.417s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_burger', 'cmake_prefix_path')
+[21.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger/hook/cmake_prefix_path.ps1'
+[21.418s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger/hook/cmake_prefix_path.dsv'
+[21.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger/hook/cmake_prefix_path.sh'
+[21.419s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/lib'
+[21.419s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/bin'
+[21.419s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/lib/pkgconfig/turtlebot3_burger.pc'
+[21.420s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/lib/python3.10/site-packages'
+[21.420s] Level 1:colcon.colcon_core.environment:checking '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/bin'
+[21.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger/package.ps1'
+[21.421s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger/package.dsv'
+[21.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger/package.sh'
+[21.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger/package.bash'
+[21.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger/package.zsh'
+[21.422s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/colcon-core/packages/turtlebot3_burger)
+[21.423s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[21.423s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[21.423s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[21.423s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[21.433s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[21.433s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[21.433s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[21.433s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[21.444s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[21.445s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/local_setup.ps1'
+[21.447s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zerohzzzz/Documents/ros2-slam-comparison/install/_local_setup_util_ps1.py'
+[21.448s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/setup.ps1'
+[21.450s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/local_setup.sh'
+[21.451s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zerohzzzz/Documents/ros2-slam-comparison/install/_local_setup_util_sh.py'
+[21.451s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/setup.sh'
+[21.453s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/local_setup.bash'
+[21.454s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/setup.bash'
+[21.455s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/local_setup.zsh'
+[21.456s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zerohzzzz/Documents/ros2-slam-comparison/install/setup.zsh'

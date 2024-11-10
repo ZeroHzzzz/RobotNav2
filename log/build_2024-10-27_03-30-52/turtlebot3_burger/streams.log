@@ -1,0 +1,180 @@
+[0.031s] Invoking command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake /home/zerohzzzz/Documents/ros2-slam-comparison/turtlebot3_burger -DCMAKE_INSTALL_PREFIX=/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger
+[0.177s] -- The C compiler identification is GNU 11.4.0
+[0.408s] -- The CXX compiler identification is GNU 11.4.0
+[0.424s] -- Detecting C compiler ABI info
+[0.547s] -- Detecting C compiler ABI info - done
+[0.565s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.566s] -- Detecting C compile features
+[0.566s] -- Detecting C compile features - done
+[0.572s] -- Detecting CXX compiler ABI info
+[0.698s] -- Detecting CXX compiler ABI info - done
+[0.720s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.720s] -- Detecting CXX compile features
+[0.721s] -- Detecting CXX compile features - done
+[0.728s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.052s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.263s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.263s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[1.263s]   does not match the name of the calling package (gazebo).  This can lead to
+[1.263s]   problems in calling code that expects `find_package` result variables
+[1.263s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.264s] Call Stack (most recent call first):
+[1.264s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[1.264s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[1.264s]   CMakeLists.txt:23 (find_package)
+[1.264s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.264s] [0m
+[1.264s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.272s] -- Checking for module 'bullet>=2.82'
+[1.295s] --   Found bullet, version 3.05
+[1.476s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.556s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.600s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.832s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.868s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.886s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.902s] -- Searching for dependencies of ignition-math6
+[1.905s] -- Looking for OGRE...
+[1.907s] -- OGRE_PREFIX_WATCH changed.
+[1.915s] -- Checking for module 'OGRE'
+[1.930s] --   Found OGRE, version 1.9.0
+[1.970s] -- Found Ogre Ghadamon (1.9.0)
+[1.996s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.013s] -- Looking for OGRE_Paging...
+[2.021s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.022s] -- Looking for OGRE_Terrain...
+[2.030s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.031s] -- Looking for OGRE_Property...
+[2.038s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.039s] -- Looking for OGRE_RTShaderSystem...
+[2.046s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.047s] -- Looking for OGRE_Volume...
+[2.055s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.055s] -- Looking for OGRE_Overlay...
+[2.063s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.252s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.256s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.256s] -- Searching for dependencies of ignition-transport8
+[2.279s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[2.293s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.298s] -- Checking for module 'libzmq >= 4'
+[2.319s] --   Found libzmq , version 4.3.4
+[2.362s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.369s] -- Checking for module 'uuid'
+[2.384s] --   Found uuid, version 2.37.2
+[2.426s] -- Found UUID: TRUE  
+[2.430s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.431s] -- Searching for dependencies of ignition-msgs5
+[2.454s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.461s] -- Checking for module 'tinyxml2'
+[2.476s] --   Found tinyxml2, version 9.0.0
+[2.520s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.525s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.525s] -- Searching for dependencies of ignition-common3
+[2.526s] -- Looking for dlfcn.h - found
+[2.527s] -- Looking for libdl - found
+[2.529s] -- Found DL: TRUE  
+[2.548s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[2.549s] -- Searching for <ignition-common3> component [graphics]
+[2.554s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.555s] -- Searching for dependencies of ignition-common3-graphics
+[2.555s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.562s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.563s] -- Searching for dependencies of ignition-fuel_tools4
+[2.665s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[2.678s] -- Checking for module 'jsoncpp'
+[2.693s] --   Found jsoncpp, version 1.9.5
+[2.739s] -- Found JSONCPP: TRUE  
+[2.751s] -- Checking for module 'libzip'
+[2.770s] --   Found libzip, version 1.7.3
+[2.817s] -- Found ZIP: TRUE  
+[2.818s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.819s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.819s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.839s] -- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/iron/share/gazebo_ros_pkgs/cmake)
+[2.843s] -- Found geometry_msgs: 5.0.1 (/opt/ros/iron/share/geometry_msgs/cmake)
+[2.900s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[2.921s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[2.945s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.972s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.103s] -- Found nav_msgs: 5.0.1 (/opt/ros/iron/share/nav_msgs/cmake)
+[3.263s] -- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)
+[3.407s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[3.416s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[3.565s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.599s] -- Found FastRTPS: /opt/ros/iron/include  
+[3.677s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.972s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[4.149s] -- Found tf2: 0.31.8 (/opt/ros/iron/share/tf2/cmake)
+[4.310s] -- Configuring done
+[4.344s] -- Generating done
+[4.347s] -- Build files have been written to: /home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger
+[4.371s] Invoked command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake /home/zerohzzzz/Documents/ros2-slam-comparison/turtlebot3_burger -DCMAKE_INSTALL_PREFIX=/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger
+[4.375s] Invoking command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --build /home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger -- -j8 -l8
+[4.462s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[19.893s] [100%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[20.781s] [100%] Built target turtlebot3_drive
+[20.800s] Invoked command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --build /home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger -- -j8 -l8
+[20.851s] Invoking command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --install /home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger
+[20.864s] -- Install configuration: ""
+[20.864s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/lib/turtlebot3_burger/turtlebot3_drive
+[20.873s] -- Set runtime path of "/home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/lib/turtlebot3_burger/turtlebot3_drive" to ""
+[20.873s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//launch
+[20.873s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//launch/rviz2.launch.py
+[20.873s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//launch/turtlebot3_aws_small_house_gazebo.launch.py
+[20.873s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//launch/robot_state_publisher.launch.py
+[20.874s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//launch/spawn_turtlebot3.launch.py
+[20.874s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//models
+[20.874s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//models/turtlebot3_burger_lidar_angular_resolution_0-9
+[20.874s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//models/turtlebot3_burger_lidar_angular_resolution_0-9/model.sdf
+[20.874s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//models/turtlebot3_burger_lidar_angular_resolution_0-9/model-1_4.sdf
+[20.875s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//models/turtlebot3_burger_lidar_angular_resolution_0-9/model.config
+[20.875s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//models/turtlebot3_common
+[20.875s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//models/turtlebot3_common/meshes
+[20.875s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//models/turtlebot3_common/meshes/burger_base.dae
+[20.876s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//models/turtlebot3_common/meshes/lds.dae
+[20.876s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//models/turtlebot3_common/meshes/tire.dae
+[20.876s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//models/turtlebot3_common/meshes/r200.dae
+[20.876s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//models/turtlebot3_common/model.config
+[20.876s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//models/turtlebot3_burger_lidar_angular_resolution_2-5
+[20.877s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//models/turtlebot3_burger_lidar_angular_resolution_2-5/model.sdf
+[20.877s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//models/turtlebot3_burger_lidar_angular_resolution_2-5/model-1_4.sdf
+[20.877s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//models/turtlebot3_burger_lidar_angular_resolution_2-5/model.config
+[20.877s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//rviz
+[20.877s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//rviz/tb3_gazebo.rviz
+[20.878s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//urdf
+[20.878s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//urdf/turtlebot3_burger.urdf
+[20.878s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//urdf/common_properties.urdf
+[20.878s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//meshes
+[20.878s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//meshes/bases
+[20.878s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//meshes/bases/burger_base.stl
+[20.884s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//meshes/sensors
+[20.884s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//meshes/sensors/astra.dae
+[20.895s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//meshes/sensors/r200.jpg
+[20.895s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//meshes/sensors/lds.stl
+[20.896s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//meshes/sensors/astra.jpg
+[20.896s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//meshes/sensors/r200.dae
+[20.896s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//meshes/wheels
+[20.897s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//meshes/wheels/right_tire.stl
+[20.898s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger//meshes/wheels/left_tire.stl
+[20.899s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/include/
+[20.899s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/include//turtlebot3_burger
+[20.899s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/include//turtlebot3_burger/turtlebot3_drive.hpp
+[20.899s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/ament_index/resource_index/package_run_dependencies/turtlebot3_burger
+[20.900s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/ament_index/resource_index/parent_prefix_path/turtlebot3_burger
+[20.900s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger/environment/ament_prefix_path.sh
+[20.900s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger/environment/ament_prefix_path.dsv
+[20.900s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger/environment/path.sh
+[20.900s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger/environment/path.dsv
+[20.901s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger/local_setup.bash
+[20.901s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger/local_setup.sh
+[20.901s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger/local_setup.zsh
+[20.901s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger/local_setup.dsv
+[20.901s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger/package.dsv
+[20.901s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/ament_index/resource_index/packages/turtlebot3_burger
+[20.902s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.902s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.902s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger/cmake/turtlebot3_burgerConfig.cmake
+[20.902s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger/cmake/turtlebot3_burgerConfig-version.cmake
+[20.902s] -- Installing: /home/zerohzzzz/Documents/ros2-slam-comparison/install/turtlebot3_burger/share/turtlebot3_burger/package.xml
+[20.905s] Invoked command in '/home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zerohzzzz/Documents/RobotNav2/install/map_build:/opt/ros/iron /usr/bin/cmake --install /home/zerohzzzz/Documents/ros2-slam-comparison/build/turtlebot3_burger

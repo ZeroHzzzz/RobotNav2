@@ -1,0 +1,4 @@
+source;share/noisy_odometry/local_setup.bash
+source;share/noisy_odometry/local_setup.dsv
+source;share/noisy_odometry/local_setup.sh
+source;share/noisy_odometry/local_setup.zsh

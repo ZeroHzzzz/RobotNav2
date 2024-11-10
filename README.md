@@ -1,5 +1,8 @@
 # ROS2 Slam Comparison
 
+## 前言
+这是未经测试的一套代码,同样仅使用激光雷达进行定位和导航.在这里一并给出
+
 ## Introduction
 This project comprehensively compares different SLAM (Simultaneous Localization and Mapping) techniques using ROS2 and TurtleBot3 in a simulated Gazebo environment. The SLAM algorithms compared in this project are Cartographer and RTAB-Map. The goal is to evaluate their performance using different LIDAR resolutions and determine the most effective SLAM solution for different scenarios.
 

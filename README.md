@@ -11,5 +11,3 @@ ROS2 iron
 ## 注意事项
 
 代码没有整理的很好,可能需要先行学习 ros 相关知识.主要的就是使用了 cartographer.在 dev 分支中也放入了未经过测试的 rtap 定位方式的代码,供后人参考
-
-testdddd

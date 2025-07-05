@@ -36,7 +36,8 @@ setup(
             'imu = map_build.imu:main',
             'action = map_build.action:main',
             'tmp = map_build.tmp:main',
-            'test = map_build.test:main'
+            # "bot = map_build.newbot:main",
+            # 'test = map_build.test:main'
         ],
     },
 )
